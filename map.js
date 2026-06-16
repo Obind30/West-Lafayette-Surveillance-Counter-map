@@ -6,7 +6,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 async function addFlockMarkers() {
     try {
-        const response = await fetch('GreaterLAF-Flock-Cameras.geojson');
+        const response = await fetch('location_data/GreaterLAF-Flock-Cameras.geojson');
         if (!response.ok) throw new Error('File not found');
         const data = await response.json(); // Parse JSON directly
 
@@ -24,7 +24,7 @@ async function addFlockMarkers() {
 
 async function addPurdueMarkers() {
     try {
-        const response = await fetch('Purdue_Security_Purdue_Cameras.geojson');
+        const response = await fetch('location_data/Purdue_Security_Purdue_Cameras.geojson');
         if (!response.ok) throw new Error('File not found');
         const data = await response.json(); // Parse JSON directly
 

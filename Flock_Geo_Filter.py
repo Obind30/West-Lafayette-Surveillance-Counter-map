@@ -10,8 +10,8 @@ def filter_by_coord(object):
     except:
         return False
 
-nationwide_file = open("National-Flock-Data.geojson")
-local_file = open("GreaterLAF-Flock-Cameras.geojson", "w")
+nationwide_file = open("location_data/National-Flock-Data.geojson")
+local_file = open("location_data/GreaterLAF-Flock-Cameras.geojson", "w")
 
 camera_data = json.load(nationwide_file)
 
