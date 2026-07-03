@@ -5,7 +5,7 @@ const article_list = [
 ];
 
 // Get HTML element to insert into
-const list_container = document.getElementById("Articles_body")
+const list_container = document.getElementById("Articles_body");
 
 // Create an empty string to append HTML of project list
 let inner = '<h1>Articles</h1>';
@@ -18,7 +18,7 @@ while (article_list[i]) {
     `
         <a class="blank_link" href="src/articles/`+article_list[i].title+`.html">
             <div class="summ_body">
-                <span class="text pix_text title">`+article_list[i].title+`, </span>
+                <h2 class="text pix_text title">`+article_list[i].title+` </h2>
                 <p class="text pix_text proj_bio">`+article_list[i].bio+`</p>
             </div>
         </a>
