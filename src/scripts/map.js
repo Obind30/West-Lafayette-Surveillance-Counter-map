@@ -7,14 +7,14 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 var flockcam = L.icon({
-    iconUrl: 'images/flock-camera-icon.png',
+    iconUrl: 'src/images/flock-camera-icon.png',
     iconSize: [iconSize, iconSize],
     iconAnchor: [iconSize/2, iconSize]
 })
 
 async function addFlockMarkers() {
     try {
-        const response = await fetch('location_data/GreaterLAF-Flock-Cameras.geojson');
+        const response = await fetch('src/location_data/GreaterLAF-Flock-Cameras.geojson');
         if (!response.ok) throw new Error('File not found');
         const data = await response.json(); // Parse JSON directly
 
@@ -31,14 +31,14 @@ async function addFlockMarkers() {
 }
 
 var purduecam = L.icon({
-    iconUrl: 'images/purdue-camera-icon.png',
+    iconUrl: 'src/images/purdue-camera-icon.png',
     iconSize: [iconSize, iconSize],
     iconAnchor: [iconSize/2, iconSize]
 })
 
 async function addPurdueMarkers() {
     try {
-        const response = await fetch('location_data/Purdue_Security_Purdue_Cameras.geojson');
+        const response = await fetch('src/location_data/Purdue_Security_Purdue_Cameras.geojson');
         if (!response.ok) throw new Error('File not found');
         const data = await response.json(); // Parse JSON directly
 
