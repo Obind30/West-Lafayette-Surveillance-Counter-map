@@ -65,6 +65,17 @@ addPurdueMarkers();
 flockLayer.addTo(map);
 purdueLayer.addTo(map);
 
+var legend = L.control({ position: "topright" });
+
+legend.onAdd = function(map) {
+  var div = L.DomUtil.create("div", "legend");
+  div.innerHTML += '<label class="legend_item"><input type="checkbox" id="flock_visible"><span><img src="src/images/flock-camera-icon.png" width='+ iconSize+ '>Flock Cameras</span></label><br>';
+  div.innerHTML += '<label class="legend_item"><input type="checkbox" id="purdue_visible"><span><img src="src/images/purdue-camera-icon.png" width='+ iconSize+ '>Purdue Cameras</span></label><br>';
+  return div;
+};
+
+legend.addTo(map);
+
 document.getElementById('flock_visible').addEventListener('change', e => {
 	if(e.target.checked) map.removeLayer(flockLayer);
 	else map.addLayer(flockLayer);
