@@ -67,7 +67,11 @@ p {
 
 .legend {
     background-color: #e3dfdc;
+    border-style: solid;
+    border-color: #a29e9c;
+    border-width: 2px;
     border-radius: 25px;
+    filter: drop-shadow(7px 7px 4px #868381);
 }
 
 .switch {
