@@ -69,19 +69,26 @@ legend.onAdd = function(map) {
     var div = L.DomUtil.create("div", "legend");
     div.innerHTML += 
     `
-        <div style="margin-top: 0%; margin-bottom: 10%; margin-left: 10px; margin-right: 20px">
+        <div style="margin-top: 0%; margin-bottom: 10%; margin-left: 15px; margin-right: 20px">
             <label class="legend_item">
                 <span>
-                    <input type="checkbox" checked id="flock_visible">
-                    <img src="src/images/flock-camera-icon.png" width=`+ iconSize +` style="transform: translate(0, 35%);">
+                    <div class="switch">
+                        <input type="checkbox" checked id=flock-visible>
+                        <span class="slider round"></span>
+                    </div>
+                    <img id="legend-flock-icon" src="src/images/flock-camera-icon.png" width=`+ iconSize +` style="transform: translate(0, 35%);">
                     <span> Flock Cameras </span>
                 </span>
             </label><br>
 
             <label class="legend_item">
                 <span">
-                    <input type="checkbox" checked id="purdue_visible">
-                    <img src="src/images/purdue-camera-icon.png" width=`+ iconSize +` style="transform: translate(0, 35%)">
+                    <div class="switch">
+                        <input type="checkbox" checked id=purdue-visible>
+                        <span class="slider round"></span>
+                    </div>
+                    <input type="checkbox" checked id="purdue-visible" style="display: none">
+                    <img id="legend-purdue-icon" src="src/images/purdue-camera-icon.png" width=`+ iconSize +` style="transform: translate(0, 35%)">
                     <span> Purdue Cameras </span>
                 </span>
             </label><br>
@@ -91,12 +98,26 @@ legend.onAdd = function(map) {
 
 legend.addTo(map);
 
-document.getElementById('flock_visible').addEventListener('change', e => {
-	if(e.target.checked) map.addLayer(flockLayer);
-	else map.removeLayer(flockLayer);
+document.getElementById('flock-visible').addEventListener('change', e => {
+    let icon = document.getElementById('legend-flock-icon');
+	if(e.target.checked) {
+        map.addLayer(flockLayer);
+        icon.src = "src/images/flock-camera-icon.png"
+    }
+	else {
+        map.removeLayer(flockLayer);
+        icon.src = "src/images/flock-camera-icon-off.png"
+    }
 });
 
-document.getElementById('purdue_visible').addEventListener('change', e => {
-	if(e.target.checked) map.addLayer(purdueLayer);
-	else map.removeLayer(purdueLayer);
+document.getElementById('purdue-visible').addEventListener('change', e => {
+    let icon = document.getElementById('legend-purdue-icon')
+    if(e.target.checked) {
+        map.addLayer(purdueLayer);
+        icon.src = "src/images/purdue-camera-icon.png"
+    }
+	else {
+        map.removeLayer(purdueLayer);
+        icon.src = "src/images/purdue-camera-icon-off.png"
+    }
 });
