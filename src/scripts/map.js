@@ -32,7 +32,6 @@ async function addFlockMarkers() {
         while (data.features[i]) {
             let coords = data.features[i].geometry.coordinates;
             flockLayer.addLayer(L.marker([coords[1], coords[0]], {icon: flockcam}));
-            //L.marker([coords[1], coords[0]], {icon: flockcam}).addTo(map);
             i++;
         }
     } catch (error) {
@@ -51,7 +50,6 @@ async function addPurdueMarkers() {
         while (data.features[i]) {
             let coords = data.features[i].geometry.coordinates;
             purdueLayer.addLayer(L.marker([coords[1], coords[0]], {icon: purduecam}));
-            //L.marker([coords[1], coords[0]], {icon: purduecam}).addTo(map);
             i++;
         }
     } catch (error) {
@@ -68,20 +66,37 @@ purdueLayer.addTo(map);
 var legend = L.control({ position: "topright" });
 
 legend.onAdd = function(map) {
-  var div = L.DomUtil.create("div", "legend");
-  div.innerHTML += '<label class="legend_item"><input type="checkbox" id="flock_visible"><span><img src="src/images/flock-camera-icon.png" width='+ iconSize+ '>Flock Cameras</span></label><br>';
-  div.innerHTML += '<label class="legend_item"><input type="checkbox" id="purdue_visible"><span><img src="src/images/purdue-camera-icon.png" width='+ iconSize+ '>Purdue Cameras</span></label><br>';
-  return div;
+    var div = L.DomUtil.create("div", "legend");
+    div.innerHTML += 
+    `
+        <div style="margin-top: 0%; margin-bottom: 10%; margin-left: 10px; margin-right: 20px">
+            <label class="legend_item">
+                <span>
+                    <input type="checkbox" checked id="flock_visible">
+                    <img src="src/images/flock-camera-icon.png" width=`+ iconSize +` style="transform: translate(0, 35%);">
+                    <span> Flock Cameras </span>
+                </span>
+            </label><br>
+
+            <label class="legend_item">
+                <span">
+                    <input type="checkbox" checked id="purdue_visible">
+                    <img src="src/images/purdue-camera-icon.png" width=`+ iconSize +` style="transform: translate(0, 35%)">
+                    <span> Purdue Cameras </span>
+                </span>
+            </label><br>
+        </div>`;
+    return div;
 };
 
 legend.addTo(map);
 
 document.getElementById('flock_visible').addEventListener('change', e => {
-	if(e.target.checked) map.removeLayer(flockLayer);
-	else map.addLayer(flockLayer);
+	if(e.target.checked) map.addLayer(flockLayer);
+	else map.removeLayer(flockLayer);
 });
 
 document.getElementById('purdue_visible').addEventListener('change', e => {
-	if(e.target.checked) map.removeLayer(purdueLayer);
-	else map.addLayer(purdueLayer);
+	if(e.target.checked) map.addLayer(purdueLayer);
+	else map.removeLayer(purdueLayer);
 });

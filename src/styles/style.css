@@ -64,3 +64,8 @@ p {
 .blank_link:visited {
     text-decoration: none;
 }
+
+.legend {
+    background-color: #e3dfdc;
+    border-radius: 25px;
+}
