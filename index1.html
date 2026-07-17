@@ -19,12 +19,12 @@
     <body>
         <svg id="spotlight-container" height="100%"  width="100%"  viewBox="0 0 100, 100" preserveAspectRatio="none">
             <defs>
-                <linearGradient id="grad1" x1="0%" x2="0%" y1="0%" y2="100%">
+                <radialGradient id="grad1" cx="50%" cy="0%" fx="50%" fy="0%" r="100%">
                     <stop offset="0%" stop-color="rgba(255, 255, 0, 255)"/>
-                    <stop offset="100%" stop-color="rgba(255, 255, 0, 0)"/>
-                </linearGradient>
+                    <stop offset="45%" stop-color="rgba(255, 255, 0, 0)"/>
+                </radialGradient>
             </defs>
-            <polygon id="spotlight" points="45,0 55,0 65,100 35,100" style="fill: url(#grad1)" transform="scale(1) skewX(0)"/>
+            <polygon id="spotlight" points="49,0 51,0 65,100 35,100" style="fill: url(#grad1)" transform="scale(1) skewX(0)"/>
         </svg>
 
         <script src="src/scripts/spotlight.js"></script>
