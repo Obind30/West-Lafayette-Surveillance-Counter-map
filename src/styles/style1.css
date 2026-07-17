@@ -10,12 +10,22 @@ body {
 }
 
 #page_links {
-  background-color: rgba(255, 0, 0, 0.372);
-
   height: 35%;
   min-height: 200px;
   width: 100%;
 
   position: fixed;
   bottom: 10%;
+
+  display: inline-grid;
+  grid-auto-flow: column
+}
+
+#page_links div {
+  height: 100%;
+  min-width: 250px;
+  margin-inline: 30px;
+  
+  background-color: rgb(68, 8, 87);
+  border-radius: 50px;
 }
