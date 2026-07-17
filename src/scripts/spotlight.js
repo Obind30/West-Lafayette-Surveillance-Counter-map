@@ -6,7 +6,13 @@ spotlight.setAttribute("transform", "scale(" + 1 + "," + window.innerHeight/wind
 
 
 const bredth = 100;
+const max_angle = Math.atan((window.innerWidth/2) / (window.innerHeight)) * (180/Math.PI);
 
 document.addEventListener("mousemove", function(event) {
-    spotlight.setAttribute("transform", "skewX("+ ((event.clientX/window.innerWidth)*bredth-bredth/2)%bredth + ")");
+    const angle = Math.atan((event.clientX-(window.innerWidth/2)) / (event.clientY)) * (180/Math.PI);
+    if (Math.abs(angle) < max_angle) {
+        setInterval(spotlight.setAttribute("transform", "skewX("+ angle + ")"), 100);
+    } else {
+        setInterval(spotlight.setAttribute("transform", "skewX("+ max_angle*(angle/Math.abs(angle)) + ")"), 100);
+    }
 })
