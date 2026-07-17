@@ -5,5 +5,17 @@ html {
 body {
   min-height: 100%;
   background-image: radial-gradient(circle farthest-corner at 50% 0%, #2b4568 5%, #05081d 95%);
-  overflow: hidden;
+  position: relative;
+  /*overflow: hidden;*/
+}
+
+#page_links {
+  background-color: rgba(255, 0, 0, 0.372);
+
+  height: 35%;
+  min-height: 200px;
+  width: 100%;
+
+  position: fixed;
+  bottom: 10%;
 }
