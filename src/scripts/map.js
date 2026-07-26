@@ -10,20 +10,20 @@ let flockLayer = L.layerGroup();
 let purdueLayer = L.layerGroup();
 
 var flockcam = L.icon({
-    iconUrl: 'src/images/flock-camera-icon.png',
+    iconUrl: '../images/flock-camera-icon.png',
     iconSize: [iconSize, iconSize],
     iconAnchor: [iconSize/2, iconSize]
 })
 
 var purduecam = L.icon({
-    iconUrl: 'src/images/purdue-camera-icon.png',
+    iconUrl: '../images/purdue-camera-icon.png',
     iconSize: [iconSize, iconSize],
     iconAnchor: [iconSize/2, iconSize]
 })
 
 async function addFlockMarkers() {
     try {
-        const response = await fetch('src/location_data/GreaterLAF-Flock-Cameras.geojson');
+        const response = await fetch('../location_data/GreaterLAF-Flock-Cameras.geojson');
         if (!response.ok) throw new Error('File not found');
         const data = await response.json(); // Parse JSON directly
 
@@ -41,7 +41,7 @@ async function addFlockMarkers() {
 
 async function addPurdueMarkers() {
     try {
-        const response = await fetch('src/location_data/Purdue_Security_Purdue_Cameras.geojson');
+        const response = await fetch('../location_data/Purdue_Security_Purdue_Cameras.geojson');
         if (!response.ok) throw new Error('File not found');
         const data = await response.json(); // Parse JSON directly
 
@@ -76,7 +76,7 @@ legend.onAdd = function(map) {
                         <input type="checkbox" checked id=flock-visible>
                         <span class="slider round"></span>
                     </div>
-                    <img id="legend-flock-icon" src="src/images/flock-camera-icon.png" width=`+ iconSize +` style="transform: translate(0, 35%);">
+                    <img id="legend-flock-icon" src="../images/flock-camera-icon.png" width=`+ iconSize +` style="transform: translate(0, 35%);">
                     <span> Flock Cameras </span>
                 </span>
             </label><br>
@@ -88,7 +88,7 @@ legend.onAdd = function(map) {
                         <span class="slider round"></span>
                     </div>
                     <input type="checkbox" checked id="purdue-visible" style="display: none">
-                    <img id="legend-purdue-icon" src="src/images/purdue-camera-icon.png" width=`+ iconSize +` style="transform: translate(0, 35%)">
+                    <img id="legend-purdue-icon" src="../images/purdue-camera-icon.png" width=`+ iconSize +` style="transform: translate(0, 35%)">
                     <span> Purdue Cameras </span>
                 </span>
             </label><br>
@@ -102,11 +102,11 @@ document.getElementById('flock-visible').addEventListener('change', e => {
     let icon = document.getElementById('legend-flock-icon');
 	if(e.target.checked) {
         map.addLayer(flockLayer);
-        icon.src = "src/images/flock-camera-icon.png"
+        icon.src = "../images/flock-camera-icon.png"
     }
 	else {
         map.removeLayer(flockLayer);
-        icon.src = "src/images/flock-camera-icon-off.png"
+        icon.src = "../images/flock-camera-icon-off.png"
     }
 });
 
@@ -114,10 +114,10 @@ document.getElementById('purdue-visible').addEventListener('change', e => {
     let icon = document.getElementById('legend-purdue-icon')
     if(e.target.checked) {
         map.addLayer(purdueLayer);
-        icon.src = "src/images/purdue-camera-icon.png"
+        icon.src = "../images/purdue-camera-icon.png"
     }
 	else {
         map.removeLayer(purdueLayer);
-        icon.src = "src/images/purdue-camera-icon-off.png"
+        icon.src = "../images/purdue-camera-icon-off.png"
     }
 });
