@@ -3,12 +3,25 @@
   src: url("../fonts/Akira\ Expanded\ Demo.otf");
 }
 
+body {
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+}
+
 .title_text {
     color: white;
     font-family: Main_Title;
-    height: 25vh;
     font-size: 22vh;
-    margin-block: 6.25vh;
     font-weight: lighter;
     letter-spacing: 10%;
+
+    height: 25vh;
+    margin-block: 6.25vh;
+}
+
+#eye_container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

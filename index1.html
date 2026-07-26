@@ -16,11 +16,43 @@
         integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
         crossorigin=""></script>
     </head>
-    <body style="background-color: rgb(0, 0, 0);">
+    <body>
 
-        <h1 class="title_text">YOU</h1>
-        <h1 class="title_text">ARE</h1>
-        <h1 class="title_text">WATCHED</h1>
+        <div style="display: flex;">
+            <div style="flex: 1;">
+                <h1 class="title_text">YOU</h1>
+                <h1 class="title_text">ARE</h1>
+            </div>
+            <div id="eye_container">
+                <svg id="eye_icon" fill="#ffffff" viewBox="-51.2 -51.2 614.40 614.40" stroke="#ffffff" stroke-width="0.00512" width="25%">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="5.12"></g>
+                    <g id="SVGRepo_iconCarrier">
+                        <title>ionicons-v5-i</title>
+                        <circle id="pupil" cx="256" cy="256" r="24"></circle>
+                        <path d="
+                            M 394.82, 141.18
+                            C 351.1, 111.2, 304.31, 96, 255.76, 96
+                            c -43.69, 0 -86.28, 13 -126.59, 38.48 
+                            C 88.52, 160.23, 48.67, 207, 16, 256
+                            c 26.42, 44, 62.56, 89.24, 100.2, 115.18
+                            C 159.38, 400.92, 206.33, 416, 255.76, 416
+                            c 49, 0, 95.85 -15.07, 139.3 -44.79
+                            C 433.31, 345, 469.71, 299.82, 496, 256, 469.62, 212.57, 433.1, 167.44, 394.82, 141.18
+                            Z
+                            M 256, 352
+                            a 96, 96, 0, 1, 1, 96, -96
+                            A 96.11, 96.11, 0, 0, 1, 256, 352
+                            Z
+                        "></path>
+                    </g>
+                </svg>
+            </div>
+        </div>
+        
+        <h1 class="title_text" style="margin-top: 0px;">WATCHED</h1>
+
+        <script src="src/scripts/eye_track.js"></script>
 
     </body>
 </html>
