@@ -6,11 +6,19 @@ body {
   min-height: 100%;
   background-image: radial-gradient(circle farthest-corner at 50% 0%, #2b4568 5%, #05081d 95%);
   position: relative;
-  /*overflow: hidden;*/
+  overflow: hidden;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
 }
 
 #page_links {
-  height: 35%;
+  max-height: 35%;
   min-height: 200px;
   width: 100%;
 
@@ -21,11 +29,29 @@ body {
   grid-auto-flow: column
 }
 
-#page_links div {
+#page_links a {
   height: 100%;
   min-width: 250px;
+  max-width: 75%;
   margin-inline: 30px;
-  
-  background-color: rgb(68, 8, 87);
+
+  background-color: rgb(44, 8, 88);
   border-radius: 50px;
+  text-align: center;
+
+  overflow: hidden;
+}
+
+#page_links h2 {
+  color: white;
+  margin-top: 10%;
+}
+
+#page_links img {
+  max-width: 80%;
+  height: 60%;
+
+  border-style: solid;
+  border-color: rgb(2, 3, 12);
+  border-width: 5px;
 }

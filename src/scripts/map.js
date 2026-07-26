@@ -62,7 +62,7 @@ addPurdueMarkers();
 
 flockLayer.addTo(map);
 purdueLayer.addTo(map);
-
+/*
 var legend = L.control({ position: "topright" });
 
 legend.onAdd = function(map) {
@@ -121,3 +121,4 @@ document.getElementById('purdue-visible').addEventListener('change', e => {
         icon.src = "src/images/purdue-camera-icon-off.png"
     }
 });
+*/
