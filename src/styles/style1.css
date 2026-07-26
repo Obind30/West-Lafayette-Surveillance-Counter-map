@@ -1,0 +1,14 @@
+@font-face {
+  font-family: Main_Title;
+  src: url("../fonts/Akira\ Expanded\ Demo.otf");
+}
+
+.title_text {
+    color: white;
+    font-family: Main_Title;
+    height: 25vh;
+    font-size: 22vh;
+    margin-block: 6.25vh;
+    font-weight: lighter;
+    letter-spacing: 10%;
+}
