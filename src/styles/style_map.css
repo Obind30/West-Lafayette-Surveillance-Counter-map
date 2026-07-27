@@ -16,6 +16,12 @@
     filter: drop-shadow(7px 7px 4px #868381);
 }
 
+.legend_item {
+  display: flex;
+  align-items: center;
+  margin-inline: 20px;
+}
+
 .switch {
   position: relative;
   display: inline-block;
