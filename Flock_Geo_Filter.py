@@ -1,5 +1,6 @@
 import json
 
+# Filter out any objects not in the Greater Lafayette Area
 def filter_by_coord(object):
     try:
         coords = object["geometry"]["coordinates"]
@@ -13,10 +14,9 @@ def filter_by_coord(object):
 nationwide_file = open("location_data/National-Flock-Data.geojson")
 local_file = open("location_data/GreaterLAF-Flock-Cameras.geojson", "w")
 
+# Filter from full list of cameras
 camera_data = json.load(nationwide_file)
-
 local_features = list(filter(filter_by_coord, camera_data["features"]))
-
 camera_data["features"] = local_features
-
+# Dump results back into file
 json.dump(camera_data, local_file, sort_keys=True, indent=4)

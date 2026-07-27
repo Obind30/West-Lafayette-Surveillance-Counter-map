@@ -1,14 +1,16 @@
 const iconSize = 36
-
+// Initiate map and set view
 var map = L.map('map').setView([40.418, -86.897], 12);
-
+// Create a tile layer and add map to it
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
+// Create two layers, one for each marker type
 let flockLayer = L.layerGroup();
 let purdueLayer = L.layerGroup();
 
+// Initiate marker icons
 var flockcam = L.icon({
     iconUrl: '../images/flock-camera-icon.png',
     iconSize: [iconSize, iconSize],
@@ -21,6 +23,7 @@ var purduecam = L.icon({
     iconAnchor: [iconSize/2, iconSize]
 })
 
+// Add the markers to the map from corresponding json files
 async function addFlockMarkers() {
     try {
         const response = await fetch('../location_data/GreaterLAF-Flock-Cameras.geojson');
@@ -60,11 +63,15 @@ async function addPurdueMarkers() {
 addFlockMarkers();
 addPurdueMarkers();
 
+// Add layers to map
 flockLayer.addTo(map);
 purdueLayer.addTo(map);
 
+
+// Create a legend div
 var legend = L.control({ position: "topright" });
 
+// Add the two legend items, with switches
 legend.onAdd = function(map) {
     var div = L.DomUtil.create("div", "legend");
     div.innerHTML += 
@@ -98,6 +105,7 @@ legend.onAdd = function(map) {
 
 legend.addTo(map);
 
+// Toggle the visibility of marker types
 document.getElementById('flock-visible').addEventListener('change', e => {
     let icon = document.getElementById('legend-flock-icon');
 	if(e.target.checked) {
