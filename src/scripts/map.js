@@ -76,26 +76,25 @@ legend.onAdd = function(map) {
     var div = L.DomUtil.create("div", "legend");
     div.innerHTML += 
     `
-       
-            <h1 id="legend_title">Legend</h1>
-            <label class="legend_item">
-                <div class="switch">
-                    <input type="checkbox" checked id=flock-visible>
-                    <span class="slider round"></span>
-                </div>
-                <img id="legend-flock-icon" src="../images/flock-camera-icon.png" width=`+ iconSize +`">
-                <span> Flock Cameras </span>
-            </label><br>
+        <h1 id="legend_title">Legend</h1>
+        <label class="legend_item">
+            <div class="switch">
+                <input type="checkbox" checked id=flock-visible>
+                <span class="slider round"></span>
+            </div>
+            <img id="legend-flock-icon" src="../images/flock-camera-icon.png" width=`+ iconSize +`">
+            <span> Flock Cameras </span>
+        </label><br>
 
-            <label class="legend_item">
-                <div class="switch">
-                    <input type="checkbox" checked id=purdue-visible>
-                    <span class="slider round"></span>
-                </div>
-                <input type="checkbox" checked id="purdue-visible" style="display: none">
-                <img id="legend-purdue-icon" src="../images/purdue-camera-icon.png" width=`+ iconSize +`">
-                <span> Purdue Cameras </span>
-            </label><br>
+        <label class="legend_item">
+            <div class="switch">
+                <input type="checkbox" checked id=purdue-visible>
+                <span class="slider round"></span>
+            </div>
+            <input type="checkbox" checked id="purdue-visible" style="display: none">
+            <img id="legend-purdue-icon" src="../images/purdue-camera-icon.png" width=`+ iconSize +`">
+            <span> Purdue Cameras </span>
+        </label><br>
         `;
     return div;
 };
