@@ -125,3 +125,19 @@ document.getElementById('purdue-visible').addEventListener('change', e => {
         icon.src = "../images/purdue-camera-icon-off.png"
     }
 });
+
+function draw_border(filepath) {
+    fetch(filepath)
+    .then((response) => {
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        return response.text();
+    })
+    .then((data) => {
+        const lines = data.split(/\r?\n/).filter(Boolean);
+        const array = lines.map((line) => line.split(','));
+        var polyline = L.polyline(array, {color: 'green'}).addTo(map);
+    })
+}
+
+draw_border('../location_data/WL_Border.csv');
+draw_border('../location_data/Laf_Border.csv');
