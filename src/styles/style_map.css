@@ -16,11 +16,23 @@
     filter: drop-shadow(7px 7px 4px #868381);
 }
 
+#legend_title {
+  font-size: medium;
+  display: flex;
+  justify-content: center;
+
+  margin-top: 2%;
+  padding-bottom: 2%;
+
+  border-bottom: #a29e9c 2px solid;
+}
+
 .legend_item {
   display: flex;
   align-items: center;
   margin-inline: 20px;
 }
+
 
 .switch {
   position: relative;

@@ -76,9 +76,8 @@ legend.onAdd = function(map) {
     var div = L.DomUtil.create("div", "legend");
     div.innerHTML += 
     `
-        <div id="inner_legend">
-            <br>
-            
+       
+            <h1 id="legend_title">Legend</h1>
             <label class="legend_item">
                 <div class="switch">
                     <input type="checkbox" checked id=flock-visible>
@@ -97,7 +96,7 @@ legend.onAdd = function(map) {
                 <img id="legend-purdue-icon" src="../images/purdue-camera-icon.png" width=`+ iconSize +`">
                 <span> Purdue Cameras </span>
             </label><br>
-        </div>`;
+        `;
     return div;
 };
 
