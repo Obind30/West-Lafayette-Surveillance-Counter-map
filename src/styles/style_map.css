@@ -1,10 +1,47 @@
+@font-face {
+  font-family: Main_Title;
+  src: url("../fonts/Akira\ Expanded\ Demo.otf");
+}
+
 .body {
   overflow: hidden;
 }
 
-#map {
-  height: 100%;
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1006;
+
+  background-color: #030021;
+  height: 64px;
   width: 100%;
+
+  display: flex;
+  align-items: center;
+}
+
+.header_item {
+  font-family: Main_Title;
+  color: white;
+  padding-inline: 48px;
+
+  border-right: #ffffff 2px solid;
+}
+
+.inactive {
+  color: grey;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  height: calc(-64px + 100%);
+  width: 100dvw;
+
+  margin-top: 64px;
 }
 
 .legend {
@@ -32,7 +69,6 @@
   align-items: center;
   margin-inline: 20px;
 }
-
 
 .switch {
   position: relative;
