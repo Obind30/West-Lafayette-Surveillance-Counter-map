@@ -6,15 +6,9 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="../styles/style_map.css">
         <link rel="stylesheet" href="../styles/style_heading.css">
-
-        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-        crossorigin=""/>
-        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-        crossorigin=""></script>
+        <link rel="stylesheet" href="../styles/style_page.css">
+        <script type="module" src="https://cdn.jsdelivr.net/npm/zero-md@3?register"></script>
     </head>
     <body">
         <div id="header">
@@ -54,7 +48,14 @@
                 Contacts
             </div>
         </div>
-        <div id="map"></div>
-        <script src="../scripts/map.js"></script>
+        
+        <div id="page_content">            
+            <zero-md src="documents/about_us.md">
+                <template data-append>
+                    <link rel="stylesheet" href="../styles/md_style.css">
+                </template>
+            </zero-md>
+        </div>
+
     </body>
 </html>
