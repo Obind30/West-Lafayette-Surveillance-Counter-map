@@ -853,25 +853,6 @@
         {
             "geometry": {
                 "coordinates": [
-                    -86.9155626,
-                    40.4314772
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "brand": "Flock Safety",
-                "direction": 252,
-                "osmId": 13644466802,
-                "osmTimestamp": "2026-03-13T04:19:30Z",
-                "osmType": "node",
-                "osmVersion": 1,
-                "surveillanceZone": "traffic"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
                     -86.91445,
                     40.3884422
                 ],
@@ -977,6 +958,265 @@
                 "direction": 321,
                 "osmId": 13683385401,
                 "osmTimestamp": "2026-03-26T20:59:25Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.8572948,
+                    40.4197434
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 165,
+                "mountType": "pole",
+                "operator": "The Home Depot",
+                "osmId": 13831120701,
+                "osmTimestamp": "2026-05-15T16:12:41Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.900836,
+                    40.4275706
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 274,
+                "directions": [
+                    274,
+                    110
+                ],
+                "osmId": 13956513102,
+                "osmTimestamp": "2026-06-22T00:07:45Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.9007166,
+                    40.4281286
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 313,
+                "directions": [
+                    313,
+                    102
+                ],
+                "osmId": 13956535001,
+                "osmTimestamp": "2026-06-22T00:06:36Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.8995961,
+                    40.4305882
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 289,
+                "directions": [
+                    289,
+                    117
+                ],
+                "osmId": 13956538601,
+                "osmTimestamp": "2026-06-22T00:08:27Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.8409855,
+                    40.4178847
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 0,
+                "osmId": 13959165401,
+                "osmTimestamp": "2026-06-23T03:38:05Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.8117001,
+                    40.6027228
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 350,
+                "osmId": 13985132601,
+                "osmTimestamp": "2026-07-14T03:48:52Z",
+                "osmType": "node",
+                "osmVersion": 2,
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.8865785,
+                    40.4144211
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 344,
+                "osmId": 14057092602,
+                "osmTimestamp": "2026-07-28T20:55:20Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.9304643,
+                    40.4180459
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "direction": 228,
+                "osmId": 14057263901,
+                "osmTimestamp": "2026-07-28T22:41:12Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.8868742,
+                    40.4209788
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 151,
+                "osmId": 14061659701,
+                "osmTimestamp": "2026-07-30T13:55:44Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.8990235,
+                    40.4320414
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 65,
+                "osmId": 14097149301,
+                "osmTimestamp": "2026-08-19T20:34:16Z",
+                "osmType": "node",
+                "osmVersion": 2,
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.8821018,
+                    40.4246546
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 90,
+                "osmId": 14104352317,
+                "osmTimestamp": "2026-08-19T00:20:58Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.8317919,
+                    40.4251768
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "direction": 0,
+                "osmId": 14108917802,
+                "osmTimestamp": "2026-08-21T02:38:03Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.9042051,
+                    40.3672847
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 185,
+                "osmId": 14125423203,
+                "osmTimestamp": "2026-08-26T15:13:40Z",
                 "osmType": "node",
                 "osmVersion": 1,
                 "surveillanceZone": "traffic"
