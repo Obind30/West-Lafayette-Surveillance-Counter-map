@@ -14,13 +14,13 @@ let progressLayer = L.layerGroup();
 
 // Initiate marker icons
 var flockcam = L.icon({
-    iconUrl: '../images/flock-camera-icon.png',
+    iconUrl: 'src/images/flock-camera-icon.png',
     iconSize: [iconSize, iconSize],
     iconAnchor: [iconSize/2, iconSize]
 })
 
 var purduecam = L.icon({
-    iconUrl: '../images/purdue-camera-icon.png',
+    iconUrl: 'src/images/purdue-camera-icon.png',
     iconSize: [iconSize, iconSize],
     iconAnchor: [iconSize/2, iconSize]
 })
@@ -28,7 +28,7 @@ var purduecam = L.icon({
 // Add the markers to the map from corresponding json files
 async function addFlockMarkers() {
     try {
-        const response = await fetch('../location_data/GreaterLAF-Flock-Cameras.geojson');
+        const response = await fetch('src/location_data/GreaterLAF-Flock-Cameras.geojson');
         if (!response.ok) throw new Error('File not found');
         const data = await response.json(); // Parse JSON directly
 
@@ -46,7 +46,7 @@ async function addFlockMarkers() {
 
 async function addPurdueMarkers() {
     try {
-        const response = await fetch('../location_data/Purdue_Security_Purdue_Cameras.geojson');
+        const response = await fetch('src/location_data/Purdue_Security_Purdue_Cameras.geojson');
         if (!response.ok) throw new Error('File not found');
         const data = await response.json(); // Parse JSON directly
 
@@ -78,12 +78,12 @@ function draw_border(layer, filepath, color) {
 addFlockMarkers();
 addPurdueMarkers();
 
-draw_border(cityLayer, '../location_data/WL_Border.csv', 'green');
-draw_border(cityLayer, '../location_data/Laf_Border.csv', 'green');
+draw_border(cityLayer, 'src/location_data/WL_Border.csv', 'green');
+draw_border(cityLayer, 'src/location_data/Laf_Border.csv', 'green');
 
-draw_border(progressLayer, '../location_data/Completed_Border.csv', 'red');
-draw_border(progressLayer, '../location_data/Todo_Border_0.csv', 'red');
-draw_border(progressLayer, '../location_data/Todo_Border_1.csv', 'red');
+draw_border(progressLayer, 'src/location_data/Completed_Border.csv', 'red');
+draw_border(progressLayer, 'src/location_data/Todo_Border_0.csv', 'red');
+draw_border(progressLayer, 'src/location_data/Todo_Border_1.csv', 'red');
 
 // Add layers to map
 flockLayer.addTo(map);
@@ -93,11 +93,13 @@ progressLayer.addTo(map);
 
 // Create a legend div
 var legend = L.control({ position: "topright" });
-
+console.log(window.innerWidth);
+console.log(window.innerHeight);
 // Add the legend items, with switches
 legend.onAdd = function(map) {
     var div = L.DomUtil.create("div", "legend");
-    div.innerHTML += 
+    if (window.innerWidth > window.innerHeight) {
+        div.innerHTML += 
     `
         <h1 id="legend_title">Legend</h1>
         <label class="legend_item">
@@ -105,7 +107,7 @@ legend.onAdd = function(map) {
                 <input type="checkbox" checked id=flock-visible>
                 <span class="slider round"></span>
             </div>
-            <img id="legend-flock-icon" src="../images/flock-camera-icon.png" width=`+ iconSize +`">
+            <img id="legend-flock-icon" src="src/images/flock-camera-icon.png" width=`+ iconSize +`">
             <span> Flock Cameras </span>
         </label><br>
 
@@ -115,7 +117,7 @@ legend.onAdd = function(map) {
                 <span class="slider round"></span>
             </div>
             <input type="checkbox" checked id="purdue-visible" style="display: none">
-            <img id="legend-purdue-icon" src="../images/purdue-camera-icon.png" width=`+ iconSize +`">
+            <img id="legend-purdue-icon" src="src/images/purdue-camera-icon.png" width=`+ iconSize +`">
             <span> Purdue Cameras </span>
         </label><br>
 
@@ -125,7 +127,7 @@ legend.onAdd = function(map) {
                 <span class="slider round"></span>
             </div>
             <input type="checkbox" checked id="city-visible" style="display: none">
-            <img id="green-border-icon" src="../images/dashed-icon-green.svg" width=`+ iconSize +`">
+            <img id="green-border-icon" src="src/images/dashed-icon-green.svg" width=`+ iconSize +`">
             <span> City Borders </span>
         </label><br>
 
@@ -135,10 +137,11 @@ legend.onAdd = function(map) {
                 <span class="slider round"></span>
             </div>
             <input type="checkbox" checked id="prog-visible" style="display: none">
-            <img id="red-border-icon" src="../images/dashed-icon-red.svg" width=`+ iconSize +`">
+            <img id="red-border-icon" src="src/images/dashed-icon-red.svg" width=`+ iconSize +`">
             <span> Progress Borders </span>
         </label><br>
         `;
+    }
     return div;
 };
 
@@ -149,11 +152,11 @@ document.getElementById('flock-visible').addEventListener('change', e => {
     let icon = document.getElementById('legend-flock-icon');
 	if(e.target.checked) {
         map.addLayer(flockLayer);
-        icon.src = "../images/flock-camera-icon.png"
+        icon.src = "src/images/flock-camera-icon.png"
     }
 	else {
         map.removeLayer(flockLayer);
-        icon.src = "../images/flock-camera-icon-off.png"
+        icon.src = "src/images/flock-camera-icon-off.png"
     }
 });
 
@@ -161,11 +164,11 @@ document.getElementById('purdue-visible').addEventListener('change', e => {
     let icon = document.getElementById('legend-purdue-icon')
     if(e.target.checked) {
         map.addLayer(purdueLayer);
-        icon.src = "../images/purdue-camera-icon.png"
+        icon.src = "src/images/purdue-camera-icon.png"
     }
 	else {
         map.removeLayer(purdueLayer);
-        icon.src = "../images/purdue-camera-icon-off.png"
+        icon.src = "src/images/purdue-camera-icon-off.png"
     }
 });
 
