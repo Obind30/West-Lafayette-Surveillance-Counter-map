@@ -71,7 +71,7 @@ function draw_border(layer, filepath, color) {
     .then((data) => {
         const lines = data.split(/\r?\n/).filter(Boolean);
         const array = lines.map((line) => line.split(','));
-        var polyline = layer.addLayer(L.polyline(array, {color: color}));
+        var polyline = layer.addLayer(L.polyline(array, {color: color, dashArray: '5'}));
     })
 }
 
@@ -94,7 +94,7 @@ progressLayer.addTo(map);
 // Create a legend div
 var legend = L.control({ position: "topright" });
 
-// Add the two legend items, with switches
+// Add the legend items, with switches
 legend.onAdd = function(map) {
     var div = L.DomUtil.create("div", "legend");
     div.innerHTML += 
