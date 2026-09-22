@@ -6,9 +6,11 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
-// Create two layers, one for each marker type
+// Create layers, for each marker type
 let flockLayer = L.layerGroup();
 let purdueLayer = L.layerGroup();
+let cityLayer = L.layerGroup();
+let progressLayer = L.layerGroup();
 
 // Initiate marker icons
 var flockcam = L.icon({
@@ -60,13 +62,34 @@ async function addPurdueMarkers() {
     }
 }
 
+function draw_border(layer, filepath, color) {
+    fetch(filepath)
+    .then((response) => {
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        return response.text();
+    })
+    .then((data) => {
+        const lines = data.split(/\r?\n/).filter(Boolean);
+        const array = lines.map((line) => line.split(','));
+        var polyline = layer.addLayer(L.polyline(array, {color: color}));
+    })
+}
+
 addFlockMarkers();
 addPurdueMarkers();
+
+draw_border(cityLayer, '../location_data/WL_Border.csv', 'green');
+draw_border(cityLayer, '../location_data/Laf_Border.csv', 'green');
+
+draw_border(progressLayer, '../location_data/Completed_Border.csv', 'red');
+draw_border(progressLayer, '../location_data/Todo_Border_0.csv', 'red');
+draw_border(progressLayer, '../location_data/Todo_Border_1.csv', 'red');
 
 // Add layers to map
 flockLayer.addTo(map);
 purdueLayer.addTo(map);
-
+cityLayer.addTo(map);
+progressLayer.addTo(map);
 
 // Create a legend div
 var legend = L.control({ position: "topright" });
@@ -94,6 +117,26 @@ legend.onAdd = function(map) {
             <input type="checkbox" checked id="purdue-visible" style="display: none">
             <img id="legend-purdue-icon" src="../images/purdue-camera-icon.png" width=`+ iconSize +`">
             <span> Purdue Cameras </span>
+        </label><br>
+
+        <label class="legend_item">
+            <div class="switch">
+                <input type="checkbox" checked id=city-visible>
+                <span class="slider round"></span>
+            </div>
+            <input type="checkbox" checked id="city-visible" style="display: none">
+            <img id="green-border-icon" src="../images/dashed-icon-green.svg" width=`+ iconSize +`">
+            <span> City Borders </span>
+        </label><br>
+
+        <label class="legend_item">
+            <div class="switch">
+                <input type="checkbox" checked id=prog-visible>
+                <span class="slider round"></span>
+            </div>
+            <input type="checkbox" checked id="prog-visible" style="display: none">
+            <img id="red-border-icon" src="../images/dashed-icon-red.svg" width=`+ iconSize +`">
+            <span> Progress Borders </span>
         </label><br>
         `;
     return div;
@@ -126,22 +169,20 @@ document.getElementById('purdue-visible').addEventListener('change', e => {
     }
 });
 
-function draw_border(filepath, color) {
-    fetch(filepath)
-    .then((response) => {
-        if (!response.ok) throw new Error(`HTTP ${response.status}`);
-        return response.text();
-    })
-    .then((data) => {
-        const lines = data.split(/\r?\n/).filter(Boolean);
-        const array = lines.map((line) => line.split(','));
-        var polyline = L.polyline(array, {color: color}).addTo(map);
-    })
-}
+document.getElementById('city-visible').addEventListener('change', e => {
+    if(e.target.checked) {
+        map.addLayer(cityLayer);
+    }
+	else {
+        map.removeLayer(cityLayer);
+    }
+});
 
-draw_border('../location_data/WL_Border.csv', 'green');
-draw_border('../location_data/Laf_Border.csv', 'green');
-
-draw_border('../location_data/Completed_Border.csv', 'red');
-draw_border('../location_data/Todo_Border_0.csv', 'red');
-draw_border('../location_data/Todo_Border_1.csv', 'red');
+document.getElementById('prog-visible').addEventListener('change', e => {
+    if(e.target.checked) {
+        map.addLayer(progressLayer);
+    }
+	else {
+        map.removeLayer(progressLayer);
+    }
+});
