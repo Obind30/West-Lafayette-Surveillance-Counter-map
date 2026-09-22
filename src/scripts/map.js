@@ -126,7 +126,7 @@ document.getElementById('purdue-visible').addEventListener('change', e => {
     }
 });
 
-function draw_border(filepath) {
+function draw_border(filepath, color) {
     fetch(filepath)
     .then((response) => {
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
@@ -135,9 +135,13 @@ function draw_border(filepath) {
     .then((data) => {
         const lines = data.split(/\r?\n/).filter(Boolean);
         const array = lines.map((line) => line.split(','));
-        var polyline = L.polyline(array, {color: 'green'}).addTo(map);
+        var polyline = L.polyline(array, {color: color}).addTo(map);
     })
 }
 
-draw_border('../location_data/WL_Border.csv');
-draw_border('../location_data/Laf_Border.csv');
+draw_border('../location_data/WL_Border.csv', 'green');
+draw_border('../location_data/Laf_Border.csv', 'green');
+
+draw_border('../location_data/Completed_Border.csv', 'red');
+draw_border('../location_data/Todo_Border_0.csv', 'red');
+draw_border('../location_data/Todo_Border_1.csv', 'red');
