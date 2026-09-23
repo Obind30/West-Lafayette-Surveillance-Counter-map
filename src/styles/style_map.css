@@ -32,6 +32,9 @@
 
   border-bottom: #a29e9c 2px solid;
 }
+#legend_title:hover, #legend_title:focus {
+  background-color: #a29e9c;
+}
 
 .legend_item {
   display: flex;

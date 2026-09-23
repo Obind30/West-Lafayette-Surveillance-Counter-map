@@ -96,10 +96,14 @@ var legend = L.control({ position: "topright" });
 
 // Add the legend items, with switches
 legend.onAdd = function(map) {
-    var div = L.DomUtil.create("div", "legend");
+    var div = L.DomUtil.create("div", "legend dropdown");
     div.innerHTML += 
     `
+        <button onclick="toggleLegend()" class="dropbtn">
         <h1 id="legend_title">Legend</h1>
+        </button>
+        
+        <div id="legend_content" class="dropdown_content">
         <label class="legend_item">
             <div class="switch">
                 <input type="checkbox" checked id=flock-visible>
@@ -138,11 +142,16 @@ legend.onAdd = function(map) {
             <img id="red-border-icon" src="../images/dashed-icon-red.svg" width=`+ iconSize +`">
             <span> Progress Borders </span>
         </label><br>
+        </div>
         `;
     return div;
 };
 
 legend.addTo(map);
+
+function toggleLegend() {
+  document.getElementById("legend_content").classList.toggle("show");
+}
 
 // Toggle the visibility of marker types
 document.getElementById('flock-visible').addEventListener('change', e => {
