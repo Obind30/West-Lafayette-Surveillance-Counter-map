@@ -93,13 +93,11 @@ progressLayer.addTo(map);
 
 // Create a legend div
 var legend = L.control({ position: "topright" });
-console.log(window.innerWidth);
-console.log(window.innerHeight);
+
 // Add the legend items, with switches
 legend.onAdd = function(map) {
     var div = L.DomUtil.create("div", "legend");
-    if (window.innerWidth > window.innerHeight) {
-        div.innerHTML += 
+    div.innerHTML += 
     `
         <h1 id="legend_title">Legend</h1>
         <label class="legend_item">
@@ -141,7 +139,6 @@ legend.onAdd = function(map) {
             <span> Progress Borders </span>
         </label><br>
         `;
-    }
     return div;
 };
 
