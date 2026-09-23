@@ -95,7 +95,6 @@ progressLayer.addTo(map);
 var legend = L.control({ position: "topright" });
 
 // Add the legend items, with switches
-/*
 legend.onAdd = function(map) {
     var div = L.DomUtil.create("div", "legend");
     div.innerHTML += 
@@ -142,7 +141,6 @@ legend.onAdd = function(map) {
         `;
     return div;
 };
-*/
 
 legend.addTo(map);
 
