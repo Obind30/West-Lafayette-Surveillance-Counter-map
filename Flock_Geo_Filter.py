@@ -4,7 +4,7 @@ import json
 def filter_by_coord(object):
     try:
         coords = object["geometry"]["coordinates"]
-        if coords[0] > -86.962328 and coords[0] < -86.752802 and coords[1] > 40.301640 and coords[1] < 40.603983:
+        if coords[0] > -86.962328 and coords[0] < -86.752802 and coords[1] > 40.301640 and coords[1] < 40.489380:
             return True
         else:
             return False

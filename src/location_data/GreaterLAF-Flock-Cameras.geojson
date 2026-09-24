@@ -291,44 +291,6 @@
         {
             "geometry": {
                 "coordinates": [
-                    -86.8686233,
-                    40.5014958
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "brand": "Flock Safety",
-                "direction": 143,
-                "osmId": 13326853101,
-                "osmTimestamp": "2025-11-23T19:52:49Z",
-                "osmType": "node",
-                "osmVersion": 1,
-                "surveillanceZone": "traffic"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    -86.8687014,
-                    40.5618041
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "brand": "Flock Safety",
-                "direction": 349,
-                "osmId": 13326853801,
-                "osmTimestamp": "2025-11-23T19:54:22Z",
-                "osmType": "node",
-                "osmVersion": 1,
-                "surveillanceZone": "traffic"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
                     -86.8429502,
                     40.3910996
                 ],
@@ -1069,25 +1031,6 @@
                 "osmTimestamp": "2026-06-23T03:38:05Z",
                 "osmType": "node",
                 "osmVersion": 1,
-                "surveillanceZone": "traffic"
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    -86.8117001,
-                    40.6027228
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "brand": "Flock Safety",
-                "direction": 350,
-                "osmId": 13985132601,
-                "osmTimestamp": "2026-07-14T03:48:52Z",
-                "osmType": "node",
-                "osmVersion": 2,
                 "surveillanceZone": "traffic"
             },
             "type": "Feature"
