@@ -100,7 +100,11 @@ legend.onAdd = function(map) {
     div.innerHTML += 
     `
         <button onclick="toggleLegend()" class="dropbtn">
-        <h1 id="legend_title" class="legend_title">Legend</h1>
+            <h1 id="legend_title" class="legend_title">
+                <img class="dropdown_pointer point_left" src="../images/chevron-pointer.svg" height="18px">
+                Legend
+                <img class="dropdown_pointer point_right" src="../images/chevron-pointer.svg" height="18px">
+            </h1>
         </button>
         
         <div id="legend_content" class="dropdown_content">
@@ -152,6 +156,10 @@ legend.addTo(map);
 function toggleLegend() {
   document.getElementById("legend_content").classList.toggle("show");
   document.getElementById("legend_title").classList.toggle("legend_shown");
+  
+  for (let element of document.getElementsByClassName("dropdown_pointer")) {
+    element.classList.toggle("point_down");
+  }
 }
 
 // Toggle the visibility of marker types

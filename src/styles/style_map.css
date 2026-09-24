@@ -25,13 +25,25 @@
 .legend_title {
   font-size: medium;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   vertical-align: auto;
 
   margin-block: 2%;
   min-width: 200px;
 
   border-bottom: none;
+}
+
+.point_left {
+  transform: rotate(90deg);
+}
+
+.point_right {
+  transform: rotate(-90deg);
+}
+
+.point_down {
+  transform: rotate(0);
 }
 
 .legend_shown {
