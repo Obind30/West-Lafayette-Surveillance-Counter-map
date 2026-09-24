@@ -95,16 +95,15 @@ progressLayer.addTo(map);
 var legend = L.control({ position: "topright" });
 
 // Add the legend items, with switches
-/*
 legend.onAdd = function(map) {
     var div = L.DomUtil.create("div", "legend dropdown");
     div.innerHTML += 
     `
         <button onclick="toggleLegend()" class="dropbtn">
             <h1 id="legend_title" class="legend_title">
-                <img class="dropdown_pointer point_left" src="../images/chevron-pointer.svg" height="18px">
+                <img class="dropdown_pointer point_left" src="src/images/chevron-pointer.svg" height="18px">
                 Legend
-                <img class="dropdown_pointer point_right" src="../images/chevron-pointer.svg" height="18px">
+                <img class="dropdown_pointer point_right" src="src/images/chevron-pointer.svg" height="18px">
             </h1>
         </button>
         
@@ -151,7 +150,6 @@ legend.onAdd = function(map) {
         `;
     return div;
 };
-*/
 
 legend.addTo(map);
 
