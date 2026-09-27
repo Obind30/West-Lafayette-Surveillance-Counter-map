@@ -1,4 +1,11 @@
-const iconSize = 36
+const iconSize = 36;
+const flockFilepath = '../location_data/GreaterLAF-Flock-Cameras.geojson';
+const purdueFilepath = '../location_data/Purdue_Security_Purdue_Cameras.geojson';
+const flockIconSrc = '../images/flock-camera-icon.png';
+const flockIconOffSrc = '../images/flock-camera-icon-off.png';
+const purdueIconSrc = '../images/purdue-camera-icon.png';
+const purdueIconOffSrc = '../images/purdue-camera-icon-off.png';
+
 // Initiate map and set view
 var map = L.map('map').setView([40.418, -86.897], 12);
 // Create a tile layer and add map to it
@@ -14,13 +21,13 @@ let progressLayer = L.layerGroup();
 
 // Initiate marker icons
 var flockcam = L.icon({
-    iconUrl: '../images/flock-camera-icon.png',
+    iconUrl: flockIconSrc,
     iconSize: [iconSize, iconSize],
     iconAnchor: [iconSize/2, iconSize]
 })
 
 var purduecam = L.icon({
-    iconUrl: '../images/purdue-camera-icon.png',
+    iconUrl: purdueIconSrc,
     iconSize: [iconSize, iconSize],
     iconAnchor: [iconSize/2, iconSize]
 })
@@ -28,17 +35,17 @@ var purduecam = L.icon({
 // Add the markers to the map from corresponding json files
 async function addFlockMarkers() {
     try {
-        const response = await fetch('../location_data/GreaterLAF-Flock-Cameras.geojson');
+        const response = await fetch(flockFilepath);
         if (!response.ok) throw new Error('File not found');
         const data = await response.json(); // Parse JSON directly
 
-        let i=0;
-
-        while (data.features[i]) {
-            let coords = data.features[i].geometry.coordinates;
-            flockLayer.addLayer(L.marker([coords[1], coords[0]], {icon: flockcam}));
-            i++;
-        }
+        L.geoJSON(data, {
+            pointToLayer: function(geoJsonPoint, latlng) {
+                return L.marker(latlng, {icon: flockcam});
+            }
+        }).bindPopup(function (layer) {
+            return none;
+        }).addTo(map);
     } catch (error) {
         console.error('Error reading JSON:', error.message);
     }
@@ -50,13 +57,13 @@ async function addPurdueMarkers() {
         if (!response.ok) throw new Error('File not found');
         const data = await response.json(); // Parse JSON directly
 
-        let i=0;
-
-        while (data.features[i]) {
-            let coords = data.features[i].geometry.coordinates;
-            purdueLayer.addLayer(L.marker([coords[1], coords[0]], {icon: purduecam}));
-            i++;
-        }
+        L.geoJSON(data, {
+            pointToLayer: function(geoJsonPoint, latlng) {
+                return L.marker(latlng, {icon: purduecam});
+            }
+        }).bindPopup(function (layer) {
+            return none;
+        }).addTo(map);
     } catch (error) {
         console.error('Error reading JSON:', error.message);
     }
@@ -113,7 +120,7 @@ legend.onAdd = function(map) {
                 <input type="checkbox" checked id=flock-visible>
                 <span class="slider round"></span>
             </div>
-            <img id="legend-flock-icon" src="../images/flock-camera-icon.png" width=`+ iconSize +`">
+            <img id="legend-flock-icon" src="`+ flockIconSrc + `" width=`+ iconSize +`">
             <span> Flock Cameras </span>
         </label><br>
 
@@ -123,7 +130,7 @@ legend.onAdd = function(map) {
                 <span class="slider round"></span>
             </div>
             <input type="checkbox" checked id="purdue-visible" style="display: none">
-            <img id="legend-purdue-icon" src="../images/purdue-camera-icon.png" width=`+ iconSize +`">
+            <img id="legend-purdue-icon" src="` + purdueIconSrc + `" width=`+ iconSize +`">
             <span> Purdue Cameras </span>
         </label><br>
 
@@ -167,11 +174,11 @@ document.getElementById('flock-visible').addEventListener('change', e => {
     let icon = document.getElementById('legend-flock-icon');
 	if(e.target.checked) {
         map.addLayer(flockLayer);
-        icon.src = "../images/flock-camera-icon.png"
+        icon.src = flockIconSrc;
     }
 	else {
         map.removeLayer(flockLayer);
-        icon.src = "../images/flock-camera-icon-off.png"
+        icon.src = flockIconOffSrc;
     }
 });
 
@@ -179,11 +186,11 @@ document.getElementById('purdue-visible').addEventListener('change', e => {
     let icon = document.getElementById('legend-purdue-icon')
     if(e.target.checked) {
         map.addLayer(purdueLayer);
-        icon.src = "../images/purdue-camera-icon.png"
+        icon.src = purdueIconSrc
     }
 	else {
         map.removeLayer(purdueLayer);
-        icon.src = "../images/purdue-camera-icon-off.png"
+        icon.src = purdueIconOffSrc;
     }
 });
 
