@@ -39,11 +39,11 @@ async function addFlockMarkers() {
         if (!response.ok) throw new Error('File not found');
         const data = await response.json(); // Parse JSON directly
 
-        L.geoJSON(data, {
+        flockLayer.addLayer(L.geoJSON(data, {
             pointToLayer: function(geoJsonPoint, latlng) {
                 return L.marker(latlng, {icon: flockcam});
             }
-        }).bindPopup(function (layer) {
+        })).bindPopup(function (layer) {
             return none;
         }).addTo(map);
     } catch (error) {
@@ -57,11 +57,11 @@ async function addPurdueMarkers() {
         if (!response.ok) throw new Error('File not found');
         const data = await response.json(); // Parse JSON directly
 
-        L.geoJSON(data, {
+         purdueLayer.addLayer(L.geoJSON(data, {
             pointToLayer: function(geoJsonPoint, latlng) {
                 return L.marker(latlng, {icon: purduecam});
             }
-        }).bindPopup(function (layer) {
+        })).bindPopup(function (layer) {
             return none;
         }).addTo(map);
     } catch (error) {
