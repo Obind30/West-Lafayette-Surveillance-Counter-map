@@ -7,7 +7,7 @@ const purdueIconSrc = '../images/purdue-camera-icon.png';
 const purdueIconOffSrc = '../images/purdue-camera-icon-off.png';
 
 // Initiate map and set view
-var map = L.map('map').setView([40.418, -86.897], 12);
+var map = L.map('map', {doubleClickZoom: false, zoomDelta: 0.5}).setView([40.418, -86.897], 12);
 // Create a tile layer and add map to it
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
