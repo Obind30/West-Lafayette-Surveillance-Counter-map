@@ -43,9 +43,9 @@ async function addFlockMarkers() {
             pointToLayer: function(geoJsonPoint, latlng) {
                 return L.marker(latlng, {icon: flockcam});
             }
-        })).bindPopup(function (layer) {
-            return none;
-        }).addTo(map);
+        }).bindPopup(function (layer) {
+            return layer.feature.properties.brand;
+        })).addTo(map);
     } catch (error) {
         console.error('Error reading JSON:', error.message);
     }
@@ -61,9 +61,9 @@ async function addPurdueMarkers() {
             pointToLayer: function(geoJsonPoint, latlng) {
                 return L.marker(latlng, {icon: purduecam});
             }
-        })).bindPopup(function (layer) {
-            return none;
-        }).addTo(map);
+        }).bindPopup(function (layer) {
+            return layer.feature.properties.brand;
+        })).addTo(map);
     } catch (error) {
         console.error('Error reading JSON:', error.message);
     }
