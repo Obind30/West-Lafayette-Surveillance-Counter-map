@@ -44,8 +44,18 @@ async function addFlockMarkers() {
                 return L.marker(latlng, {icon: flockcam});
             }
         }).bindPopup(function (layer) {
-            return layer.feature.properties.brand;
-        })).addTo(map);
+            popupContent = `
+                <div>
+                <ul>
+                    <li>Vendor:<input type="text" readonly="true" value="` + layer.feature.properties.brand + `"></input></li>
+                    <li>Owner:<input type="text" readonly="true" value="` + layer.feature.properties.owner + `"></input></li>
+                    <li>Surveillance Type:<input type="text" readonly="true" value="` + layer.feature.properties.surveillanceZone + `"></input></li>
+                    <li>Location:<input type="text" readonly="true" value="` + layer.feature.geometry.coordinates + `"></input></li>
+                </ul>
+                </div>
+            `;
+            return popupContent;
+        }, {offset: [0, -0.85*iconSize], closeButton: false})).addTo(map);
     } catch (error) {
         console.error('Error reading JSON:', error.message);
     }
@@ -62,8 +72,18 @@ async function addPurdueMarkers() {
                 return L.marker(latlng, {icon: purduecam});
             }
         }).bindPopup(function (layer) {
-            return layer.feature.properties.brand;
-        })).addTo(map);
+            popupContent = `
+                <div>
+                <ul>
+                    <li>Vendor: </li>
+                    <li>Owner: </li>
+                    <li>Surveillance Type: </li>
+                    <li>Location: </li>
+                </ul>
+                </div>
+            `;
+            return popupContent;
+        }, {offset: [0, -0.85*iconSize], closeButton: false})).addTo(map);
     } catch (error) {
         console.error('Error reading JSON:', error.message);
     }
