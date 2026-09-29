@@ -46,11 +46,13 @@ async function addFlockMarkers() {
         }).bindPopup(function (layer) {
             popupContent = `
                 <div>
+                Edit: <input type="checkbox" id="editable-check">
+                <h3>Camera Properties:</h3>
                 <ul>
-                    <li>Vendor:<input type="text" readonly="true" value="` + layer.feature.properties.brand + `"></input></li>
-                    <li>Owner:<input type="text" readonly="true" value="` + layer.feature.properties.owner + `"></input></li>
-                    <li>Surveillance Type:<input type="text" readonly="true" value="` + layer.feature.properties.surveillanceZone + `"></input></li>
-                    <li>Location:<input type="text" readonly="true" value="` + layer.feature.geometry.coordinates + `"></input></li>
+                    <li>Vendor:<input class="json-prop-field" type="text" value="` + layer.feature.properties.brand + `" disabled></input></li>
+                    <li>Owner:<input class="json-prop-field" type="text" value="` + layer.feature.properties.owner + `" disabled></input></li>
+                    <li>Surveillance Type:<input class="json-prop-field" type="text" value="` + layer.feature.properties.surveillanceZone + `" disabled></input></li>
+                    <li>Location:<input class="json-prop-field" type="text" value="` + layer.feature.geometry.coordinates + `" disabled></input></li>
                 </ul>
                 </div>
             `;
@@ -74,11 +76,13 @@ async function addPurdueMarkers() {
         }).bindPopup(function (layer) {
             popupContent = `
                 <div>
+                Edit: <input type="checkbox" id="editable-check">
+                <h3>Camera Properties:</h3>
                 <ul>
-                    <li>Vendor: </li>
-                    <li>Owner: </li>
-                    <li>Surveillance Type: </li>
-                    <li>Location: </li>
+                    <li>Vendor:<input class="json-prop-field" type="text" value="` + layer.feature.properties.brand + `" disabled></input></li>
+                    <li>Owner:<input class="json-prop-field" type="text" value="` + layer.feature.properties.owner + `" disabled></input></li>
+                    <li>Surveillance Type:<input class="json-prop-field" type="text" value="` + layer.feature.properties.surveillanceZone + `" disabled></input></li>
+                    <li>Location:<input class="json-prop-field" type="text" value="` + layer.feature.geometry.coordinates + `" disabled></input></li>
                 </ul>
                 </div>
             `;
@@ -230,4 +234,17 @@ document.getElementById('prog-visible').addEventListener('change', e => {
 	else {
         map.removeLayer(progressLayer);
     }
+});
+
+map.on('popupopen', function(ev) {
+    document.getElementById('editable-check').addEventListener('change', e => {
+        const fieldList = document.getElementsByClassName('json-prop-field');
+        readOnlyState = true;
+        if (e.target.checked) {
+            readOnlyState = false;
+        }
+        for (let inputField of fieldList) {
+            inputField.disabled = readOnlyState;
+        }
+    });
 });
