@@ -46,18 +46,22 @@ async function addFlockMarkers() {
         }).bindPopup(function (layer) {
             popupContent = `
                 <div>
-                Edit: <input type="checkbox" id="editable-check">
+                Edit: <input type="checkbox" id="editable-check"></input>
+                <button id="JSON-show" onclick="showJSON()">Show JSON</button>
                 <h3>Camera Properties:</h3>
                 <ul>
-                    <li>Vendor:<input class="json-prop-field" type="text" value="` + layer.feature.properties.brand + `" disabled></input></li>
-                    <li>Owner:<input class="json-prop-field" type="text" value="` + layer.feature.properties.owner + `" disabled></input></li>
-                    <li>Surveillance Type:<input class="json-prop-field" type="text" value="` + layer.feature.properties.surveillanceZone + `" disabled></input></li>
-                    <li>Location:<input class="json-prop-field" type="text" value="` + layer.feature.geometry.coordinates + `" disabled></input></li>
+                    <li>Vendor:<input id="brand-entry" class="json-prop-field" type="text" value="` + layer.feature.properties.brand + `" disabled></input></li>
+                    <li>Owner:<input id="owner-entry" class="json-prop-field" type="text" value="` + layer.feature.properties.owner + `" disabled></input></li>
+                    <li>Surveillance Type:<input id="sur-zone-entry" class="json-prop-field" type="text" value="` + layer.feature.properties.surveillanceZone + `" disabled></input></li>
+                    <li>Location:<input id="coords-entry" class="json-prop-field" type="text" value="` + layer.feature.geometry.coordinates + `" disabled></input></li>
+                    <li>Identifier:<input id="id-entry" class="" type="text" value="` + layer.feature.properties.osmId + `" disabled></input></li>
+                </ul>
                 </ul>
                 </div>
             `;
             return popupContent;
-        }, {offset: [0, -0.85*iconSize], closeButton: false})).addTo(map);
+        },
+        {offset: [0, -0.85*iconSize], closeButton: false})).addTo(map);
     } catch (error) {
         console.error('Error reading JSON:', error.message);
     }
@@ -248,3 +252,31 @@ map.on('popupopen', function(ev) {
         }
     });
 });
+
+function saveToJSON() {
+    console.log(document.getElementById('brand-entry').value);
+    /*
+    layer.feature.properties.brand = document.getElementById('brand-entry').value;
+    layer.feature.properties.owner = document.getElementById('owner-entry').value;
+    layer.feature.properties.surveillanceZone = document.getElementById('sur-zone-entry').value;
+    layer.feature.geometry.coordinates = document.getElementById('coords-entry').value;
+    */
+}
+
+async function showJSON() {
+    try {
+        const response = await fetch(flockFilepath);
+        if (!response.ok) throw new Error('File not found');
+        const data = await response.json(); // Parse JSON directly
+
+        console.log(JSON.stringify(
+            data.features.filter(function (feature) {
+                return feature.properties.osmId == document.getElementById('id-entry').value
+            })
+        ));
+
+        
+    } catch (error) {
+        console.error('Error reading JSON');
+    }
+}
