@@ -269,13 +269,23 @@ async function showJSON() {
         if (!response.ok) throw new Error('File not found');
         const data = await response.json(); // Parse JSON directly
 
-        console.log(JSON.stringify(
-            data.features.filter(function (feature) {
-                return feature.properties.osmId == document.getElementById('id-entry').value
-            })
-        ));
+        jsonData = data.features.filter(function (feature) {
+            return feature.properties.osmId == document.getElementById('id-entry').value
+        })[0];
+        console.log(jsonData);
+        jsonData.properties.brand = document.getElementById('brand-entry').value;
+        jsonData.properties.owner = document.getElementById('owner-entry').value;
+        jsonData.properties.surveillanceZone = document.getElementById('sur-zone-entry').value;
+        jsonData.geometry.coordinates = document.getElementById('coords-entry').value.split(',').map(
+            function(item){return Number(item);}
+        );
 
-        
+        copyText = JSON.stringify(jsonData);
+
+        console.log(copyText);
+
+        // Copy the JSON to clipboard
+        navigator.clipboard.writeText(copyText);
     } catch (error) {
         console.error('Error reading JSON');
     }
