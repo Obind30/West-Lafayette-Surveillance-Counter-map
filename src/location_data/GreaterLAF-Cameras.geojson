@@ -1,0 +1,5467 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.918359,
+                    40.4404217
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 170,
+                "mountType": "pole",
+                "osmId": 6961175971,
+                "osmTimestamp": "2025-10-15T14:22:27Z",
+                "osmType": "node",
+                "osmVersion": 3,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.9000348,
+                    40.4193618
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 320,
+                "mountType": "pole",
+                "osmId": 12437509093,
+                "osmTimestamp": "2024-12-20T20:06:33Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.8981998,
+                    40.4181021
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 105,
+                "mountType": "pole",
+                "osmId": 12437524320,
+                "osmTimestamp": "2024-12-20T20:01:58Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.9188636,
+                    40.3722766
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 330,
+                "osmId": 12873197650,
+                "osmTimestamp": "2025-05-29T13:39:51Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.8229567,
+                    40.4177991
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 240,
+                "osmId": 13165170480,
+                "osmTimestamp": "2025-09-23T12:59:15Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.9616787,
+                    40.4672483
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 53,
+                "osmId": 13305591701,
+                "osmTimestamp": "2025-11-15T01:04:08Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.9327535,
+                    40.4595718
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 130,
+                "osmId": 13309829417,
+                "osmTimestamp": "2025-11-19T02:44:13Z",
+                "osmType": "node",
+                "osmVersion": 2,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.7814301,
+                    40.3739098
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 76,
+                "osmId": 13309844401,
+                "osmTimestamp": "2025-11-26T00:16:01Z",
+                "osmType": "node",
+                "osmVersion": 2,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.7795343,
+                    40.3743886
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 261,
+                "osmId": 13309844501,
+                "osmTimestamp": "2025-11-26T00:15:13Z",
+                "osmType": "node",
+                "osmVersion": 2,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.886415,
+                    40.42012
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 0,
+                "osmId": 13315604057,
+                "osmTimestamp": "2025-11-19T02:39:09Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "station"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.8572493,
+                    40.3673212
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 237,
+                "osmId": 13326815301,
+                "osmTimestamp": "2025-11-23T19:29:10Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.9381849,
+                    40.4241449
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 74,
+                "osmId": 13326836001,
+                "osmTimestamp": "2025-11-23T19:46:40Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.9473493,
+                    40.4405887
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 141,
+                "osmId": 13326844701,
+                "osmTimestamp": "2025-11-23T19:48:40Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.8429502,
+                    40.3910996
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 276,
+                "osmId": 13326859702,
+                "osmTimestamp": "2025-11-23T19:59:45Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.9102057,
+                    40.3892149
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 66,
+                "osmId": 13326865902,
+                "osmTimestamp": "2025-11-23T20:04:55Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.8568237,
+                    40.4503159
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 203,
+                "osmId": 13326868901,
+                "osmTimestamp": "2025-11-23T20:02:37Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.8764438,
+                    40.3962245
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 339,
+                "osmId": 13326895601,
+                "osmTimestamp": "2025-11-23T20:25:09Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.8868776,
+                    40.4198005
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 144,
+                "osmId": 13326912201,
+                "osmTimestamp": "2025-11-23T20:31:04Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.8384311,
+                    40.4003479
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 339,
+                "osmId": 13326942201,
+                "osmTimestamp": "2025-11-23T20:48:09Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.8422655,
+                    40.3820093
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 300,
+                "osmId": 13326942901,
+                "osmTimestamp": "2025-11-23T20:48:34Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.8805288,
+                    40.4184801
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 319,
+                "osmId": 13326943001,
+                "osmTimestamp": "2025-11-23T20:48:44Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.8436567,
+                    40.4174364
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 69,
+                "osmId": 13326943002,
+                "osmTimestamp": "2025-11-23T20:52:25Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.8178663,
+                    40.3624122
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 289,
+                "osmId": 13326956301,
+                "osmTimestamp": "2025-11-23T20:54:28Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.9456,
+                    40.3751624
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 36,
+                "osmId": 13326979801,
+                "osmTimestamp": "2025-11-23T21:09:52Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.8490571,
+                    40.3527634
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 115,
+                "osmId": 13346720402,
+                "osmTimestamp": "2025-12-01T21:25:50Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "residential"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.8567123,
+                    40.3584745
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 45,
+                "osmId": 13346720403,
+                "osmTimestamp": "2025-12-01T21:25:50Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "residential"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.8546747,
+                    40.3524963
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 161.5,
+                "osmId": 13349329001,
+                "osmTimestamp": "2025-12-03T02:57:40Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.8543939,
+                    40.3521549
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 336.5,
+                "osmId": 13349329201,
+                "osmTimestamp": "2025-12-03T02:58:05Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.8488188,
+                    40.3527585
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 340,
+                "mountType": "pole",
+                "osmId": 13527147079,
+                "osmTimestamp": "2026-02-05T20:06:38Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.8490212,
+                    40.3525025
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 150,
+                "mountType": "pole",
+                "osmId": 13527147080,
+                "osmTimestamp": "2026-02-05T20:06:38Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.8488525,
+                    40.352465
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 330,
+                "mountType": "pole",
+                "osmId": 13527147081,
+                "osmTimestamp": "2026-02-05T20:06:38Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.8514986,
+                    40.3529723
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 160,
+                "mountType": "pole",
+                "osmId": 13527147082,
+                "osmTimestamp": "2026-02-05T20:06:38Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.8512933,
+                    40.3527569
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 330,
+                "mountType": "pole",
+                "osmId": 13527147083,
+                "osmTimestamp": "2026-02-05T20:06:38Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.856237,
+                    40.358656
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 250,
+                "mountType": "pole",
+                "osmId": 13527147084,
+                "osmTimestamp": "2026-02-05T20:06:38Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.8772405,
+                    40.4256687
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 347,
+                "osmId": 13541136805,
+                "osmTimestamp": "2026-02-10T15:55:13Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.9202767,
+                    40.4048357
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 337,
+                "osmId": 13568580501,
+                "osmTimestamp": "2026-02-16T01:21:02Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.9156112,
+                    40.4314666
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 260,
+                "osmId": 13574667701,
+                "osmTimestamp": "2026-02-17T22:52:27Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.8564039,
+                    40.4197738
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 137,
+                "mountType": "pole",
+                "operator": "The Home Depot",
+                "osmId": 13604214401,
+                "osmTimestamp": "2026-02-26T22:45:20Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.8564501,
+                    40.4176814
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 340,
+                "mountType": "pole",
+                "operator": "The Home Depot",
+                "osmId": 13604219801,
+                "osmTimestamp": "2026-02-26T22:47:25Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.8788906,
+                    40.4175408
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 344,
+                "mountType": "street pole",
+                "osmId": 13605708502,
+                "osmTimestamp": "2026-02-27T14:31:10Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.91445,
+                    40.3884422
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 151,
+                "osmId": 13670402201,
+                "osmTimestamp": "2026-03-22T23:45:51Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.8580394,
+                    40.4171193
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 186,
+                "osmId": 13675725704,
+                "osmTimestamp": "2026-03-24T19:30:15Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.8580394,
+                    40.4171193
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 186,
+                "osmId": 13675862201,
+                "osmTimestamp": "2026-03-24T20:07:24Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.8391896,
+                    40.4196572
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 273,
+                "osmId": 13678052901,
+                "osmTimestamp": "2026-03-25T13:20:08Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.8474173,
+                    40.4323171
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 347,
+                "osmId": 13678218101,
+                "osmTimestamp": "2026-03-25T13:22:58Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.839242,
+                    40.4189072
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 321,
+                "osmId": 13683385401,
+                "osmTimestamp": "2026-03-26T20:59:25Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.8572948,
+                    40.4197434
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 165,
+                "mountType": "pole",
+                "operator": "The Home Depot",
+                "osmId": 13831120701,
+                "osmTimestamp": "2026-05-15T16:12:41Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.900836,
+                    40.4275706
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 274,
+                "directions": [
+                    274,
+                    110
+                ],
+                "osmId": 13956513102,
+                "osmTimestamp": "2026-06-22T00:07:45Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "Launch Apartments",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.9007166,
+                    40.4281286
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 313,
+                "directions": [
+                    313,
+                    102
+                ],
+                "osmId": 13956535001,
+                "osmTimestamp": "2026-06-22T00:06:36Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "Launch Apartments",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.899634,
+                    40.4305375
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 316,
+                "directions": [
+                    316,
+                    88
+                ],
+                "osmId": 13956538601,
+                "osmTimestamp": "2026-08-29T18:31:45Z",
+                "osmType": "node",
+                "osmVersion": 2,
+                "owner": "Launch Apartments",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.8409855,
+                    40.4178847
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 0,
+                "osmId": 13959165401,
+                "osmTimestamp": "2026-06-23T03:38:05Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.8865785,
+                    40.4144211
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 344,
+                "osmId": 14057092602,
+                "osmTimestamp": "2026-07-28T20:55:20Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.9304643,
+                    40.4180459
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 228,
+                "osmId": 14057263901,
+                "osmTimestamp": "2026-07-28T22:41:12Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.8868742,
+                    40.4209788
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 151,
+                "osmId": 14061659701,
+                "osmTimestamp": "2026-07-30T13:55:44Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.8990358,
+                    40.4320195
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 84,
+                "osmId": 14097149301,
+                "osmTimestamp": "2026-08-29T18:32:15Z",
+                "osmType": "node",
+                "osmVersion": 3,
+                "owner": "Launch Apartments",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.8821018,
+                    40.4246546
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 90,
+                "osmId": 14104352317,
+                "osmTimestamp": "2026-08-19T00:20:58Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.8317919,
+                    40.4251768
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 0,
+                "osmId": 14108917802,
+                "osmTimestamp": "2026-08-21T02:38:03Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.9042051,
+                    40.3672847
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 185,
+                "osmId": 14125423203,
+                "osmTimestamp": "2026-08-26T15:13:40Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.8984442,
+                    40.4319501
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 280,
+                "osmId": 14133719301,
+                "osmTimestamp": "2026-08-29T18:35:22Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "Launch Apartments",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.8357206,
+                    40.3882799
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 54,
+                "osmId": 14141122701,
+                "osmTimestamp": "2026-09-01T23:31:46Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.9304693,
+                    40.4180192
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 270,
+                "osmId": 14155959601,
+                "osmTimestamp": "2026-09-05T18:27:20Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.9100329,
+                    40.4014819
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "brand": "Flock Safety",
+                "direction": 49,
+                "osmId": 14183163701,
+                "osmTimestamp": "2026-09-15T14:26:34Z",
+                "osmType": "node",
+                "osmVersion": 1,
+                "owner": "unknown",
+                "surveillanceZone": "traffic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.916408333,
+                    40.425213333,
+                    158.6
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "Brng",
+                "brand": "unknown",
+                "osmId": 0,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.911044717,
+                    40.425315494,
+                    156.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PMU - Loading",
+                "brand": "unknown",
+                "osmId": 1,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.911901347,
+                    40.424773129,
+                    164.4
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "STEW - Public",
+                "brand": "unknown",
+                "osmId": 2,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.911683753,
+                    40.424560775,
+                    161.4
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PMU - Public",
+                "brand": "unknown",
+                "osmId": 3,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.911247224,
+                    40.424575834,
+                    152.1
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PMU - Public",
+                "brand": "unknown",
+                "osmId": 4,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.910966933,
+                    40.424620245,
+                    152.5
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PMU - Public",
+                "brand": "unknown",
+                "osmId": 5,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.91082444,
+                    40.424452557,
+                    149.4
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "Lamppost - Public",
+                "brand": "unknown",
+                "osmId": 6,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.910736933,
+                    40.424574048,
+                    150.5
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PMU - Public",
+                "brand": "unknown",
+                "osmId": 7,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.910565272,
+                    40.424826982,
+                    152.2
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PMU - Public",
+                "brand": "unknown",
+                "osmId": 8,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.910219267,
+                    40.425970665,
+                    160.9
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "UC - Public",
+                "brand": "unknown",
+                "osmId": 9,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.910183333,
+                    40.426366667,
+                    161.1
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "UC - Public",
+                "brand": "unknown",
+                "osmId": 10,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.909520887,
+                    40.426228188,
+                    157.9
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "UC - Parking",
+                "brand": "unknown",
+                "osmId": 11,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.909624822,
+                    40.425692467,
+                    149.3
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "Park - Entrance",
+                "brand": "unknown",
+                "osmId": 12,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.909849793,
+                    40.42467614,
+                    157.4
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "Park - Gate, Evasion watch",
+                "brand": "unknown",
+                "osmId": 13,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.912315413,
+                    40.425423456,
+                    150.3
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "STEW -  Loading",
+                "brand": "unknown",
+                "osmId": 14,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.912789494,
+                    40.425463271,
+                    154.3
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "STEW - Loading",
+                "brand": "unknown",
+                "osmId": 15,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.91308789,
+                    40.42551738,
+                    152.4
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "STEW - Public",
+                "brand": "unknown",
+                "osmId": 16,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.913505308,
+                    40.425396146,
+                    153.6
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "STEW - Public",
+                "brand": "unknown",
+                "osmId": 17,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.913504638,
+                    40.42523918,
+                    150.2
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "STEW - Public",
+                "brand": "unknown",
+                "osmId": 18,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.912890077,
+                    40.42471366,
+                    152.2
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "STEW - Public",
+                "brand": "unknown",
+                "osmId": 19,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.912370063,
+                    40.4247083,
+                    153.9
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "STEW - Public",
+                "brand": "unknown",
+                "osmId": 20,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.911731667,
+                    40.424458333,
+                    154.6
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "Lamppost - Public",
+                "brand": "unknown",
+                "osmId": 21,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.912571,
+                    40.429503,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "MSEE - Public",
+                "brand": "unknown",
+                "osmId": 22,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.912372,
+                    40.429332,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "MSEE - Public",
+                "brand": "unknown",
+                "osmId": 23,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.916408333,
+                    40.425213333,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "",
+                "brand": "unknown",
+                "osmId": 24,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.911895,
+                    40.429028,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "BHEE - Public",
+                "brand": "unknown",
+                "osmId": 25,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.91157,
+                    40.428592,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "BHEE - Public",
+                "brand": "unknown",
+                "osmId": 26,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.911945,
+                    40.428266,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "BHEE - Loading",
+                "brand": "unknown",
+                "osmId": 27,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.912288,
+                    40.42851,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "BHEE - Public",
+                "brand": "unknown",
+                "osmId": 28,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.912395,
+                    40.428885,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "BHEE - Public",
+                "brand": "unknown",
+                "osmId": 29,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.912697,
+                    40.428746,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "",
+                "brand": "unknown",
+                "osmId": 30,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.912834,
+                    40.428629,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "",
+                "brand": "unknown",
+                "osmId": 31,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.913309,
+                    40.428331,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "",
+                "brand": "unknown",
+                "osmId": 32,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.912407,
+                    40.428459,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "",
+                "brand": "unknown",
+                "osmId": 33,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.911964,
+                    40.428025,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "Emergency",
+                "brand": "unknown",
+                "osmId": 34,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.91149,
+                    40.427984,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "",
+                "brand": "unknown",
+                "osmId": 35,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.911488,
+                    40.427563,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "",
+                "brand": "unknown",
+                "osmId": 36,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.911491,
+                    40.427329,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "",
+                "brand": "unknown",
+                "osmId": 37,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.911211,
+                    40.427301,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "",
+                "brand": "unknown",
+                "osmId": 38,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.910675,
+                    40.427309,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "",
+                "brand": "unknown",
+                "osmId": 39,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.911951,
+                    40.42812,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "Emergency",
+                "brand": "unknown",
+                "osmId": 40,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.911957,
+                    40.427423,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "",
+                "brand": "unknown",
+                "osmId": 41,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.911957,
+                    40.426954,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "",
+                "brand": "unknown",
+                "osmId": 42,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.911428,
+                    40.426932,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "",
+                "brand": "unknown",
+                "osmId": 43,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.910667,
+                    40.427091,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "",
+                "brand": "unknown",
+                "osmId": 44,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.9111,
+                    40.42616,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "",
+                "brand": "unknown",
+                "osmId": 45,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.910675,
+                    40.426767,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "",
+                "brand": "unknown",
+                "osmId": 46,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.911293,
+                    40.426303,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "",
+                "brand": "unknown",
+                "osmId": 47,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.910916,
+                    40.426548,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "",
+                "brand": "unknown",
+                "osmId": 48,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.911396,
+                    40.42646,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "",
+                "brand": "unknown",
+                "osmId": 49,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.911815,
+                    40.426777,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "",
+                "brand": "unknown",
+                "osmId": 50,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.912617,
+                    40.426254,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "",
+                "brand": "unknown",
+                "osmId": 51,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.913554,
+                    40.426747,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "",
+                "brand": "unknown",
+                "osmId": 52,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.913539,
+                    40.426768,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "",
+                "brand": "unknown",
+                "osmId": 53,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.912879,
+                    40.427059,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "",
+                "brand": "unknown",
+                "osmId": 54,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.912879,
+                    40.427124,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "",
+                "brand": "unknown",
+                "osmId": 55,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.9129,
+                    40.427773,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "",
+                "brand": "unknown",
+                "osmId": 56,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.9129,
+                    40.427814,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "",
+                "brand": "unknown",
+                "osmId": 57,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.913573,
+                    40.427778,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "",
+                "brand": "unknown",
+                "osmId": 58,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.913568,
+                    40.427043,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "",
+                "brand": "unknown",
+                "osmId": 59,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.91368,
+                    40.427069,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "",
+                "brand": "unknown",
+                "osmId": 60,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.913204,
+                    40.427032,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "",
+                "brand": "unknown",
+                "osmId": 61,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.913489215,
+                    40.42970096,
+                    223.3
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PHYS - Public",
+                "brand": "unknown",
+                "osmId": 62,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.913595162,
+                    40.42959862,
+                    152.8
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "FRNY - Public",
+                "brand": "unknown",
+                "osmId": 63,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.914116667,
+                    40.429075,
+                    151.4
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "Lamppost",
+                "brand": "unknown",
+                "osmId": 64,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.914078333,
+                    40.428975,
+                    151.6
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "Emergency",
+                "brand": "unknown",
+                "osmId": 65,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.914683333,
+                    40.429586667,
+                    152.6
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "Lamppost",
+                "brand": "unknown",
+                "osmId": 66,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.915305741,
+                    40.430337203,
+                    149.7
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "HAMP - Public",
+                "brand": "unknown",
+                "osmId": 67,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.914373338,
+                    40.430703174,
+                    148.8
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "ARMS - Public",
+                "brand": "unknown",
+                "osmId": 68,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.914113499,
+                    40.430877737,
+                    149.8
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "ARMS - Public",
+                "brand": "unknown",
+                "osmId": 69,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.914425977,
+                    40.431168674,
+                    146.7
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "ARMS - Public",
+                "brand": "unknown",
+                "osmId": 70,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.915858611,
+                    40.431011211,
+                    156.1
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "ARMS - Public",
+                "brand": "unknown",
+                "osmId": 71,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.916185506,
+                    40.431020654,
+                    153.9
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "Lamppost",
+                "brand": "unknown",
+                "osmId": 72,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.915826425,
+                    40.430817253,
+                    150.1
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "ARMS - Public",
+                "brand": "unknown",
+                "osmId": 73,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.915998757,
+                    40.430229249,
+                    162.3
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PUSH - Back Entrance",
+                "brand": "unknown",
+                "osmId": 74,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.916382648,
+                    40.430593945,
+                    152.9
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PUSH - Public",
+                "brand": "unknown",
+                "osmId": 75,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.915591061,
+                    40.42988063,
+                    167.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PHARM - Public",
+                "brand": "unknown",
+                "osmId": 76,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.916233785,
+                    40.429473055,
+                    151.7
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PHARM - Public",
+                "brand": "unknown",
+                "osmId": 77,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.916383319,
+                    40.429778545,
+                    156.9
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PHARM - Public",
+                "brand": "unknown",
+                "osmId": 78,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.915084124,
+                    40.428665809,
+                    158.1
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "Lamppost",
+                "brand": "unknown",
+                "osmId": 79,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.914955378,
+                    40.428541008,
+                    163.4
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "Lamppost",
+                "brand": "unknown",
+                "osmId": 80,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.914586239,
+                    40.428711237,
+                    156.5
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "Lamppost",
+                "brand": "unknown",
+                "osmId": 81,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.914765611,
+                    40.429344937,
+                    158.2
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "Emergency",
+                "brand": "unknown",
+                "osmId": 82,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.915345304,
+                    40.428793417,
+                    156.8
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "CHAS - Public",
+                "brand": "unknown",
+                "osmId": 83,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.915101667,
+                    40.428443333,
+                    157.5
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "CHAS - Public",
+                "brand": "unknown",
+                "osmId": 84,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.915223333,
+                    40.428361667,
+                    155.5
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "CHAS - Public",
+                "brand": "unknown",
+                "osmId": 85,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.915422082,
+                    40.428551472,
+                    157.9
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "CHAS - Loading",
+                "brand": "unknown",
+                "osmId": 86,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.915746667,
+                    40.428346667,
+                    156.1
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "CHAS - Public\n",
+                "brand": "unknown",
+                "osmId": 87,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.915812008,
+                    40.428443004,
+                    158.5
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "CHAS - Public",
+                "brand": "unknown",
+                "osmId": 88,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.915895,
+                    40.428646667,
+                    155.3
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "CHAS - Public",
+                "brand": "unknown",
+                "osmId": 89,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.915489808,
+                    40.428900608,
+                    158.7
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "Chas - Public",
+                "brand": "unknown",
+                "osmId": 90,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.914280467,
+                    40.427937671,
+                    149.6
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "HOVD - Public",
+                "brand": "unknown",
+                "osmId": 91,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.914790086,
+                    40.428421055,
+                    155.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "HOVD - Public",
+                "brand": "unknown",
+                "osmId": 92,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.914790757,
+                    40.428450405,
+                    152.1
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "HOVD - Public",
+                "brand": "unknown",
+                "osmId": 93,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.9139871,
+                    40.428234746,
+                    148.5
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "Lamppost",
+                "brand": "unknown",
+                "osmId": 94,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.91538386,
+                    40.42751375,
+                    145.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "ELLT - Public",
+                "brand": "unknown",
+                "osmId": 95,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.915528029,
+                    40.427601546,
+                    151.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "ELLT - Public",
+                "brand": "unknown",
+                "osmId": 96,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.916157678,
+                    40.428438155,
+                    170.9
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "AR - Public",
+                "brand": "unknown",
+                "osmId": 97,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.916396059,
+                    40.428444535,
+                    166.6
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "AR - Public",
+                "brand": "unknown",
+                "osmId": 98,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.916601667,
+                    40.428385,
+                    158.6
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "AR - Public",
+                "brand": "unknown",
+                "osmId": 99,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.916796044,
+                    40.42717456,
+                    156.3
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "Emergency",
+                "brand": "unknown",
+                "osmId": 100,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.917761639,
+                    40.427076044,
+                    154.8
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PGU - Public",
+                "brand": "unknown",
+                "osmId": 101,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.917771697,
+                    40.426917551,
+                    152.2
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PGU - Public",
+                "brand": "unknown",
+                "osmId": 102,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.91731371,
+                    40.426323132,
+                    153.5
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PGU - Public",
+                "brand": "unknown",
+                "osmId": 103,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.917199381,
+                    40.426325429,
+                    153.9
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PGU - Public",
+                "brand": "unknown",
+                "osmId": 104,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.917351667,
+                    40.42631,
+                    153.9
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "",
+                "brand": "unknown",
+                "osmId": 105,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.916793026,
+                    40.427084722,
+                    155.8
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PGU - Public",
+                "brand": "unknown",
+                "osmId": 106,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.916491278,
+                    40.426590864,
+                    157.9
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "HAAS - Public",
+                "brand": "unknown",
+                "osmId": 107,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.91654861,
+                    40.427016577,
+                    154.6
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "HAAS - Public",
+                "brand": "unknown",
+                "osmId": 108,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.915284954,
+                    40.427158992,
+                    158.9
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PSYC - Public",
+                "brand": "unknown",
+                "osmId": 109,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.914711667,
+                    40.427211667,
+                    153.1
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PSYC - Public",
+                "brand": "unknown",
+                "osmId": 110,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.914597303,
+                    40.426931588,
+                    162.3
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PHYC - Public",
+                "brand": "unknown",
+                "osmId": 111,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.914820932,
+                    40.426930567,
+                    160.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PHYC - Public",
+                "brand": "unknown",
+                "osmId": 112,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.914523542,
+                    40.426804231,
+                    157.4
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "SC - Public",
+                "brand": "unknown",
+                "osmId": 113,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.915331893,
+                    40.426399445,
+                    159.1
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "CL50 - Public",
+                "brand": "unknown",
+                "osmId": 114,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.915896162,
+                    40.426182248,
+                    155.3
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "MATH - Public",
+                "brand": "unknown",
+                "osmId": 115,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.914078966,
+                    40.426287656,
+                    154.2
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "SC - Public",
+                "brand": "unknown",
+                "osmId": 116,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.914043427,
+                    40.426638591,
+                    152.2
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "SC - Public",
+                "brand": "unknown",
+                "osmId": 117,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.915063001,
+                    40.426037789,
+                    155.7
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "SCHM - Public",
+                "brand": "unknown",
+                "osmId": 118,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.915049925,
+                    40.425606965,
+                    155.7
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "SCHM - Public",
+                "brand": "unknown",
+                "osmId": 119,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.915335916,
+                    40.426066375,
+                    172.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "SCHM - Public",
+                "brand": "unknown",
+                "osmId": 120,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.91534061,
+                    40.425582974,
+                    177.8
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "SCHM - Public",
+                "brand": "unknown",
+                "osmId": 121,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.915393248,
+                    40.425538819,
+                    168.1
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "Emergency",
+                "brand": "unknown",
+                "osmId": 122,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.915054284,
+                    40.425678684,
+                    159.3
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "SCHM - Public",
+                "brand": "unknown",
+                "osmId": 123,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.915071718,
+                    40.425108757,
+                    159.8
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "UNIV - Public",
+                "brand": "unknown",
+                "osmId": 124,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.915472038,
+                    40.424805288,
+                    159.9
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "STON - Public",
+                "brand": "unknown",
+                "osmId": 125,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.915604807,
+                    40.424809371,
+                    157.9
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "STON - Public",
+                "brand": "unknown",
+                "osmId": 126,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.913084202,
+                    40.430748091,
+                    151.1
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "WANG - Public",
+                "brand": "unknown",
+                "osmId": 127,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.912808605,
+                    40.430937201,
+                    153.7
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "WANG - Public",
+                "brand": "unknown",
+                "osmId": 128,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.912774071,
+                    40.430931331,
+                    153.5
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "WANG - Public",
+                "brand": "unknown",
+                "osmId": 129,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.912623867,
+                    40.430788669,
+                    156.4
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "WANG - Public",
+                "brand": "unknown",
+                "osmId": 130,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.912706667,
+                    40.430866667,
+                    159.6
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "WANG - Public",
+                "brand": "unknown",
+                "osmId": 131,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.912622526,
+                    40.430787138,
+                    163.6
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "WANG - Public",
+                "brand": "unknown",
+                "osmId": 132,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.912458912,
+                    40.430634778,
+                    162.9
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "WANG - Public",
+                "brand": "unknown",
+                "osmId": 133,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.912344582,
+                    40.430536522,
+                    162.9
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "WANG - Public",
+                "brand": "unknown",
+                "osmId": 134,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.912023388,
+                    40.430227973,
+                    164.4
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "WANG - Loading",
+                "brand": "unknown",
+                "osmId": 135,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.912022382,
+                    40.430227207,
+                    161.2
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "WANG - Public",
+                "brand": "unknown",
+                "osmId": 136,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.912070997,
+                    40.430129717,
+                    158.9
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "WANG - Public",
+                "brand": "unknown",
+                "osmId": 137,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.91231139,
+                    40.43001921,
+                    161.7
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "WANG - Public",
+                "brand": "unknown",
+                "osmId": 138,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.912673824,
+                    40.430318573,
+                    160.6
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "WANG - Public",
+                "brand": "unknown",
+                "osmId": 139,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.912791841,
+                    40.430409428,
+                    160.7
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "WANG - Public",
+                "brand": "unknown",
+                "osmId": 140,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.912998036,
+                    40.430656471,
+                    161.2
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "WANG - Public",
+                "brand": "unknown",
+                "osmId": 141,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.913061403,
+                    40.430725633,
+                    158.9
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "WANG - Public",
+                "brand": "unknown",
+                "osmId": 142,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.912129335,
+                    40.429855109,
+                    156.9
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PGSC - Public",
+                "brand": "unknown",
+                "osmId": 143,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.910558902,
+                    40.429695346,
+                    156.3
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PGNW - Public",
+                "brand": "unknown",
+                "osmId": 144,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.91055052,
+                    40.429361782,
+                    154.1
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PGNW - Public",
+                "brand": "unknown",
+                "osmId": 145,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.911562718,
+                    40.429280368,
+                    159.2
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PGNW - Public",
+                "brand": "unknown",
+                "osmId": 146,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.909956667,
+                    40.42694,
+                    156.4
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "BALY - Loading",
+                "brand": "unknown",
+                "osmId": 147,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.918579377,
+                    40.427353726,
+                    162.8
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "BIDC - Emergency",
+                "brand": "unknown",
+                "osmId": 148,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.91905681,
+                    40.427179665,
+                    163.6
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "HAGL - Public",
+                "brand": "unknown",
+                "osmId": 149,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.919016242,
+                    40.426952516,
+                    163.6
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "HAGL - Emergency",
+                "brand": "unknown",
+                "osmId": 150,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.918887161,
+                    40.426943073,
+                    164.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "HAGL - Public",
+                "brand": "unknown",
+                "osmId": 151,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.918607205,
+                    40.427126323,
+                    164.3
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "HAGL - Public",
+                "brand": "unknown",
+                "osmId": 152,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.920964867,
+                    40.428749775,
+                    163.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "WDCT - Public",
+                "brand": "unknown",
+                "osmId": 153,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.920767054,
+                    40.428748244,
+                    162.5
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "WDCT - Public",
+                "brand": "unknown",
+                "osmId": 154,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.920681559,
+                    40.428712258,
+                    162.2
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "WDCT - Public",
+                "brand": "unknown",
+                "osmId": 155,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.920010671,
+                    40.42829166,
+                    159.8
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PKRF - Public",
+                "brand": "unknown",
+                "osmId": 156,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.919526868,
+                    40.427998158,
+                    163.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PKRF - Loading",
+                "brand": "unknown",
+                "osmId": 157,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.919739768,
+                    40.427899643,
+                    164.9
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PKRF - Public",
+                "brand": "unknown",
+                "osmId": 158,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.91944506,
+                    40.427845026,
+                    166.1
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PKRF - Public",
+                "brand": "unknown",
+                "osmId": 159,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.919379681,
+                    40.427781732,
+                    165.7
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PKRF - Public",
+                "brand": "unknown",
+                "osmId": 160,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.919319332,
+                    40.427899388,
+                    164.2
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PKRF - Public",
+                "brand": "unknown",
+                "osmId": 161,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.919435002,
+                    40.428289873,
+                    162.5
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PKRF - Public",
+                "brand": "unknown",
+                "osmId": 162,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.919329055,
+                    40.428336068,
+                    163.2
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PKRF - Public",
+                "brand": "unknown",
+                "osmId": 163,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.919704564,
+                    40.428302634,
+                    163.2
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PKRF - Public",
+                "brand": "unknown",
+                "osmId": 164,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.919325031,
+                    40.428584139,
+                    171.7
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PKRF - Public",
+                "brand": "unknown",
+                "osmId": 165,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.919358333,
+                    40.428761667,
+                    171.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PKRF - Public",
+                "brand": "unknown",
+                "osmId": 166,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.919559725,
+                    40.428685205,
+                    170.9
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PKRF - Public",
+                "brand": "unknown",
+                "osmId": 167,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.919543296,
+                    40.428626505,
+                    170.2
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PKRF - Public",
+                "brand": "unknown",
+                "osmId": 168,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.919898018,
+                    40.428517783,
+                    170.8
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PKRF - Public",
+                "brand": "unknown",
+                "osmId": 169,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.920357682,
+                    40.428541008,
+                    169.6
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "WDCT - Public",
+                "brand": "unknown",
+                "osmId": 170,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.920011006,
+                    40.428400893,
+                    175.9
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PKRF - Public",
+                "brand": "unknown",
+                "osmId": 171,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.920031458,
+                    40.427695212,
+                    172.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PKRW - Loading",
+                "brand": "unknown",
+                "osmId": 172,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.921319924,
+                    40.427735026,
+                    169.6
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "KRCH - Loading",
+                "brand": "unknown",
+                "osmId": 173,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.921360828,
+                    40.427754934,
+                    169.4
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "KRCH - Public",
+                "brand": "unknown",
+                "osmId": 174,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.9215516,
+                    40.42771614,
+                    167.5
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "KRCH - Public",
+                "brand": "unknown",
+                "osmId": 175,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.91933576,
+                    40.427403239,
+                    168.2
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "BCC - Public",
+                "brand": "unknown",
+                "osmId": 176,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.92087099,
+                    40.427491291,
+                    172.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "KRCH - Public",
+                "brand": "unknown",
+                "osmId": 177,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.921225041,
+                    40.427476998,
+                    172.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "KRCH - Public",
+                "brand": "unknown",
+                "osmId": 178,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.919673719,
+                    40.426214917,
+                    167.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "HCRS - Emergency",
+                "brand": "unknown",
+                "osmId": 179,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.919657625,
+                    40.426935671,
+                    260.4
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "HCRN - Public",
+                "brand": "unknown",
+                "osmId": 180,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.919651926,
+                    40.426665134,
+                    255.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "HCRN - Public",
+                "brand": "unknown",
+                "osmId": 181,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.921238787,
+                    40.425983681,
+                    242.6
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "WOOD - Loading",
+                "brand": "unknown",
+                "osmId": 182,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.920849197,
+                    40.427261081,
+                    237.8
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "WARN - Emergency",
+                "brand": "unknown",
+                "osmId": 183,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.921326965,
+                    40.426739404,
+                    227.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "WARN - Loading",
+                "brand": "unknown",
+                "osmId": 184,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.922196336,
+                    40.427244746,
+                    153.2
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "Emergency",
+                "brand": "unknown",
+                "osmId": 185,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.922992952,
+                    40.428988147,
+                    154.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "CREC - Public - Nonstandard",
+                "brand": "unknown",
+                "osmId": 186,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.923880428,
+                    40.427462195,
+                    153.5
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "Emergency",
+                "brand": "unknown",
+                "osmId": 187,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.922029704,
+                    40.427705166,
+                    152.1
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "CREC - Public",
+                "brand": "unknown",
+                "osmId": 188,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.925198399,
+                    40.429255612,
+                    152.4
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "",
+                "brand": "unknown",
+                "osmId": 189,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.924556009,
+                    40.428185744,
+                    152.3
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "TREC - Public",
+                "brand": "unknown",
+                "osmId": 190,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.924032979,
+                    40.428185999,
+                    153.5
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "TREC - Public",
+                "brand": "unknown",
+                "osmId": 191,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.926199198,
+                    40.430923675,
+                    155.2
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "",
+                "brand": "unknown",
+                "osmId": 192,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.926164329,
+                    40.431347319,
+                    159.1
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "",
+                "brand": "unknown",
+                "osmId": 193,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.926995479,
+                    40.431379475,
+                    160.9
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "",
+                "brand": "unknown",
+                "osmId": 194,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.927021965,
+                    40.430927503,
+                    159.4
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "",
+                "brand": "unknown",
+                "osmId": 195,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.923838519,
+                    40.425720286,
+                    141.5
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "MDRS - Public",
+                "brand": "unknown",
+                "osmId": 196,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.923098229,
+                    40.425746575,
+                    143.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "MDRS - Public",
+                "brand": "unknown",
+                "osmId": 197,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.922886334,
+                    40.425721563,
+                    145.7
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "MDRS - Public",
+                "brand": "unknown",
+                "osmId": 198,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.922469251,
+                    40.425633764,
+                    146.6
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "MDRS - Public",
+                "brand": "unknown",
+                "osmId": 199,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.922363639,
+                    40.42548956,
+                    148.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "MDRS - Public",
+                "brand": "unknown",
+                "osmId": 200,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.922910139,
+                    40.425477054,
+                    148.8
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "MDRS - Public",
+                "brand": "unknown",
+                "osmId": 201,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.922993623,
+                    40.425524526,
+                    148.9
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "MDRS - Public",
+                "brand": "unknown",
+                "osmId": 202,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.923226304,
+                    40.425536777,
+                    148.9
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "MDRS - Public",
+                "brand": "unknown",
+                "osmId": 203,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.923787221,
+                    40.425498493,
+                    150.7
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "MDRS - Public",
+                "brand": "unknown",
+                "osmId": 204,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.924916767,
+                    40.426130947,
+                    160.3
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "ERHT - Loading",
+                "brand": "unknown",
+                "osmId": 205,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.925469302,
+                    40.42706507,
+                    162.1
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "SHRV - Public",
+                "brand": "unknown",
+                "osmId": 206,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.922405,
+                    40.425161667,
+                    163.5
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "FWLR - Public",
+                "brand": "unknown",
+                "osmId": 207,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.923084818,
+                    40.42484051,
+                    157.8
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "HNLY - Public",
+                "brand": "unknown",
+                "osmId": 208,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.923202164,
+                    40.424615395,
+                    162.3
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "HNLY - Emergency",
+                "brand": "unknown",
+                "osmId": 209,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.922640912,
+                    40.424901255,
+                    162.3
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "HNLY - Public",
+                "brand": "unknown",
+                "osmId": 210,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.922584921,
+                    40.42481856,
+                    158.3
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "HNLY - Public",
+                "brand": "unknown",
+                "osmId": 211,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.924366667,
+                    40.424748333,
+                    159.4
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "FSTC - Public",
+                "brand": "unknown",
+                "osmId": 212,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.925899796,
+                    40.425690425,
+                    167.7
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "Emergency",
+                "brand": "unknown",
+                "osmId": 213,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.927121878,
+                    40.425700889,
+                    171.5
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "Emergency ",
+                "brand": "unknown",
+                "osmId": 214,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.92737367,
+                    40.4259602,
+                    166.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "HILL - Public",
+                "brand": "unknown",
+                "osmId": 215,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.927259341,
+                    40.426308585,
+                    166.4
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "HILL - Loading",
+                "brand": "unknown",
+                "osmId": 216,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.926897913,
+                    40.426132734,
+                    166.2
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "HILL - Loading",
+                "brand": "unknown",
+                "osmId": 217,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.926020831,
+                    40.426374433,
+                    168.2
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "HILL - Emergency",
+                "brand": "unknown",
+                "osmId": 218,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.926069781,
+                    40.426096236,
+                    183.2
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "HILL - Public",
+                "brand": "unknown",
+                "osmId": 219,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.928755343,
+                    40.426053358,
+                    181.9
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PGMD - Public",
+                "brand": "unknown",
+                "osmId": 220,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.928718798,
+                    40.426504598,
+                    180.9
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PGMD - Public",
+                "brand": "unknown",
+                "osmId": 221,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.928723156,
+                    40.426872376,
+                    180.7
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PGMD - Public",
+                "brand": "unknown",
+                "osmId": 222,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.928718798,
+                    40.427054605,
+                    180.9
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PGMD - Public",
+                "brand": "unknown",
+                "osmId": 223,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.927655973,
+                    40.426613579,
+                    182.8
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PGMD - Public",
+                "brand": "unknown",
+                "osmId": 224,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.929045,
+                    40.426818333,
+                    183.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "3WST - Public",
+                "brand": "unknown",
+                "osmId": 225,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.929501667,
+                    40.42708,
+                    184.3
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "3WST - Public",
+                "brand": "unknown",
+                "osmId": 226,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.929986667,
+                    40.427016667,
+                    184.4
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "3WST - Public",
+                "brand": "unknown",
+                "osmId": 227,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.929804757,
+                    40.424854037,
+                    155.7
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PW - Public",
+                "brand": "unknown",
+                "osmId": 228,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.930048838,
+                    40.424551332,
+                    155.2
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PW - Public",
+                "brand": "unknown",
+                "osmId": 229,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.930089407,
+                    40.424721316,
+                    154.2
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PW - Public",
+                "brand": "unknown",
+                "osmId": 230,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.930104494,
+                    40.42490151,
+                    154.9
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PW - Public",
+                "brand": "unknown",
+                "osmId": 231,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.930002235,
+                    40.424935456,
+                    154.9
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PW - Public",
+                "brand": "unknown",
+                "osmId": 232,
+                "owner": "unknown",
+                "surveillanceZone": "unknown"
+            },
+            "type": "Feature"
+        }
+    ],
+    "type": "FeatureCollection"
+}

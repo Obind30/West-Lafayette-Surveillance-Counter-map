@@ -12,17 +12,7 @@ def filterById(object):
     except:
         return
 
-fileChoice = input("flock/purdue: ").lower()
-filePath = ""
-
-if fileChoice == 'flock' or fileChoice == 'f':
-    filePath = "src/location_data/GreaterLAF-Flock-Cameras.geojson"
-    print(filePath)
-elif fileChoice == 'purdue' or fileChoice == 'p':
-    filePath="src/location_data/Purdue_Security_Purdue_Cameras.geojson"
-    print(filePath)
-else:
-    sys.exit()
+filePath = "src/location_data/GreaterLAF-Cameras.geojson"
 
 jsonFile = open(filePath, "r")
 

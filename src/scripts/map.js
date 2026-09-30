@@ -1,6 +1,6 @@
 const iconSize = 36;
-const flockFilepath = '../location_data/GreaterLAF-Flock-Cameras.geojson';
-const purdueFilepath = '../location_data/Purdue_Security_Purdue_Cameras.geojson';
+const cameraFilepath = '../location_data/GreaterLAF-Cameras.geojson';
+
 const flockIconSrc = '../images/flock-camera-icon.png';
 const flockIconOffSrc = '../images/flock-camera-icon-off.png';
 const purdueIconSrc = '../images/purdue-camera-icon.png';
@@ -33,15 +33,27 @@ var purduecam = L.icon({
 })
 
 // Add the markers to the map from corresponding json files
-async function addFlockMarkers() {
+async function addMarkers() {
     try {
-        const response = await fetch(flockFilepath);
+        const response = await fetch(cameraFilepath);
         if (!response.ok) throw new Error('File not found');
         const data = await response.json(); // Parse JSON directly
 
-        flockLayer.addLayer(L.geoJSON(data, {
+        L.geoJSON(data, {
             pointToLayer: function(geoJsonPoint, latlng) {
-                return L.marker(latlng, {icon: flockcam});
+                if (geoJsonPoint.properties.brand == "Flock Safety") {
+                    return L.marker(latlng, {icon: flockcam});
+                } else {
+                    return L.marker(latlng, {icon: purduecam});
+                }
+                
+            },
+            onEachFeature: function (feature, layer) {
+                if (feature.properties.brand == "Flock Safety") {
+                    flockLayer.addLayer(layer);
+                } else {
+                    purdueLayer.addLayer(layer);
+                }
             }
         }).bindPopup(function (layer) {
             popupContent = `
@@ -61,37 +73,7 @@ async function addFlockMarkers() {
             `;
             return popupContent;
         },
-        {offset: [0, -0.85*iconSize], closeButton: false})).addTo(map);
-    } catch (error) {
-        console.error('Error reading JSON:', error.message);
-    }
-}
-
-async function addPurdueMarkers() {
-    try {
-        const response = await fetch('../location_data/Purdue_Security_Purdue_Cameras.geojson');
-        if (!response.ok) throw new Error('File not found');
-        const data = await response.json(); // Parse JSON directly
-
-         purdueLayer.addLayer(L.geoJSON(data, {
-            pointToLayer: function(geoJsonPoint, latlng) {
-                return L.marker(latlng, {icon: purduecam});
-            }
-        }).bindPopup(function (layer) {
-            popupContent = `
-                <div>
-                Edit: <input type="checkbox" id="editable-check">
-                <h3>Camera Properties:</h3>
-                <ul>
-                    <li>Vendor:<input class="json-prop-field" type="text" value="` + layer.feature.properties.brand + `" disabled></input></li>
-                    <li>Owner:<input class="json-prop-field" type="text" value="` + layer.feature.properties.owner + `" disabled></input></li>
-                    <li>Surveillance Type:<input class="json-prop-field" type="text" value="` + layer.feature.properties.surveillanceZone + `" disabled></input></li>
-                    <li>Location:<input class="json-prop-field" type="text" value="` + layer.feature.geometry.coordinates + `" disabled></input></li>
-                </ul>
-                </div>
-            `;
-            return popupContent;
-        }, {offset: [0, -0.85*iconSize], closeButton: false})).addTo(map);
+        {offset: [0, -0.85*iconSize], closeButton: false}).addTo(map);
     } catch (error) {
         console.error('Error reading JSON:', error.message);
     }
@@ -110,8 +92,7 @@ function draw_border(layer, filepath, color) {
     })
 }
 
-addFlockMarkers();
-addPurdueMarkers();
+addMarkers();
 
 draw_border(cityLayer, '../location_data/WL_Border.csv', 'green');
 draw_border(cityLayer, '../location_data/Laf_Border.csv', 'green');
@@ -253,19 +234,9 @@ map.on('popupopen', function(ev) {
     });
 });
 
-function saveToJSON() {
-    console.log(document.getElementById('brand-entry').value);
-    /*
-    layer.feature.properties.brand = document.getElementById('brand-entry').value;
-    layer.feature.properties.owner = document.getElementById('owner-entry').value;
-    layer.feature.properties.surveillanceZone = document.getElementById('sur-zone-entry').value;
-    layer.feature.geometry.coordinates = document.getElementById('coords-entry').value;
-    */
-}
-
 async function showJSON() {
     try {
-        const response = await fetch(flockFilepath);
+        const response = await fetch(cameraFilepath);
         if (!response.ok) throw new Error('File not found');
         const data = await response.json(); // Parse JSON directly
 
