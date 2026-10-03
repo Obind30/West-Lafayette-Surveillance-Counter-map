@@ -1,0 +1,34 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.922992952,
+                    40.428988147,
+                    154
+                ]
+            },
+            "properties": {
+                "osmId": 186
+            }
+        },
+        {
+            "properties": {
+                "brand": "Axis",
+                "osmId": 189
+            }
+        },
+        {
+            "properties": {
+                "osmId": 190,
+                "owner": "Purdue University"
+            }
+        }
+    ],
+    "identifiers": {
+        "186": 0,
+        "189": 1,
+        "190": 2
+    },
+    "type": "FeatureCollection"
+}

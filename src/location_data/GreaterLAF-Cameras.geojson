@@ -4621,16 +4621,16 @@
                 "coordinates": [
                     -86.922992952,
                     40.428988147,
-                    154.0
+                    154
                 ],
                 "type": "Point"
             },
             "properties": {
                 "REMARKS": "CREC - Public - Nonstandard",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 186,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4681,9 +4681,9 @@
             },
             "properties": {
                 "REMARKS": "",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 189,
-                "owner": "unknown",
+                "owner": "unknownfasd",
                 "surveillanceZone": "unknown"
             },
             "type": "Feature"
@@ -4701,7 +4701,7 @@
                 "REMARKS": "TREC - Public",
                 "brand": "unknown",
                 "osmId": 190,
-                "owner": "unknown",
+                "owner": "Purdue University",
                 "surveillanceZone": "unknown"
             },
             "type": "Feature"
