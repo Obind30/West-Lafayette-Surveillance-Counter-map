@@ -13,108 +13,33 @@
   margin-top: 64px;
 }
 
-.legend {
-  background-color: #e3dfdc;
-  border-style: solid;
-  border-color: #a29e9c;
-  border-width: 2px;
-  border-radius: 25px;
-  filter: drop-shadow(7px 7px 4px #868381);
+.leaflet-popup-content {
+  width: 400px;
 }
 
-.legend_title {
-  font-size: medium;
-  display: flex;
-  justify-content: space-evenly;
-  vertical-align: auto;
-
-  margin-block: 2%;
-  min-width: 200px;
-
-  border-bottom: none;
-}
-
-.point_left {
-  transform: rotate(90deg);
-}
-
-.point_right {
-  transform: rotate(-90deg);
-}
-
-.point_down {
-  transform: rotate(0);
-}
-
-.legend_shown {
-  margin-top: 2%;
-  padding-bottom: 2%;
-
+.popup-header {
+  margin-bottom: 2.5%;
   border-bottom: #a29e9c 2px solid;
 }
 
-.legend_item {
+.property-list {
+  margin-top: 5%;
+  padding-left: 0%;
+  margin-bottom: 3%;
+  font-size: 14px;
+  color: rgb(21, 21, 21);
+}
+.property-list-item {
   display: flex;
-  align-items: center;
-  margin-inline: 20px;
+  width: 100%;
 }
-
-.switch {
-  position: relative;
-  display: inline-block;
-  width: 30px;
-  height: 17px;
+.property-label {
+  width: 130px;
+  padding-left: 10px;
+  text-align: left;
 }
-
-.switch input { 
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-
-.slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #ccc;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 13px;
-  width: 13px;
-  left: 2px;
-  bottom: 2px;
-  background-color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-input:checked + .slider {
-  background-color: #21745d;
-}
-
-input:focus + .slider {
-  box-shadow: 0 0 1px #21745d;
-}
-
-input:checked + .slider:before {
-  -webkit-transform: translateX(13px);
-  -ms-transform: translateX(13px);
-  transform: translateX(13px);
-}
-
-/* Rounded sliders */
-.slider.round {
-  border-radius: 17px;
-}
-
-.slider.round:before {
-  border-radius: 50%;
+.json-prop-field {
+  flex: 1;
+  padding-inline: 10px;
+  text-align: right;
 }
