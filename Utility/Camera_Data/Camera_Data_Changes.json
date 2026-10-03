@@ -1,0 +1,21 @@
+{
+    "features": [
+        {
+            "properties": {
+                "brand": "Flock Safety",
+                "osmId": 14155959601
+            }
+        },
+        {
+            "properties": {
+                "brand": "Flock Safety",
+                "osmId": 14108917802
+            }
+        }
+    ],
+    "identifiers": {
+        "14108917802": 1,
+        "14155959601": 0
+    },
+    "type": "FeatureCollection"
+}

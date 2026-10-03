@@ -87,7 +87,7 @@ def recordDifferences(original, new):
 
 def addDiffToLog(original, new):
     global diffJsonData
-    diffFilepath = "Utility/Camera_Data_Changes.json"
+    diffFilepath = "Utility/Camera_Data/Camera_Data_Changes.json"
     diffJsonData = recordDifferences(original, new)
     if not("properties" in diffJsonData.keys()):
         diffJsonData["properties"] = {}
