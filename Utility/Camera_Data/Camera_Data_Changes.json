@@ -1,0 +1,36 @@
+{
+    "features": [
+        {
+            "properties": {
+                "brand": "Flock Safety",
+                "osmId": 14155959601
+            }
+        },
+        {
+            "properties": {
+                "brand": "Flock Safety",
+                "osmId": 14108917802
+            }
+        },
+        {
+            "properties": {
+                "brand": "Frost Solutions",
+                "osmId": 60,
+                "surveillanceZone": "Weather"
+            }
+        },
+        {
+            "properties": {
+                "brand": "Flock Safety",
+                "osmId": 14057263901
+            }
+        }
+    ],
+    "identifiers": {
+        "14057263901": 3,
+        "14108917802": 1,
+        "14155959601": 0,
+        "60": 2
+    },
+    "type": "FeatureCollection"
+}

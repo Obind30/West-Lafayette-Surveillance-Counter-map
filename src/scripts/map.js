@@ -1,6 +1,6 @@
 const iconSize = 36;
-const flockFilepath = '../location_data/GreaterLAF-Flock-Cameras.geojson';
-const purdueFilepath = '../location_data/Purdue_Security_Purdue_Cameras.geojson';
+const cameraFilepath = '../location_data/GreaterLAF-Cameras.geojson';
+
 const flockIconSrc = '../images/flock-camera-icon.png';
 const flockIconOffSrc = '../images/flock-camera-icon-off.png';
 const purdueIconSrc = '../images/purdue-camera-icon.png';
@@ -33,37 +33,62 @@ var purduecam = L.icon({
 })
 
 // Add the markers to the map from corresponding json files
-async function addFlockMarkers() {
+async function addMarkers() {
     try {
-        const response = await fetch(flockFilepath);
+        const response = await fetch(cameraFilepath);
         if (!response.ok) throw new Error('File not found');
         const data = await response.json(); // Parse JSON directly
 
-        flockLayer.addLayer(L.geoJSON(data, {
+        L.geoJSON(data, {
             pointToLayer: function(geoJsonPoint, latlng) {
-                return L.marker(latlng, {icon: flockcam});
+                if (geoJsonPoint.properties.brand == "Flock Safety") {
+                    return L.marker(latlng, {icon: flockcam});
+                } else {
+                    return L.marker(latlng, {icon: purduecam});
+                }
+                
+            },
+            onEachFeature: function (feature, layer) {
+                if (feature.properties.brand == "Flock Safety") {
+                    flockLayer.addLayer(layer);
+                } else {
+                    purdueLayer.addLayer(layer);
+                }
             }
-        })).bindPopup(function (layer) {
-            return none;
-        }).addTo(map);
-    } catch (error) {
-        console.error('Error reading JSON:', error.message);
-    }
-}
+        }).bindPopup(function (layer) {
+            popupContent = `
+                <div class="popup">
+                <h3 class="popup-header">
+                    Camera Properties:
+                </h3>
 
-async function addPurdueMarkers() {
-    try {
-        const response = await fetch('../location_data/Purdue_Security_Purdue_Cameras.geojson');
-        if (!response.ok) throw new Error('File not found');
-        const data = await response.json(); // Parse JSON directly
+                <ul class="property-list">
+                    <li class="property-list-item">
+                        <span class="property-label">Vendor:</span>
+                        <span id="brand-entry" class="json-prop-field">` + layer.feature.properties.brand + `</span>
+                    </li>
 
-         purdueLayer.addLayer(L.geoJSON(data, {
-            pointToLayer: function(geoJsonPoint, latlng) {
-                return L.marker(latlng, {icon: purduecam});
-            }
-        })).bindPopup(function (layer) {
-            return none;
-        }).addTo(map);
+                    <li class="property-list-item">
+                        <span class="property-label">Owner:</span>
+                        <span id="owner-entry" class="json-prop-field">` + layer.feature.properties.owner + `</span>
+                    </li>
+
+                    <li class="property-list-item">
+                        <span class="property-label">Surveillance Type:</span>
+                        <span id="sur-zone-entry" class="json-prop-field">` + layer.feature.properties.surveillanceZone + `</span>
+                    </li>
+
+                    <li class="property-list-item">
+                        <span class="property-label">Location:</span>
+                        <span id="coords-entry" class="json-prop-field">` + layer.feature.geometry.coordinates + `</span>
+                    </li>
+                </ul>
+                <button id="JSON-show" onclick="showJSON()">Copy JSON</button>
+                </div>
+            `;
+            return popupContent;
+        },
+        {offset: [0, -0.85*iconSize], closeButton: false, maxWidth: 310}).addTo(map);
     } catch (error) {
         console.error('Error reading JSON:', error.message);
     }
@@ -82,8 +107,7 @@ function draw_border(layer, filepath, color) {
     })
 }
 
-addFlockMarkers();
-addPurdueMarkers();
+addMarkers();
 
 draw_border(cityLayer, '../location_data/WL_Border.csv', 'green');
 draw_border(cityLayer, '../location_data/Laf_Border.csv', 'green');
@@ -211,3 +235,31 @@ document.getElementById('prog-visible').addEventListener('change', e => {
         map.removeLayer(progressLayer);
     }
 });
+
+async function showJSON() {
+    try {
+        const response = await fetch(cameraFilepath);
+        if (!response.ok) throw new Error('File not found');
+        const data = await response.json(); // Parse JSON directly
+
+        jsonData = data.features.filter(function (feature) {
+            return feature.properties.osmId == document.getElementById('id-entry').value
+        })[0];
+        console.log(jsonData);
+        jsonData.properties.brand = document.getElementById('brand-entry').value;
+        jsonData.properties.owner = document.getElementById('owner-entry').value;
+        jsonData.properties.surveillanceZone = document.getElementById('sur-zone-entry').value;
+        jsonData.geometry.coordinates = document.getElementById('coords-entry').value.split(',').map(
+            function(item){return Number(item);}
+        );
+
+        copyText = JSON.stringify(jsonData);
+
+        console.log(copyText);
+
+        // Copy the JSON to clipboard
+        navigator.clipboard.writeText(copyText);
+    } catch (error) {
+        console.error('Error reading JSON');
+    }
+}
