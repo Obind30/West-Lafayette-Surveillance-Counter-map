@@ -18,9 +18,16 @@
                 "osmId": 60,
                 "surveillanceZone": "Weather"
             }
+        },
+        {
+            "properties": {
+                "brand": "Flock Safety",
+                "osmId": 14057263901
+            }
         }
     ],
     "identifiers": {
+        "14057263901": 3,
         "14108917802": 1,
         "14155959601": 0,
         "60": 2

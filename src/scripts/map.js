@@ -57,23 +57,49 @@ async function addMarkers() {
             }
         }).bindPopup(function (layer) {
             popupContent = `
-                <div>
-                Edit: <input type="checkbox" id="editable-check"></input>
-                <button id="JSON-show" onclick="showJSON()">Show JSON</button>
-                <h3>Camera Properties:</h3>
-                <ul>
-                    <li>Vendor:<input id="brand-entry" class="json-prop-field" type="text" value="` + layer.feature.properties.brand + `" disabled></input></li>
-                    <li>Owner:<input id="owner-entry" class="json-prop-field" type="text" value="` + layer.feature.properties.owner + `" disabled></input></li>
-                    <li>Surveillance Type:<input id="sur-zone-entry" class="json-prop-field" type="text" value="` + layer.feature.properties.surveillanceZone + `" disabled></input></li>
-                    <li>Location:<input id="coords-entry" class="json-prop-field" type="text" value="` + layer.feature.geometry.coordinates + `" disabled></input></li>
-                    <li>Identifier:<input id="id-entry" class="" type="text" value="` + layer.feature.properties.osmId + `" disabled></input></li>
+                <div class="popup">
+                <h3 class="popup-header">
+                    Camera Properties:
+                </h3>
+
+                <ul class="property-list">
+                    <li class="property-list-item">
+                        <span class="property-label">Vendor:</span>
+                        <input id="brand-entry" class="json-prop-field" type="text" value="` + layer.feature.properties.brand + `" disabled></input>
+                    </li>
+
+                    <li class="property-list-item">
+                        <span class="property-label">Owner:</span>
+                        <input id="owner-entry" class="json-prop-field" type="text" value="` + layer.feature.properties.owner + `" disabled></input>
+                    </li>
+
+                    <li class="property-list-item">
+                        <span class="property-label">Surveillance Type:</span>
+                        <input id="sur-zone-entry" class="json-prop-field" type="text" value="` + layer.feature.properties.surveillanceZone + `" disabled></input>
+                    </li>
+
+                    <li class="property-list-item">
+                        <span class="property-label">Location:</span>
+                        <input id="coords-entry" class="json-prop-field" type="text" value="` + layer.feature.geometry.coordinates + `" disabled></input>
+                    </li>
+
+                    <li class="property-list-item">
+                        <span class="property-label">Identifier: </span>
+                        <input id="id-entry" class="json-prop-field" type="text" value="` + layer.feature.properties.osmId + `" disabled></input>
+                    </li>
                 </ul>
-                </ul>
+                <button id="JSON-show" onclick="showJSON()">Copy JSON</button>
+                <label>
+                    <input type="checkbox" id="editable-check" class="popup-edit-check"></input>
+                    <span class="popup-edit-label">
+                        Edit
+                    </span>
+                </label>
                 </div>
             `;
             return popupContent;
         },
-        {offset: [0, -0.85*iconSize], closeButton: false}).addTo(map);
+        {offset: [0, -0.85*iconSize], closeButton: false, maxWidth: 325}).addTo(map);
     } catch (error) {
         console.error('Error reading JSON:', error.message);
     }
