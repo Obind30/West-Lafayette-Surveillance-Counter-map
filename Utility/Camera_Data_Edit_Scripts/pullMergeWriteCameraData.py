@@ -4,6 +4,7 @@ import json
 # Local includes
 import Helpers.diffMerge as diffMerge
 from Helpers.filterNationalData import filter_to_local
+from Helpers.parseRemarks import parse_remarks
 from Helpers.populateProperties import populate_properties
 
 # Camera data filepath definitions
@@ -35,6 +36,7 @@ with open(purdueFilepath, "r") as purdueFile:
         "surveillanceZone": "Public",
     }
     purdueCameraData = populate_properties(purdueCameraData, desiredProperties)
+    purdueCameraData = parse_remarks(purdueCameraData)
 
     cameraData["features"].extend(purdueCameraData["features"])
 
