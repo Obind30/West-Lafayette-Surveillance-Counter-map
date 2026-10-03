@@ -17,22 +17,6 @@
   width: 400px;
 }
 
-.popup-edit-check {
-  display: none;
-}
-.popup-edit-label {
-  border: 1px solid #000;
-  border-radius: 10px;
-  display: inline-flex;
-  padding: 3px;
-  background-color: #c6c1bf;
-  width: 50px;
-  justify-content: center;
-}
-input[type=checkbox]:checked + .popup-edit-label {
-  background-color: white;
-}
-
 .popup-header {
   margin-bottom: 2.5%;
   border-bottom: #a29e9c 2px solid;
@@ -42,6 +26,8 @@ input[type=checkbox]:checked + .popup-edit-label {
   margin-top: 5%;
   padding-left: 0%;
   margin-bottom: 3%;
+  font-size: 14px;
+  color: rgb(21, 21, 21);
 }
 .property-list-item {
   display: flex;
@@ -49,7 +35,7 @@ input[type=checkbox]:checked + .popup-edit-label {
 }
 .property-label {
   width: 130px;
-  padding-inline: 10px;
+  padding-left: 10px;
   text-align: left;
 }
 .json-prop-field {

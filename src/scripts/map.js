@@ -65,41 +65,30 @@ async function addMarkers() {
                 <ul class="property-list">
                     <li class="property-list-item">
                         <span class="property-label">Vendor:</span>
-                        <input id="brand-entry" class="json-prop-field" type="text" value="` + layer.feature.properties.brand + `" disabled></input>
+                        <span id="brand-entry" class="json-prop-field">` + layer.feature.properties.brand + `</span>
                     </li>
 
                     <li class="property-list-item">
                         <span class="property-label">Owner:</span>
-                        <input id="owner-entry" class="json-prop-field" type="text" value="` + layer.feature.properties.owner + `" disabled></input>
+                        <span id="owner-entry" class="json-prop-field">` + layer.feature.properties.owner + `</span>
                     </li>
 
                     <li class="property-list-item">
                         <span class="property-label">Surveillance Type:</span>
-                        <input id="sur-zone-entry" class="json-prop-field" type="text" value="` + layer.feature.properties.surveillanceZone + `" disabled></input>
+                        <span id="sur-zone-entry" class="json-prop-field">` + layer.feature.properties.surveillanceZone + `</span>
                     </li>
 
                     <li class="property-list-item">
                         <span class="property-label">Location:</span>
-                        <input id="coords-entry" class="json-prop-field" type="text" value="` + layer.feature.geometry.coordinates + `" disabled></input>
-                    </li>
-
-                    <li class="property-list-item">
-                        <span class="property-label">Identifier: </span>
-                        <input id="id-entry" class="json-prop-field" type="text" value="` + layer.feature.properties.osmId + `" disabled></input>
+                        <span id="coords-entry" class="json-prop-field">` + layer.feature.geometry.coordinates + `</span>
                     </li>
                 </ul>
                 <button id="JSON-show" onclick="showJSON()">Copy JSON</button>
-                <label>
-                    <input type="checkbox" id="editable-check" class="popup-edit-check"></input>
-                    <span class="popup-edit-label">
-                        Edit
-                    </span>
-                </label>
                 </div>
             `;
             return popupContent;
         },
-        {offset: [0, -0.85*iconSize], closeButton: false, maxWidth: 325}).addTo(map);
+        {offset: [0, -0.85*iconSize], closeButton: false, maxWidth: 310}).addTo(map);
     } catch (error) {
         console.error('Error reading JSON:', error.message);
     }
@@ -245,19 +234,6 @@ document.getElementById('prog-visible').addEventListener('change', e => {
 	else {
         map.removeLayer(progressLayer);
     }
-});
-
-map.on('popupopen', function(ev) {
-    document.getElementById('editable-check').addEventListener('change', e => {
-        const fieldList = document.getElementsByClassName('json-prop-field');
-        readOnlyState = true;
-        if (e.target.checked) {
-            readOnlyState = false;
-        }
-        for (let inputField of fieldList) {
-            inputField.disabled = readOnlyState;
-        }
-    });
 });
 
 async function showJSON() {
