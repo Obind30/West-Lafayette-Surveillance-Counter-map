@@ -1,4 +1,5 @@
 import json
+import pyperclip
 
 searchId = 0
 
@@ -97,7 +98,10 @@ with open(originalDataFilepath, "r") as originalFile:
     originalData = json.load(originalFile)
 
 # Prompt for copied feature information
-newObject = json.loads(input("Enter JSON block:\n"))
+try:
+    newObject = json.loads(pyperclip.paste())
+except:
+    newObject = json.loads(input("Enter new json data:"))
 searchId = newObject["properties"]["osmId"]
 
 # Replace the original object with a the new one

@@ -2,9 +2,9 @@
 import json
 
 # Local includes
-import diffMerge
-from filterNationalData import filter_to_local
-from populateProperties import populate_properties
+import Helpers.diffMerge as diffMerge
+from Helpers.filterNationalData import filter_to_local
+from Helpers.populateProperties import populate_properties
 
 # Camera data filepath definitions
 diffFilepath        = "Utility/Camera_Data/Camera_Data_Changes.json"
