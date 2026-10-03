@@ -26,9 +26,25 @@ cameraData = filter_to_local(cameraData)
 
 # Add the purdue cameras to the full dataset
 with open(purdueFilepath, "r") as purdueFile:
-    cameraData["features"].extend(json.load(purdueFile)["features"])
+    purdueCameraData = json.load(purdueFile)
+
+    desiredProperties = \
+    {
+        "brand": "Axis",
+        "owner": "Purdue University",
+        "surveillanceZone": "Public",
+    }
+    purdueCameraData = populate_properties(purdueCameraData, desiredProperties)
+
+    cameraData["features"].extend(purdueCameraData["features"])
 
 # Populate missing properties and id's
+desiredProperties = \
+{
+    "brand": "unknown",
+    "owner": "unknown",
+    "surveillanceZone": "unknown",
+}
 cameraData = populate_properties(cameraData, desiredProperties)
 
 # Merge imported data with previously changed fields

@@ -1279,10 +1279,10 @@
             },
             "properties": {
                 "REMARKS": "Brng",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 0,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -1297,10 +1297,10 @@
             },
             "properties": {
                 "REMARKS": "PMU - Loading",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 1,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -1315,10 +1315,10 @@
             },
             "properties": {
                 "REMARKS": "STEW - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 2,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -1333,10 +1333,10 @@
             },
             "properties": {
                 "REMARKS": "PMU - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 3,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -1351,10 +1351,10 @@
             },
             "properties": {
                 "REMARKS": "PMU - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 4,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -1369,10 +1369,10 @@
             },
             "properties": {
                 "REMARKS": "PMU - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 5,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -1387,10 +1387,10 @@
             },
             "properties": {
                 "REMARKS": "Lamppost - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 6,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -1405,10 +1405,10 @@
             },
             "properties": {
                 "REMARKS": "PMU - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 7,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -1423,10 +1423,10 @@
             },
             "properties": {
                 "REMARKS": "PMU - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 8,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -1441,10 +1441,10 @@
             },
             "properties": {
                 "REMARKS": "UC - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 9,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -1459,10 +1459,10 @@
             },
             "properties": {
                 "REMARKS": "UC - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 10,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -1477,10 +1477,10 @@
             },
             "properties": {
                 "REMARKS": "UC - Parking",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 11,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -1495,10 +1495,10 @@
             },
             "properties": {
                 "REMARKS": "Park - Entrance",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 12,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -1513,10 +1513,10 @@
             },
             "properties": {
                 "REMARKS": "Park - Gate, Evasion watch",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 13,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -1531,10 +1531,10 @@
             },
             "properties": {
                 "REMARKS": "STEW -  Loading",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 14,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -1549,10 +1549,10 @@
             },
             "properties": {
                 "REMARKS": "STEW - Loading",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 15,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -1567,10 +1567,10 @@
             },
             "properties": {
                 "REMARKS": "STEW - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 16,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -1585,10 +1585,10 @@
             },
             "properties": {
                 "REMARKS": "STEW - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 17,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -1603,10 +1603,10 @@
             },
             "properties": {
                 "REMARKS": "STEW - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 18,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -1621,10 +1621,10 @@
             },
             "properties": {
                 "REMARKS": "STEW - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 19,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -1639,10 +1639,10 @@
             },
             "properties": {
                 "REMARKS": "STEW - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 20,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -1657,10 +1657,10 @@
             },
             "properties": {
                 "REMARKS": "Lamppost - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 21,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -1675,10 +1675,10 @@
             },
             "properties": {
                 "REMARKS": "MSEE - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 22,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -1693,10 +1693,10 @@
             },
             "properties": {
                 "REMARKS": "MSEE - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 23,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -1711,10 +1711,10 @@
             },
             "properties": {
                 "REMARKS": "",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 24,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -1729,10 +1729,10 @@
             },
             "properties": {
                 "REMARKS": "BHEE - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 25,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -1747,10 +1747,10 @@
             },
             "properties": {
                 "REMARKS": "BHEE - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 26,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -1765,10 +1765,10 @@
             },
             "properties": {
                 "REMARKS": "BHEE - Loading",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 27,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -1783,10 +1783,10 @@
             },
             "properties": {
                 "REMARKS": "BHEE - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 28,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -1801,10 +1801,10 @@
             },
             "properties": {
                 "REMARKS": "BHEE - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 29,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -1819,10 +1819,10 @@
             },
             "properties": {
                 "REMARKS": "",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 30,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -1837,10 +1837,10 @@
             },
             "properties": {
                 "REMARKS": "",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 31,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -1855,10 +1855,10 @@
             },
             "properties": {
                 "REMARKS": "",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 32,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -1873,10 +1873,10 @@
             },
             "properties": {
                 "REMARKS": "",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 33,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -1891,10 +1891,10 @@
             },
             "properties": {
                 "REMARKS": "Emergency",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 34,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -1909,10 +1909,10 @@
             },
             "properties": {
                 "REMARKS": "",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 35,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -1927,10 +1927,10 @@
             },
             "properties": {
                 "REMARKS": "",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 36,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -1945,10 +1945,10 @@
             },
             "properties": {
                 "REMARKS": "",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 37,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -1963,10 +1963,10 @@
             },
             "properties": {
                 "REMARKS": "",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 38,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -1981,10 +1981,10 @@
             },
             "properties": {
                 "REMARKS": "",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 39,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -1999,10 +1999,10 @@
             },
             "properties": {
                 "REMARKS": "Emergency",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 40,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2017,10 +2017,10 @@
             },
             "properties": {
                 "REMARKS": "",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 41,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2035,10 +2035,10 @@
             },
             "properties": {
                 "REMARKS": "",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 42,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2053,10 +2053,10 @@
             },
             "properties": {
                 "REMARKS": "",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 43,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2071,10 +2071,10 @@
             },
             "properties": {
                 "REMARKS": "",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 44,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2089,10 +2089,10 @@
             },
             "properties": {
                 "REMARKS": "",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 45,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2107,10 +2107,10 @@
             },
             "properties": {
                 "REMARKS": "",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 46,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2125,10 +2125,10 @@
             },
             "properties": {
                 "REMARKS": "",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 47,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2143,10 +2143,10 @@
             },
             "properties": {
                 "REMARKS": "",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 48,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2161,10 +2161,10 @@
             },
             "properties": {
                 "REMARKS": "",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 49,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2179,10 +2179,10 @@
             },
             "properties": {
                 "REMARKS": "",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 50,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2197,10 +2197,10 @@
             },
             "properties": {
                 "REMARKS": "",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 51,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2215,10 +2215,10 @@
             },
             "properties": {
                 "REMARKS": "",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 52,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2233,10 +2233,10 @@
             },
             "properties": {
                 "REMARKS": "",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 53,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2251,10 +2251,10 @@
             },
             "properties": {
                 "REMARKS": "",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 54,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2269,10 +2269,10 @@
             },
             "properties": {
                 "REMARKS": "",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 55,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2287,10 +2287,10 @@
             },
             "properties": {
                 "REMARKS": "",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 56,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2305,10 +2305,10 @@
             },
             "properties": {
                 "REMARKS": "",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 57,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2323,10 +2323,10 @@
             },
             "properties": {
                 "REMARKS": "",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 58,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2341,10 +2341,10 @@
             },
             "properties": {
                 "REMARKS": "",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 59,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2353,16 +2353,16 @@
                 "coordinates": [
                     -86.91368,
                     40.427069,
-                    0.0
+                    0
                 ],
                 "type": "Point"
             },
             "properties": {
                 "REMARKS": "",
-                "brand": "unknown",
+                "brand": "Frost Solutions",
                 "osmId": 60,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Weather"
             },
             "type": "Feature"
         },
@@ -2377,10 +2377,10 @@
             },
             "properties": {
                 "REMARKS": "",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 61,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2395,10 +2395,10 @@
             },
             "properties": {
                 "REMARKS": "PHYS - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 62,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2413,10 +2413,10 @@
             },
             "properties": {
                 "REMARKS": "FRNY - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 63,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2431,10 +2431,10 @@
             },
             "properties": {
                 "REMARKS": "Lamppost",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 64,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2449,10 +2449,10 @@
             },
             "properties": {
                 "REMARKS": "Emergency",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 65,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2467,10 +2467,10 @@
             },
             "properties": {
                 "REMARKS": "Lamppost",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 66,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2485,10 +2485,10 @@
             },
             "properties": {
                 "REMARKS": "HAMP - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 67,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2503,10 +2503,10 @@
             },
             "properties": {
                 "REMARKS": "ARMS - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 68,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2521,10 +2521,10 @@
             },
             "properties": {
                 "REMARKS": "ARMS - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 69,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2539,10 +2539,10 @@
             },
             "properties": {
                 "REMARKS": "ARMS - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 70,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2557,10 +2557,10 @@
             },
             "properties": {
                 "REMARKS": "ARMS - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 71,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2575,10 +2575,10 @@
             },
             "properties": {
                 "REMARKS": "Lamppost",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 72,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2593,10 +2593,10 @@
             },
             "properties": {
                 "REMARKS": "ARMS - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 73,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2611,10 +2611,10 @@
             },
             "properties": {
                 "REMARKS": "PUSH - Back Entrance",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 74,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2629,10 +2629,10 @@
             },
             "properties": {
                 "REMARKS": "PUSH - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 75,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2647,10 +2647,10 @@
             },
             "properties": {
                 "REMARKS": "PHARM - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 76,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2665,10 +2665,10 @@
             },
             "properties": {
                 "REMARKS": "PHARM - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 77,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2683,10 +2683,10 @@
             },
             "properties": {
                 "REMARKS": "PHARM - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 78,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2701,10 +2701,10 @@
             },
             "properties": {
                 "REMARKS": "Lamppost",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 79,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2719,10 +2719,10 @@
             },
             "properties": {
                 "REMARKS": "Lamppost",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 80,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2737,10 +2737,10 @@
             },
             "properties": {
                 "REMARKS": "Lamppost",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 81,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2755,10 +2755,10 @@
             },
             "properties": {
                 "REMARKS": "Emergency",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 82,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2773,10 +2773,10 @@
             },
             "properties": {
                 "REMARKS": "CHAS - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 83,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2791,10 +2791,10 @@
             },
             "properties": {
                 "REMARKS": "CHAS - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 84,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2809,10 +2809,10 @@
             },
             "properties": {
                 "REMARKS": "CHAS - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 85,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2827,10 +2827,10 @@
             },
             "properties": {
                 "REMARKS": "CHAS - Loading",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 86,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2845,10 +2845,10 @@
             },
             "properties": {
                 "REMARKS": "CHAS - Public\n",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 87,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2863,10 +2863,10 @@
             },
             "properties": {
                 "REMARKS": "CHAS - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 88,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2881,10 +2881,10 @@
             },
             "properties": {
                 "REMARKS": "CHAS - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 89,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2899,10 +2899,10 @@
             },
             "properties": {
                 "REMARKS": "Chas - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 90,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2917,10 +2917,10 @@
             },
             "properties": {
                 "REMARKS": "HOVD - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 91,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2935,10 +2935,10 @@
             },
             "properties": {
                 "REMARKS": "HOVD - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 92,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2953,10 +2953,10 @@
             },
             "properties": {
                 "REMARKS": "HOVD - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 93,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2971,10 +2971,10 @@
             },
             "properties": {
                 "REMARKS": "Lamppost",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 94,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -2989,10 +2989,10 @@
             },
             "properties": {
                 "REMARKS": "ELLT - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 95,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3007,10 +3007,10 @@
             },
             "properties": {
                 "REMARKS": "ELLT - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 96,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3025,10 +3025,10 @@
             },
             "properties": {
                 "REMARKS": "AR - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 97,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3043,10 +3043,10 @@
             },
             "properties": {
                 "REMARKS": "AR - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 98,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3061,10 +3061,10 @@
             },
             "properties": {
                 "REMARKS": "AR - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 99,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3079,10 +3079,10 @@
             },
             "properties": {
                 "REMARKS": "Emergency",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 100,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3097,10 +3097,10 @@
             },
             "properties": {
                 "REMARKS": "PGU - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 101,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3115,10 +3115,10 @@
             },
             "properties": {
                 "REMARKS": "PGU - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 102,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3133,10 +3133,10 @@
             },
             "properties": {
                 "REMARKS": "PGU - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 103,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3151,10 +3151,10 @@
             },
             "properties": {
                 "REMARKS": "PGU - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 104,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3169,10 +3169,10 @@
             },
             "properties": {
                 "REMARKS": "",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 105,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3187,10 +3187,10 @@
             },
             "properties": {
                 "REMARKS": "PGU - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 106,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3205,10 +3205,10 @@
             },
             "properties": {
                 "REMARKS": "HAAS - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 107,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3223,10 +3223,10 @@
             },
             "properties": {
                 "REMARKS": "HAAS - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 108,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3241,10 +3241,10 @@
             },
             "properties": {
                 "REMARKS": "PSYC - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 109,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3259,10 +3259,10 @@
             },
             "properties": {
                 "REMARKS": "PSYC - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 110,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3277,10 +3277,10 @@
             },
             "properties": {
                 "REMARKS": "PHYC - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 111,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3295,10 +3295,10 @@
             },
             "properties": {
                 "REMARKS": "PHYC - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 112,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3313,10 +3313,10 @@
             },
             "properties": {
                 "REMARKS": "SC - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 113,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3331,10 +3331,10 @@
             },
             "properties": {
                 "REMARKS": "CL50 - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 114,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3349,10 +3349,10 @@
             },
             "properties": {
                 "REMARKS": "MATH - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 115,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3367,10 +3367,10 @@
             },
             "properties": {
                 "REMARKS": "SC - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 116,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3385,10 +3385,10 @@
             },
             "properties": {
                 "REMARKS": "SC - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 117,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3403,10 +3403,10 @@
             },
             "properties": {
                 "REMARKS": "SCHM - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 118,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3421,10 +3421,10 @@
             },
             "properties": {
                 "REMARKS": "SCHM - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 119,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3439,10 +3439,10 @@
             },
             "properties": {
                 "REMARKS": "SCHM - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 120,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3457,10 +3457,10 @@
             },
             "properties": {
                 "REMARKS": "SCHM - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 121,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3475,10 +3475,10 @@
             },
             "properties": {
                 "REMARKS": "Emergency",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 122,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3493,10 +3493,10 @@
             },
             "properties": {
                 "REMARKS": "SCHM - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 123,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3511,10 +3511,10 @@
             },
             "properties": {
                 "REMARKS": "UNIV - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 124,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3529,10 +3529,10 @@
             },
             "properties": {
                 "REMARKS": "STON - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 125,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3547,10 +3547,10 @@
             },
             "properties": {
                 "REMARKS": "STON - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 126,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3565,10 +3565,10 @@
             },
             "properties": {
                 "REMARKS": "WANG - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 127,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3583,10 +3583,10 @@
             },
             "properties": {
                 "REMARKS": "WANG - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 128,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3601,10 +3601,10 @@
             },
             "properties": {
                 "REMARKS": "WANG - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 129,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3619,10 +3619,10 @@
             },
             "properties": {
                 "REMARKS": "WANG - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 130,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3637,10 +3637,10 @@
             },
             "properties": {
                 "REMARKS": "WANG - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 131,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3655,10 +3655,10 @@
             },
             "properties": {
                 "REMARKS": "WANG - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 132,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3673,10 +3673,10 @@
             },
             "properties": {
                 "REMARKS": "WANG - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 133,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3691,10 +3691,10 @@
             },
             "properties": {
                 "REMARKS": "WANG - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 134,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3709,10 +3709,10 @@
             },
             "properties": {
                 "REMARKS": "WANG - Loading",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 135,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3727,10 +3727,10 @@
             },
             "properties": {
                 "REMARKS": "WANG - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 136,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3745,10 +3745,10 @@
             },
             "properties": {
                 "REMARKS": "WANG - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 137,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3763,10 +3763,10 @@
             },
             "properties": {
                 "REMARKS": "WANG - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 138,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3781,10 +3781,10 @@
             },
             "properties": {
                 "REMARKS": "WANG - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 139,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3799,10 +3799,10 @@
             },
             "properties": {
                 "REMARKS": "WANG - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 140,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3817,10 +3817,10 @@
             },
             "properties": {
                 "REMARKS": "WANG - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 141,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3835,10 +3835,10 @@
             },
             "properties": {
                 "REMARKS": "WANG - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 142,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3853,10 +3853,10 @@
             },
             "properties": {
                 "REMARKS": "PGSC - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 143,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3871,10 +3871,10 @@
             },
             "properties": {
                 "REMARKS": "PGNW - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 144,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3889,10 +3889,10 @@
             },
             "properties": {
                 "REMARKS": "PGNW - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 145,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3907,10 +3907,10 @@
             },
             "properties": {
                 "REMARKS": "PGNW - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 146,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3925,10 +3925,10 @@
             },
             "properties": {
                 "REMARKS": "BALY - Loading",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 147,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3943,10 +3943,10 @@
             },
             "properties": {
                 "REMARKS": "BIDC - Emergency",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 148,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3961,10 +3961,10 @@
             },
             "properties": {
                 "REMARKS": "HAGL - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 149,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3979,10 +3979,10 @@
             },
             "properties": {
                 "REMARKS": "HAGL - Emergency",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 150,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3997,10 +3997,10 @@
             },
             "properties": {
                 "REMARKS": "HAGL - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 151,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4015,10 +4015,10 @@
             },
             "properties": {
                 "REMARKS": "HAGL - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 152,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4033,10 +4033,10 @@
             },
             "properties": {
                 "REMARKS": "WDCT - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 153,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4051,10 +4051,10 @@
             },
             "properties": {
                 "REMARKS": "WDCT - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 154,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4069,10 +4069,10 @@
             },
             "properties": {
                 "REMARKS": "WDCT - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 155,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4087,10 +4087,10 @@
             },
             "properties": {
                 "REMARKS": "PKRF - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 156,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4105,10 +4105,10 @@
             },
             "properties": {
                 "REMARKS": "PKRF - Loading",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 157,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4123,10 +4123,10 @@
             },
             "properties": {
                 "REMARKS": "PKRF - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 158,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4141,10 +4141,10 @@
             },
             "properties": {
                 "REMARKS": "PKRF - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 159,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4159,10 +4159,10 @@
             },
             "properties": {
                 "REMARKS": "PKRF - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 160,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4177,10 +4177,10 @@
             },
             "properties": {
                 "REMARKS": "PKRF - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 161,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4195,10 +4195,10 @@
             },
             "properties": {
                 "REMARKS": "PKRF - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 162,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4213,10 +4213,10 @@
             },
             "properties": {
                 "REMARKS": "PKRF - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 163,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4231,10 +4231,10 @@
             },
             "properties": {
                 "REMARKS": "PKRF - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 164,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4249,10 +4249,10 @@
             },
             "properties": {
                 "REMARKS": "PKRF - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 165,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4267,10 +4267,10 @@
             },
             "properties": {
                 "REMARKS": "PKRF - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 166,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4285,10 +4285,10 @@
             },
             "properties": {
                 "REMARKS": "PKRF - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 167,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4303,10 +4303,10 @@
             },
             "properties": {
                 "REMARKS": "PKRF - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 168,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4321,10 +4321,10 @@
             },
             "properties": {
                 "REMARKS": "PKRF - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 169,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4339,10 +4339,10 @@
             },
             "properties": {
                 "REMARKS": "WDCT - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 170,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4357,10 +4357,10 @@
             },
             "properties": {
                 "REMARKS": "PKRF - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 171,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4375,10 +4375,10 @@
             },
             "properties": {
                 "REMARKS": "PKRW - Loading",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 172,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4393,10 +4393,10 @@
             },
             "properties": {
                 "REMARKS": "KRCH - Loading",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 173,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4411,10 +4411,10 @@
             },
             "properties": {
                 "REMARKS": "KRCH - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 174,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4429,10 +4429,10 @@
             },
             "properties": {
                 "REMARKS": "KRCH - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 175,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4447,10 +4447,10 @@
             },
             "properties": {
                 "REMARKS": "BCC - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 176,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4465,10 +4465,10 @@
             },
             "properties": {
                 "REMARKS": "KRCH - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 177,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4483,10 +4483,10 @@
             },
             "properties": {
                 "REMARKS": "KRCH - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 178,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4501,10 +4501,10 @@
             },
             "properties": {
                 "REMARKS": "HCRS - Emergency",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 179,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4519,10 +4519,10 @@
             },
             "properties": {
                 "REMARKS": "HCRN - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 180,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4537,10 +4537,10 @@
             },
             "properties": {
                 "REMARKS": "HCRN - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 181,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4555,10 +4555,10 @@
             },
             "properties": {
                 "REMARKS": "WOOD - Loading",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 182,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4573,10 +4573,10 @@
             },
             "properties": {
                 "REMARKS": "WARN - Emergency",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 183,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4591,10 +4591,10 @@
             },
             "properties": {
                 "REMARKS": "WARN - Loading",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 184,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4609,10 +4609,10 @@
             },
             "properties": {
                 "REMARKS": "Emergency",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 185,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4627,10 +4627,10 @@
             },
             "properties": {
                 "REMARKS": "CREC - Public - Nonstandard",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 186,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4645,10 +4645,10 @@
             },
             "properties": {
                 "REMARKS": "Emergency",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 187,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4663,10 +4663,10 @@
             },
             "properties": {
                 "REMARKS": "CREC - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 188,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4681,10 +4681,10 @@
             },
             "properties": {
                 "REMARKS": "",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 189,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4699,10 +4699,10 @@
             },
             "properties": {
                 "REMARKS": "TREC - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 190,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4717,10 +4717,10 @@
             },
             "properties": {
                 "REMARKS": "TREC - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 191,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4735,10 +4735,10 @@
             },
             "properties": {
                 "REMARKS": "",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 192,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4753,10 +4753,10 @@
             },
             "properties": {
                 "REMARKS": "",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 193,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4771,10 +4771,10 @@
             },
             "properties": {
                 "REMARKS": "",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 194,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4789,10 +4789,10 @@
             },
             "properties": {
                 "REMARKS": "",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 195,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4807,10 +4807,10 @@
             },
             "properties": {
                 "REMARKS": "MDRS - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 196,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4825,10 +4825,10 @@
             },
             "properties": {
                 "REMARKS": "MDRS - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 197,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4843,10 +4843,10 @@
             },
             "properties": {
                 "REMARKS": "MDRS - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 198,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4861,10 +4861,10 @@
             },
             "properties": {
                 "REMARKS": "MDRS - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 199,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4879,10 +4879,10 @@
             },
             "properties": {
                 "REMARKS": "MDRS - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 200,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4897,10 +4897,10 @@
             },
             "properties": {
                 "REMARKS": "MDRS - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 201,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4915,10 +4915,10 @@
             },
             "properties": {
                 "REMARKS": "MDRS - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 202,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4933,10 +4933,10 @@
             },
             "properties": {
                 "REMARKS": "MDRS - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 203,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4951,10 +4951,10 @@
             },
             "properties": {
                 "REMARKS": "MDRS - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 204,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4969,10 +4969,10 @@
             },
             "properties": {
                 "REMARKS": "ERHT - Loading",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 205,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -4987,10 +4987,10 @@
             },
             "properties": {
                 "REMARKS": "SHRV - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 206,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -5005,10 +5005,10 @@
             },
             "properties": {
                 "REMARKS": "FWLR - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 207,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -5023,10 +5023,10 @@
             },
             "properties": {
                 "REMARKS": "HNLY - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 208,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -5041,10 +5041,10 @@
             },
             "properties": {
                 "REMARKS": "HNLY - Emergency",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 209,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -5059,10 +5059,10 @@
             },
             "properties": {
                 "REMARKS": "HNLY - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 210,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -5077,10 +5077,10 @@
             },
             "properties": {
                 "REMARKS": "HNLY - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 211,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -5095,10 +5095,10 @@
             },
             "properties": {
                 "REMARKS": "FSTC - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 212,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -5113,10 +5113,10 @@
             },
             "properties": {
                 "REMARKS": "Emergency",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 213,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -5131,10 +5131,10 @@
             },
             "properties": {
                 "REMARKS": "Emergency ",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 214,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -5149,10 +5149,10 @@
             },
             "properties": {
                 "REMARKS": "HILL - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 215,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -5167,10 +5167,10 @@
             },
             "properties": {
                 "REMARKS": "HILL - Loading",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 216,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -5185,10 +5185,10 @@
             },
             "properties": {
                 "REMARKS": "HILL - Loading",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 217,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -5203,10 +5203,10 @@
             },
             "properties": {
                 "REMARKS": "HILL - Emergency",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 218,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -5221,10 +5221,10 @@
             },
             "properties": {
                 "REMARKS": "HILL - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 219,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -5239,10 +5239,10 @@
             },
             "properties": {
                 "REMARKS": "PGMD - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 220,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -5257,10 +5257,10 @@
             },
             "properties": {
                 "REMARKS": "PGMD - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 221,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -5275,10 +5275,10 @@
             },
             "properties": {
                 "REMARKS": "PGMD - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 222,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -5293,10 +5293,10 @@
             },
             "properties": {
                 "REMARKS": "PGMD - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 223,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -5311,10 +5311,10 @@
             },
             "properties": {
                 "REMARKS": "PGMD - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 224,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -5329,10 +5329,10 @@
             },
             "properties": {
                 "REMARKS": "3WST - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 225,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -5347,10 +5347,10 @@
             },
             "properties": {
                 "REMARKS": "3WST - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 226,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -5365,10 +5365,10 @@
             },
             "properties": {
                 "REMARKS": "3WST - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 227,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -5383,10 +5383,10 @@
             },
             "properties": {
                 "REMARKS": "PW - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 228,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -5401,10 +5401,10 @@
             },
             "properties": {
                 "REMARKS": "PW - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 229,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -5419,10 +5419,10 @@
             },
             "properties": {
                 "REMARKS": "PW - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 230,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -5437,10 +5437,10 @@
             },
             "properties": {
                 "REMARKS": "PW - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 231,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -5455,10 +5455,10 @@
             },
             "properties": {
                 "REMARKS": "PW - Public",
-                "brand": "unknown",
+                "brand": "Axis",
                 "osmId": 232,
-                "owner": "unknown",
-                "surveillanceZone": "unknown"
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         }

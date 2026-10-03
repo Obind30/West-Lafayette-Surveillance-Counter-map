@@ -12,9 +12,9 @@ def populate_properties(data, desiredProperties):
                 idSet.append(currentId)
                 currentId += 1
 
-        for property in desiredProperties:
+        for property in desiredProperties.keys():
             if not(property in feature["properties"]):
-                feature["properties"][property] = "unknown"
+                feature["properties"][property] = desiredProperties[property]
 
     data["identifiers"] = {}
     for i in range(len(idSet)):
