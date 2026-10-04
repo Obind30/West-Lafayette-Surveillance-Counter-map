@@ -113,8 +113,6 @@ draw_border(cityLayer, '../location_data/WL_Border.csv', 'green');
 draw_border(cityLayer, '../location_data/Laf_Border.csv', 'green');
 
 draw_border(progressLayer, '../location_data/Completed_Border.csv', 'red');
-draw_border(progressLayer, '../location_data/Todo_Border_0.csv', 'red');
-draw_border(progressLayer, '../location_data/Todo_Border_1.csv', 'red');
 
 // Add layers to map
 flockLayer.addTo(map);
