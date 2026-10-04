@@ -1894,7 +1894,7 @@
                 "brand": "Axis",
                 "osmId": 34,
                 "owner": "Purdue University",
-                "surveillanceZone": "Public"
+                "surveillanceZone": "Emergency"
             },
             "type": "Feature"
         },
@@ -2002,7 +2002,7 @@
                 "brand": "Axis",
                 "osmId": 40,
                 "owner": "Purdue University",
-                "surveillanceZone": "Public"
+                "surveillanceZone": "Emergency"
             },
             "type": "Feature"
         },
@@ -2358,7 +2358,7 @@
                 "type": "Point"
             },
             "properties": {
-                "REMARKS": "",
+                "REMARKS": "FROST",
                 "brand": "Frost Solutions",
                 "osmId": 60,
                 "owner": "Purdue University",
@@ -2452,7 +2452,7 @@
                 "brand": "Axis",
                 "osmId": 65,
                 "owner": "Purdue University",
-                "surveillanceZone": "Public"
+                "surveillanceZone": "Emergency"
             },
             "type": "Feature"
         },
@@ -2758,7 +2758,7 @@
                 "brand": "Axis",
                 "osmId": 82,
                 "owner": "Purdue University",
-                "surveillanceZone": "Public"
+                "surveillanceZone": "Emergency"
             },
             "type": "Feature"
         },
@@ -3082,7 +3082,7 @@
                 "brand": "Axis",
                 "osmId": 100,
                 "owner": "Purdue University",
-                "surveillanceZone": "Public"
+                "surveillanceZone": "Emergency"
             },
             "type": "Feature"
         },
@@ -3478,7 +3478,7 @@
                 "brand": "Axis",
                 "osmId": 122,
                 "owner": "Purdue University",
-                "surveillanceZone": "Public"
+                "surveillanceZone": "Emergency"
             },
             "type": "Feature"
         },
@@ -4612,7 +4612,7 @@
                 "brand": "Axis",
                 "osmId": 185,
                 "owner": "Purdue University",
-                "surveillanceZone": "Public"
+                "surveillanceZone": "Emergency"
             },
             "type": "Feature"
         },
@@ -4648,7 +4648,7 @@
                 "brand": "Axis",
                 "osmId": 187,
                 "owner": "Purdue University",
-                "surveillanceZone": "Public"
+                "surveillanceZone": "Emergency"
             },
             "type": "Feature"
         },
@@ -5116,7 +5116,7 @@
                 "brand": "Axis",
                 "osmId": 213,
                 "owner": "Purdue University",
-                "surveillanceZone": "Public"
+                "surveillanceZone": "Emergency"
             },
             "type": "Feature"
         },
@@ -5461,6 +5461,1788 @@
                 "surveillanceZone": "Public"
             },
             "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.915381178,
+                    40.432638652,
+                    149.1
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "Emergency",
+                "brand": "Axis",
+                "osmId": 233,
+                "owner": "Purdue University",
+                "surveillanceZone": "Emergency"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.916717924,
+                    40.433051312,
+                    151.1
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "MACK - Public",
+                "brand": "Axis",
+                "osmId": 234,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.916660592,
+                    40.433646692,
+                    152.9
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "MACK - Public",
+                "brand": "Axis",
+                "osmId": 235,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.915458627,
+                    40.434575606,
+                    153.2
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "MACK - Public",
+                "brand": "Axis",
+                "osmId": 236,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.91544,
+                    40.433911667,
+                    153.8
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "MACK - Public",
+                "brand": "Axis",
+                "osmId": 237,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.916378333,
+                    40.43485,
+                    152.5
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "Emergency",
+                "brand": "Axis",
+                "osmId": 238,
+                "owner": "Purdue University",
+                "surveillanceZone": "Emergency"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.916153319,
+                    40.434772616,
+                    153.6
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "Emergency",
+                "brand": "Axis",
+                "osmId": 239,
+                "owner": "Purdue University",
+                "surveillanceZone": "Emergency"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.917290911,
+                    40.436172594,
+                    159.9
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "MOLL - Loading",
+                "brand": "Axis",
+                "osmId": 240,
+                "owner": "Purdue University",
+                "surveillanceZone": "Loading"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.915768422,
+                    40.43650689,
+                    161.7
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "KFPC - Public",
+                "brand": "Axis",
+                "osmId": 241,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.915794574,
+                    40.436542361,
+                    165.8
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "KFPC - Public",
+                "brand": "Axis",
+                "osmId": 242,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.91704616,
+                    40.436496172,
+                    169.5
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "KFPH - Public",
+                "brand": "Axis",
+                "osmId": 243,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.918410063,
+                    40.435953897,
+                    174.5
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "STDM",
+                "brand": "Axis",
+                "osmId": 244,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.917963475,
+                    40.435844166,
+                    172.2
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "STDM",
+                "brand": "Axis",
+                "osmId": 245,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.918074451,
+                    40.435683906,
+                    172.1
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "STDM - Loading",
+                "brand": "Axis",
+                "osmId": 246,
+                "owner": "Purdue University",
+                "surveillanceZone": "Loading"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.917313375,
+                    40.433900613,
+                    174.4
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "STDM",
+                "brand": "Axis",
+                "osmId": 247,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.917873621,
+                    40.433642864,
+                    174.6
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "STDM",
+                "brand": "Axis",
+                "osmId": 248,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.918398663,
+                    40.433529811,
+                    174.3
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "STDM",
+                "brand": "Axis",
+                "osmId": 249,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.919498369,
+                    40.433999119,
+                    172.3
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "STDM",
+                "brand": "Axis",
+                "osmId": 250,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.919524185,
+                    40.434047862,
+                    171.2
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "STDM",
+                "brand": "Axis",
+                "osmId": 251,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.919683106,
+                    40.434541155,
+                    168.8
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "STDM",
+                "brand": "Axis",
+                "osmId": 252,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.919455118,
+                    40.434795839,
+                    169.1
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "STDM",
+                "brand": "Axis",
+                "osmId": 253,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.919582188,
+                    40.435304437,
+                    167.8
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "STDM",
+                "brand": "Axis",
+                "osmId": 254,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.919569783,
+                    40.43534731,
+                    167.8
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "STDM",
+                "brand": "Axis",
+                "osmId": 255,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.919315979,
+                    40.437693499,
+                    171.5
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "FROST",
+                "brand": "Axis",
+                "osmId": 256,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.919118166,
+                    40.433845491,
+                    172.8
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "STDM",
+                "brand": "Axis",
+                "osmId": 257,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.921158656,
+                    40.431756159,
+                    157.2
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "OWEN",
+                "brand": "Axis",
+                "osmId": 258,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.919633485,
+                    40.432517687,
+                    173.1
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "FORD - Loading",
+                "brand": "Axis",
+                "osmId": 259,
+                "owner": "Purdue University",
+                "surveillanceZone": "Loading"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.917003579,
+                    40.431703842,
+                    172.2
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "CARY",
+                "brand": "Axis",
+                "osmId": 260,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.909860522,
+                    40.42234915,
+                    241.3
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PGW",
+                "brand": "Axis",
+                "osmId": 261,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.910074428,
+                    40.422357062,
+                    242.5
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PGW",
+                "brand": "Axis",
+                "osmId": 262,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.910188086,
+                    40.42281726,
+                    125.7
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PGW",
+                "brand": "Axis",
+                "osmId": 263,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.910178363,
+                    40.423337691,
+                    142.1
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PGW",
+                "brand": "Axis",
+                "osmId": 264,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.909781732,
+                    40.423153154,
+                    154.3
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PGW",
+                "brand": "Axis",
+                "osmId": 265,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.910262182,
+                    40.423825957,
+                    155.2
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "RAWL",
+                "brand": "Axis",
+                "osmId": 266,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.912091114,
+                    40.422262879,
+                    93.8
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "Emergency",
+                "brand": "Axis",
+                "osmId": 267,
+                "owner": "Purdue University",
+                "surveillanceZone": "Emergency"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.911018565,
+                    40.421712576,
+                    95.2
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "DAUC",
+                "brand": "Axis",
+                "osmId": 268,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.91083651,
+                    40.421708748,
+                    96.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "DAUC",
+                "brand": "Axis",
+                "osmId": 269,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.911116801,
+                    40.421725594,
+                    101.2
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "DAUC",
+                "brand": "Axis",
+                "osmId": 270,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.911158711,
+                    40.421662549,
+                    109.5
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "DAUC",
+                "brand": "Axis",
+                "osmId": 271,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.912397891,
+                    40.422618429,
+                    110.4
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PAO",
+                "brand": "Axis",
+                "osmId": 272,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.913188808,
+                    40.422769786,
+                    110.2
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PAO - Loading",
+                "brand": "Axis",
+                "osmId": 273,
+                "owner": "Purdue University",
+                "surveillanceZone": "Loading"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.913542189,
+                    40.422658246,
+                    112.9
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PAO",
+                "brand": "Axis",
+                "osmId": 274,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.913538836,
+                    40.422640124,
+                    112.6
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PAO",
+                "brand": "Axis",
+                "osmId": 275,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.914476939,
+                    40.423557705,
+                    157.6
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "AGAD",
+                "brand": "Axis",
+                "osmId": 276,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.915230304,
+                    40.421376931,
+                    152.8
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "NLSN - Loading",
+                "brand": "Axis",
+                "osmId": 277,
+                "owner": "Purdue University",
+                "surveillanceZone": "Loading"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.911711667,
+                    40.418893333,
+                    153.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "Emergency",
+                "brand": "Axis",
+                "osmId": 278,
+                "owner": "Purdue University",
+                "surveillanceZone": "Emergency"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.912301332,
+                    40.418397651,
+                    153.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "Emergency",
+                "brand": "Axis",
+                "osmId": 279,
+                "owner": "Purdue University",
+                "surveillanceZone": "Emergency"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.91146113,
+                    40.418229437,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "BREM",
+                "brand": "Axis",
+                "osmId": 280,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.911473535,
+                    40.417918023,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "BREM",
+                "brand": "Axis",
+                "osmId": 281,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.911279745,
+                    40.417879224,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "BREM",
+                "brand": "Axis",
+                "osmId": 282,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.910823435,
+                    40.417861867,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "",
+                "brand": "Axis",
+                "osmId": 283,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.913492233,
+                    40.420073639,
+                    150.1
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "BRUN",
+                "brand": "Axis",
+                "osmId": 284,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.913945861,
+                    40.420078234,
+                    150.1
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "LYNN",
+                "brand": "Axis",
+                "osmId": 285,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.913717538,
+                    40.419925339,
+                    150.1
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "Emergency",
+                "brand": "Axis",
+                "osmId": 286,
+                "owner": "Purdue University",
+                "surveillanceZone": "Emergency"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.913365833,
+                    40.419314013,
+                    151.8
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "BRUN",
+                "brand": "Axis",
+                "osmId": 287,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.913974695,
+                    40.419276491,
+                    152.3
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "LYNN",
+                "brand": "Axis",
+                "osmId": 288,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.915482432,
+                    40.420224237,
+                    153.5
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "VPTH",
+                "brand": "Axis",
+                "osmId": 289,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.915782839,
+                    40.420220663,
+                    152.9
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "VPTH",
+                "brand": "Axis",
+                "osmId": 290,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.913700104,
+                    40.41914912,
+                    155.3
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "LYNN - Loading",
+                "brand": "Axis",
+                "osmId": 291,
+                "owner": "Purdue University",
+                "surveillanceZone": "Loading"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.915824078,
+                    40.417788863,
+                    153.5
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "ADDL",
+                "brand": "Axis",
+                "osmId": 292,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.915875711,
+                    40.417824599,
+                    153.4
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "ADDL",
+                "brand": "Axis",
+                "osmId": 293,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.917488389,
+                    40.421440487,
+                    168.2
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PGH",
+                "brand": "Axis",
+                "osmId": 294,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.917666085,
+                    40.421447633,
+                    165.1
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PGH - ALPR?",
+                "brand": "Axis",
+                "osmId": 295,
+                "owner": "Purdue University",
+                "surveillanceZone": "ALPR?"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.917723753,
+                    40.421439721,
+                    161.9
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PGH - ALPR?",
+                "brand": "Axis",
+                "osmId": 296,
+                "owner": "Purdue University",
+                "surveillanceZone": "ALPR?"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.917965487,
+                    40.421008357,
+                    159.8
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PGH",
+                "brand": "Axis",
+                "osmId": 297,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.918022148,
+                    40.421024437,
+                    160.6
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PGH - ALPR?",
+                "brand": "Axis",
+                "osmId": 298,
+                "owner": "Purdue University",
+                "surveillanceZone": "ALPR?"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.918330938,
+                    40.420879712,
+                    161.9
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "LOLC",
+                "brand": "Axis",
+                "osmId": 299,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.918508969,
+                    40.420722225,
+                    160.9
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "LOLC",
+                "brand": "Axis",
+                "osmId": 300,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.918359436,
+                    40.421454525,
+                    160.4
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "CRTN",
+                "brand": "Axis",
+                "osmId": 301,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.918945499,
+                    40.421528801,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "CRTN",
+                "brand": "Axis",
+                "osmId": 302,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.919366606,
+                    40.421473668,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "CRTN",
+                "brand": "Axis",
+                "osmId": 303,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.9193656,
+                    40.42120464,
+                    156.6
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "CRTN",
+                "brand": "Axis",
+                "osmId": 304,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.918915659,
+                    40.420888901,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "LOLC",
+                "brand": "Axis",
+                "osmId": 305,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.917720065,
+                    40.421521654,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PGH - ALPR",
+                "brand": "Axis",
+                "osmId": 306,
+                "owner": "Purdue University",
+                "surveillanceZone": "ALPR"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.917689219,
+                    40.421518336,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PGH - ALPR",
+                "brand": "Axis",
+                "osmId": 307,
+                "owner": "Purdue University",
+                "surveillanceZone": "ALPR"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.920472011,
+                    40.42221719,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "MJIS",
+                "brand": "Axis",
+                "osmId": 308,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.920951791,
+                    40.422239907,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "MJIS",
+                "brand": "Axis",
+                "osmId": 309,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.921267956,
+                    40.42095986,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "HOCK",
+                "brand": "Axis",
+                "osmId": 310,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.923600808,
+                    40.421106881,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "FLEX",
+                "brand": "Axis",
+                "osmId": 311,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.923501566,
+                    40.421128322,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "FLEX",
+                "brand": "Axis",
+                "osmId": 312,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.923837513,
+                    40.42012035,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "PVAB",
+                "brand": "Axis",
+                "osmId": 313,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.923517995,
+                    40.421280703,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "FLEX",
+                "brand": "Axis",
+                "osmId": 314,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.923519336,
+                    40.421729678,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "FLEX",
+                "brand": "Axis",
+                "osmId": 315,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.923517995,
+                    40.421970882,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "FLEX",
+                "brand": "Axis",
+                "osmId": 316,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.923816726,
+                    40.421971137,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "FLEX",
+                "brand": "Axis",
+                "osmId": 317,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.923820414,
+                    40.421719723,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "FLEX",
+                "brand": "Axis",
+                "osmId": 318,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.923831478,
+                    40.421146444,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "FLEX",
+                "brand": "Axis",
+                "osmId": 319,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.922058873,
+                    40.422283553,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "TERY",
+                "brand": "Axis",
+                "osmId": 320,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.922064908,
+                    40.422542112,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "TERY",
+                "brand": "Axis",
+                "osmId": 321,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.922192648,
+                    40.422581929,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "TERY",
+                "brand": "Axis",
+                "osmId": 322,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.922748333,
+                    40.423261667,
+                    161.2
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "MANN",
+                "brand": "Axis",
+                "osmId": 323,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.922885999,
+                    40.423103638,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "MANN",
+                "brand": "Axis",
+                "osmId": 324,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.922830008,
+                    40.42282262,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "MANN",
+                "brand": "Axis",
+                "osmId": 325,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.922441423,
+                    40.422580143,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "TERY",
+                "brand": "Axis",
+                "osmId": 326,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.923516653,
+                    40.423294555,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "Emergency",
+                "brand": "Axis",
+                "osmId": 327,
+                "owner": "Purdue University",
+                "surveillanceZone": "Emergency"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.926838234,
+                    40.423733052,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "CONV",
+                "brand": "Axis",
+                "osmId": 328,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.926838234,
+                    40.423949491,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "CONV",
+                "brand": "Axis",
+                "osmId": 329,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.92716144,
+                    40.42416057,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "CONV",
+                "brand": "Axis",
+                "osmId": 330,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -86.927164458,
+                    40.42336449,
+                    0.0
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "REMARKS": "CONV",
+                "brand": "Axis",
+                "osmId": 331,
+                "owner": "Purdue University",
+                "surveillanceZone": "Public"
+            },
+            "type": "Feature"
         }
     ],
     "identifiers": {
@@ -5675,17 +7457,116 @@
         "230": 292,
         "231": 293,
         "232": 294,
+        "233": 295,
+        "234": 296,
+        "235": 297,
+        "236": 298,
+        "237": 299,
+        "238": 300,
+        "239": 301,
         "24": 86,
+        "240": 302,
+        "241": 303,
+        "242": 304,
+        "243": 305,
+        "244": 306,
+        "245": 307,
+        "246": 308,
+        "247": 309,
+        "248": 310,
+        "249": 311,
         "25": 87,
+        "250": 312,
+        "251": 313,
+        "252": 314,
+        "253": 315,
+        "254": 316,
+        "255": 317,
+        "256": 318,
+        "257": 319,
+        "258": 320,
+        "259": 321,
         "26": 88,
+        "260": 322,
+        "261": 323,
+        "262": 324,
+        "263": 325,
+        "264": 326,
+        "265": 327,
+        "266": 328,
+        "267": 329,
+        "268": 330,
+        "269": 331,
         "27": 89,
+        "270": 332,
+        "271": 333,
+        "272": 334,
+        "273": 335,
+        "274": 336,
+        "275": 337,
+        "276": 338,
+        "277": 339,
+        "278": 340,
+        "279": 341,
         "28": 90,
+        "280": 342,
+        "281": 343,
+        "282": 344,
+        "283": 345,
+        "284": 346,
+        "285": 347,
+        "286": 348,
+        "287": 349,
+        "288": 350,
+        "289": 351,
         "29": 91,
+        "290": 352,
+        "291": 353,
+        "292": 354,
+        "293": 355,
+        "294": 356,
+        "295": 357,
+        "296": 358,
+        "297": 359,
+        "298": 360,
+        "299": 361,
         "3": 65,
         "30": 92,
+        "300": 362,
+        "301": 363,
+        "302": 364,
+        "303": 365,
+        "304": 366,
+        "305": 367,
+        "306": 368,
+        "307": 369,
+        "308": 370,
+        "309": 371,
         "31": 93,
+        "310": 372,
+        "311": 373,
+        "312": 374,
+        "313": 375,
+        "314": 376,
+        "315": 377,
+        "316": 378,
+        "317": 379,
+        "318": 380,
+        "319": 381,
         "32": 94,
+        "320": 382,
+        "321": 383,
+        "322": 384,
+        "323": 385,
+        "324": 386,
+        "325": 387,
+        "326": 388,
+        "327": 389,
+        "328": 390,
+        "329": 391,
         "33": 95,
+        "330": 392,
+        "331": 393,
         "34": 96,
         "35": 97,
         "36": 98,
