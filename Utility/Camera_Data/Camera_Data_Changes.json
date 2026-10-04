@@ -24,13 +24,287 @@
                 "brand": "Flock Safety",
                 "osmId": 14057263901
             }
+        },
+        {
+            "properties": {
+                "osmId": 293,
+                "surveillanceZone": "Loading"
+            }
+        },
+        {
+            "properties": {
+                "osmId": 283,
+                "surveillanceZone": "Loading"
+            }
+        },
+        {
+            "properties": {
+                "osmId": 262,
+                "surveillanceZone": "Parking"
+            }
+        },
+        {
+            "properties": {
+                "osmId": 261,
+                "surveillanceZone": "Parking"
+            }
+        },
+        {
+            "properties": {
+                "osmId": 263,
+                "surveillanceZone": "Parking"
+            }
+        },
+        {
+            "properties": {
+                "osmId": 264,
+                "surveillanceZone": "Parking"
+            }
+        },
+        {
+            "properties": {
+                "osmId": 294,
+                "surveillanceZone": "Parking"
+            }
+        },
+        {
+            "properties": {
+                "osmId": 297,
+                "surveillanceZone": "Parking"
+            }
+        },
+        {
+            "properties": {
+                "brand": "Unknown",
+                "osmId": 298,
+                "surveillanceZone": "Parking"
+            }
+        },
+        {
+            "properties": {
+                "brand": "Unknown",
+                "osmId": 296,
+                "surveillanceZone": "Parking"
+            }
+        },
+        {
+            "properties": {
+                "brand": "Unknown",
+                "osmId": 295,
+                "surveillanceZone": "Parking"
+            }
+        },
+        {
+            "properties": {
+                "brand": "Unknown",
+                "osmId": 307,
+                "surveillanceZone": "Parking"
+            }
+        },
+        {
+            "properties": {
+                "brand": "Unknown",
+                "osmId": 306,
+                "surveillanceZone": "Parking"
+            }
+        },
+        {
+            "properties": {
+                "osmId": 305,
+                "surveillanceZone": "Loading"
+            }
+        },
+        {
+            "properties": {
+                "brand": "Unknown",
+                "osmId": 310
+            }
+        },
+        {
+            "properties": {
+                "osmId": 318,
+                "surveillanceZone": "Loading"
+            }
+        },
+        {
+            "properties": {
+                "brand": "Unknown",
+                "osmId": 186,
+                "surveillanceZone": "Public"
+            }
+        },
+        {
+            "properties": {
+                "osmId": 170,
+                "surveillanceZone": "Loading"
+            }
+        },
+        {
+            "properties": {
+                "osmId": 220,
+                "surveillanceZone": "Parking"
+            }
+        },
+        {
+            "properties": {
+                "osmId": 221,
+                "surveillanceZone": "Parking"
+            }
+        },
+        {
+            "properties": {
+                "osmId": 222,
+                "surveillanceZone": "Parking"
+            }
+        },
+        {
+            "properties": {
+                "osmId": 223,
+                "surveillanceZone": "Parking"
+            }
+        },
+        {
+            "properties": {
+                "osmId": 224,
+                "surveillanceZone": "Emergency"
+            }
+        },
+        {
+            "properties": {
+                "osmId": 101,
+                "surveillanceZone": "Parking"
+            }
+        },
+        {
+            "properties": {
+                "osmId": 102,
+                "surveillanceZone": "Parking"
+            }
+        },
+        {
+            "properties": {
+                "osmId": 105,
+                "surveillanceZone": "Parking"
+            }
+        },
+        {
+            "properties": {
+                "osmId": 104,
+                "surveillanceZone": "Parking"
+            }
+        },
+        {
+            "properties": {
+                "osmId": 106,
+                "surveillanceZone": "Parking"
+            }
+        },
+        {
+            "properties": {
+                "osmId": 103,
+                "surveillanceZone": "Parking"
+            }
+        },
+        {
+            "properties": {
+                "osmId": 74,
+                "surveillanceZone": "Public"
+            }
+        },
+        {
+            "properties": {
+                "brand": "Frost Solutions",
+                "osmId": 256,
+                "surveillanceZone": "Weather"
+            }
+        },
+        {
+            "properties": {
+                "osmId": 37,
+                "surveillanceZone": "Loading"
+            }
+        },
+        {
+            "properties": {
+                "osmId": 143,
+                "surveillanceZone": "Parking"
+            }
+        },
+        {
+            "properties": {
+                "osmId": 146,
+                "surveillanceZone": "Parking"
+            }
+        },
+        {
+            "properties": {
+                "osmId": 145,
+                "surveillanceZone": "Parking"
+            }
+        },
+        {
+            "properties": {
+                "osmId": 144,
+                "surveillanceZone": "Parking"
+            }
+        },
+        {
+            "properties": {
+                "osmId": 12,
+                "surveillanceZone": "Parking"
+            }
+        },
+        {
+            "properties": {
+                "brand": "Unknown",
+                "osmId": 13,
+                "surveillanceZone": "Parking"
+            }
         }
     ],
     "identifiers": {
+        "101": 27,
+        "102": 28,
+        "103": 32,
+        "104": 30,
+        "105": 29,
+        "106": 31,
+        "12": 40,
+        "13": 41,
         "14057263901": 3,
         "14108917802": 1,
         "14155959601": 0,
-        "60": 2
+        "143": 36,
+        "144": 39,
+        "145": 38,
+        "146": 37,
+        "170": 21,
+        "186": 20,
+        "220": 22,
+        "221": 23,
+        "222": 24,
+        "223": 25,
+        "224": 26,
+        "256": 34,
+        "261": 7,
+        "262": 6,
+        "263": 8,
+        "264": 9,
+        "283": 5,
+        "293": 4,
+        "294": 10,
+        "295": 14,
+        "296": 13,
+        "297": 11,
+        "298": 12,
+        "305": 17,
+        "306": 16,
+        "307": 15,
+        "310": 18,
+        "318": 19,
+        "37": 35,
+        "60": 2,
+        "74": 33
     },
     "type": "FeatureCollection"
 }

@@ -1498,7 +1498,7 @@
                 "brand": "Axis",
                 "osmId": 12,
                 "owner": "Purdue University",
-                "surveillanceZone": "Entrance"
+                "surveillanceZone": "Parking"
             },
             "type": "Feature"
         },
@@ -1513,10 +1513,10 @@
             },
             "properties": {
                 "REMARKS": "Park - Gate, Evasion watch",
-                "brand": "Axis",
+                "brand": "Unknown",
                 "osmId": 13,
                 "owner": "Purdue University",
-                "surveillanceZone": "Gate, Evasion watch"
+                "surveillanceZone": "Parking"
             },
             "type": "Feature"
         },
@@ -1939,7 +1939,7 @@
                 "coordinates": [
                     -86.911491,
                     40.427329,
-                    0.0
+                    0
                 ],
                 "type": "Point"
             },
@@ -1948,7 +1948,7 @@
                 "brand": "Axis",
                 "osmId": 37,
                 "owner": "Purdue University",
-                "surveillanceZone": "Public"
+                "surveillanceZone": "Loading"
             },
             "type": "Feature"
         },
@@ -2614,7 +2614,7 @@
                 "brand": "Axis",
                 "osmId": 74,
                 "owner": "Purdue University",
-                "surveillanceZone": "Back Entrance"
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -3100,7 +3100,7 @@
                 "brand": "Axis",
                 "osmId": 101,
                 "owner": "Purdue University",
-                "surveillanceZone": "Public"
+                "surveillanceZone": "Parking"
             },
             "type": "Feature"
         },
@@ -3118,7 +3118,7 @@
                 "brand": "Axis",
                 "osmId": 102,
                 "owner": "Purdue University",
-                "surveillanceZone": "Public"
+                "surveillanceZone": "Parking"
             },
             "type": "Feature"
         },
@@ -3136,7 +3136,7 @@
                 "brand": "Axis",
                 "osmId": 103,
                 "owner": "Purdue University",
-                "surveillanceZone": "Public"
+                "surveillanceZone": "Parking"
             },
             "type": "Feature"
         },
@@ -3154,7 +3154,7 @@
                 "brand": "Axis",
                 "osmId": 104,
                 "owner": "Purdue University",
-                "surveillanceZone": "Public"
+                "surveillanceZone": "Parking"
             },
             "type": "Feature"
         },
@@ -3172,7 +3172,7 @@
                 "brand": "Axis",
                 "osmId": 105,
                 "owner": "Purdue University",
-                "surveillanceZone": "Public"
+                "surveillanceZone": "Parking"
             },
             "type": "Feature"
         },
@@ -3190,7 +3190,7 @@
                 "brand": "Axis",
                 "osmId": 106,
                 "owner": "Purdue University",
-                "surveillanceZone": "Public"
+                "surveillanceZone": "Parking"
             },
             "type": "Feature"
         },
@@ -3856,7 +3856,7 @@
                 "brand": "Axis",
                 "osmId": 143,
                 "owner": "Purdue University",
-                "surveillanceZone": "Public"
+                "surveillanceZone": "Parking"
             },
             "type": "Feature"
         },
@@ -3874,7 +3874,7 @@
                 "brand": "Axis",
                 "osmId": 144,
                 "owner": "Purdue University",
-                "surveillanceZone": "Public"
+                "surveillanceZone": "Parking"
             },
             "type": "Feature"
         },
@@ -3892,7 +3892,7 @@
                 "brand": "Axis",
                 "osmId": 145,
                 "owner": "Purdue University",
-                "surveillanceZone": "Public"
+                "surveillanceZone": "Parking"
             },
             "type": "Feature"
         },
@@ -3910,7 +3910,7 @@
                 "brand": "Axis",
                 "osmId": 146,
                 "owner": "Purdue University",
-                "surveillanceZone": "Public"
+                "surveillanceZone": "Parking"
             },
             "type": "Feature"
         },
@@ -4342,7 +4342,7 @@
                 "brand": "Axis",
                 "osmId": 170,
                 "owner": "Purdue University",
-                "surveillanceZone": "Public"
+                "surveillanceZone": "Loading"
             },
             "type": "Feature"
         },
@@ -4621,16 +4621,16 @@
                 "coordinates": [
                     -86.922992952,
                     40.428988147,
-                    154.0
+                    154
                 ],
                 "type": "Point"
             },
             "properties": {
                 "REMARKS": "CREC - Public - Nonstandard",
-                "brand": "Axis",
+                "brand": "Unknown",
                 "osmId": 186,
                 "owner": "Purdue University",
-                "surveillanceZone": "Public - Nonstandard"
+                "surveillanceZone": "Public"
             },
             "type": "Feature"
         },
@@ -5242,7 +5242,7 @@
                 "brand": "Axis",
                 "osmId": 220,
                 "owner": "Purdue University",
-                "surveillanceZone": "Public"
+                "surveillanceZone": "Parking"
             },
             "type": "Feature"
         },
@@ -5260,7 +5260,7 @@
                 "brand": "Axis",
                 "osmId": 221,
                 "owner": "Purdue University",
-                "surveillanceZone": "Public"
+                "surveillanceZone": "Parking"
             },
             "type": "Feature"
         },
@@ -5278,7 +5278,7 @@
                 "brand": "Axis",
                 "osmId": 222,
                 "owner": "Purdue University",
-                "surveillanceZone": "Public"
+                "surveillanceZone": "Parking"
             },
             "type": "Feature"
         },
@@ -5296,7 +5296,7 @@
                 "brand": "Axis",
                 "osmId": 223,
                 "owner": "Purdue University",
-                "surveillanceZone": "Public"
+                "surveillanceZone": "Parking"
             },
             "type": "Feature"
         },
@@ -5314,7 +5314,7 @@
                 "brand": "Axis",
                 "osmId": 224,
                 "owner": "Purdue University",
-                "surveillanceZone": "Public"
+                "surveillanceZone": "Emergency"
             },
             "type": "Feature"
         },
@@ -5887,10 +5887,10 @@
             },
             "properties": {
                 "REMARKS": "FROST",
-                "brand": "Axis",
+                "brand": "Frost Solutions",
                 "osmId": 256,
                 "owner": "Purdue University",
-                "surveillanceZone": "Public"
+                "surveillanceZone": "Weather"
             },
             "type": "Feature"
         },
@@ -5980,7 +5980,7 @@
                 "brand": "Axis",
                 "osmId": 261,
                 "owner": "Purdue University",
-                "surveillanceZone": "Public"
+                "surveillanceZone": "Parking"
             },
             "type": "Feature"
         },
@@ -5998,7 +5998,7 @@
                 "brand": "Axis",
                 "osmId": 262,
                 "owner": "Purdue University",
-                "surveillanceZone": "Public"
+                "surveillanceZone": "Parking"
             },
             "type": "Feature"
         },
@@ -6016,7 +6016,7 @@
                 "brand": "Axis",
                 "osmId": 263,
                 "owner": "Purdue University",
-                "surveillanceZone": "Public"
+                "surveillanceZone": "Parking"
             },
             "type": "Feature"
         },
@@ -6034,7 +6034,7 @@
                 "brand": "Axis",
                 "osmId": 264,
                 "owner": "Purdue University",
-                "surveillanceZone": "Public"
+                "surveillanceZone": "Parking"
             },
             "type": "Feature"
         },
@@ -6367,7 +6367,7 @@
                 "coordinates": [
                     -86.910823435,
                     40.417861867,
-                    0.0
+                    0
                 ],
                 "type": "Point"
             },
@@ -6376,7 +6376,7 @@
                 "brand": "Axis",
                 "osmId": 283,
                 "owner": "Purdue University",
-                "surveillanceZone": "Public"
+                "surveillanceZone": "Loading"
             },
             "type": "Feature"
         },
@@ -6556,7 +6556,7 @@
                 "brand": "Axis",
                 "osmId": 293,
                 "owner": "Purdue University",
-                "surveillanceZone": "Public"
+                "surveillanceZone": "Loading"
             },
             "type": "Feature"
         },
@@ -6574,7 +6574,7 @@
                 "brand": "Axis",
                 "osmId": 294,
                 "owner": "Purdue University",
-                "surveillanceZone": "Public"
+                "surveillanceZone": "Parking"
             },
             "type": "Feature"
         },
@@ -6589,10 +6589,10 @@
             },
             "properties": {
                 "REMARKS": "PGH - ALPR?",
-                "brand": "Axis",
+                "brand": "Unknown",
                 "osmId": 295,
                 "owner": "Purdue University",
-                "surveillanceZone": "ALPR?"
+                "surveillanceZone": "Parking"
             },
             "type": "Feature"
         },
@@ -6607,10 +6607,10 @@
             },
             "properties": {
                 "REMARKS": "PGH - ALPR?",
-                "brand": "Axis",
+                "brand": "Unknown",
                 "osmId": 296,
                 "owner": "Purdue University",
-                "surveillanceZone": "ALPR?"
+                "surveillanceZone": "Parking"
             },
             "type": "Feature"
         },
@@ -6628,7 +6628,7 @@
                 "brand": "Axis",
                 "osmId": 297,
                 "owner": "Purdue University",
-                "surveillanceZone": "Public"
+                "surveillanceZone": "Parking"
             },
             "type": "Feature"
         },
@@ -6643,10 +6643,10 @@
             },
             "properties": {
                 "REMARKS": "PGH - ALPR?",
-                "brand": "Axis",
+                "brand": "Unknown",
                 "osmId": 298,
                 "owner": "Purdue University",
-                "surveillanceZone": "ALPR?"
+                "surveillanceZone": "Parking"
             },
             "type": "Feature"
         },
@@ -6763,7 +6763,7 @@
                 "coordinates": [
                     -86.918915659,
                     40.420888901,
-                    0.0
+                    0
                 ],
                 "type": "Point"
             },
@@ -6772,7 +6772,7 @@
                 "brand": "Axis",
                 "osmId": 305,
                 "owner": "Purdue University",
-                "surveillanceZone": "Public"
+                "surveillanceZone": "Loading"
             },
             "type": "Feature"
         },
@@ -6781,16 +6781,16 @@
                 "coordinates": [
                     -86.917720065,
                     40.421521654,
-                    0.0
+                    0
                 ],
                 "type": "Point"
             },
             "properties": {
                 "REMARKS": "PGH - ALPR",
-                "brand": "Axis",
+                "brand": "Unknown",
                 "osmId": 306,
                 "owner": "Purdue University",
-                "surveillanceZone": "ALPR"
+                "surveillanceZone": "Parking"
             },
             "type": "Feature"
         },
@@ -6799,16 +6799,16 @@
                 "coordinates": [
                     -86.917689219,
                     40.421518336,
-                    0.0
+                    0
                 ],
                 "type": "Point"
             },
             "properties": {
                 "REMARKS": "PGH - ALPR",
-                "brand": "Axis",
+                "brand": "Unknown",
                 "osmId": 307,
                 "owner": "Purdue University",
-                "surveillanceZone": "ALPR"
+                "surveillanceZone": "Parking"
             },
             "type": "Feature"
         },
@@ -6853,13 +6853,13 @@
                 "coordinates": [
                     -86.921267956,
                     40.42095986,
-                    0.0
+                    0
                 ],
                 "type": "Point"
             },
             "properties": {
                 "REMARKS": "HOCK",
-                "brand": "Axis",
+                "brand": "Unknown",
                 "osmId": 310,
                 "owner": "Purdue University",
                 "surveillanceZone": "Public"
@@ -6997,7 +6997,7 @@
                 "coordinates": [
                     -86.923820414,
                     40.421719723,
-                    0.0
+                    0
                 ],
                 "type": "Point"
             },
@@ -7006,7 +7006,7 @@
                 "brand": "Axis",
                 "osmId": 318,
                 "owner": "Purdue University",
-                "surveillanceZone": "Public"
+                "surveillanceZone": "Loading"
             },
             "type": "Feature"
         },
