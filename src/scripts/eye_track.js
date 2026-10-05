@@ -7,8 +7,6 @@ onresize = (event) => {
     // Recalculate pupil positionr
     eye = document.getElementById("eye_icon").getBoundingClientRect();
     pupil_center = [((eye.right-eye.left)/2) + eye.left, ((eye.bottom-eye.top)/2) + eye.top];
-    // Resize the eye svg
-    resize_eye();
 }
 
 document.addEventListener("mousemove", function(event) {
