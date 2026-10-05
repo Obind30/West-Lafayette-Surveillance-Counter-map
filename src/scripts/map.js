@@ -20,6 +20,7 @@ let flockLayer = L.layerGroup();
 let frostLayer = L.layerGroup();
 let purdueLayer = L.layerGroup();
 let cityLayer = L.layerGroup();
+let countyLayer = L.layerGroup();
 let progressLayer = L.layerGroup();
 
 // Initiate marker icons
@@ -124,6 +125,7 @@ addMarkers();
 
 draw_border(cityLayer, 'src/location_data/WL_Border.csv', 'green');
 draw_border(cityLayer, 'src/location_data/Laf_Border.csv', 'green');
+draw_border(countyLayer, 'src/location_data/Tippecanoe_Border.csv', 'blue');
 
 draw_border(progressLayer, 'src/location_data/Completed_Border.csv', 'red');
 
@@ -132,6 +134,7 @@ flockLayer.addTo(map);
 frostLayer.addTo(map);
 purdueLayer.addTo(map);
 cityLayer.addTo(map);
+countyLayer.addTo(map);
 progressLayer.addTo(map);
 
 // Create a legend div
@@ -187,6 +190,16 @@ legend.onAdd = function(map) {
             <input type="checkbox" checked id="city-visible" style="display: none">
             <img id="green-border-icon" src="src/images/dashed-icon-green.svg" width=`+ iconSize +`">
             <span> City Borders </span>
+        </label><br>
+
+        <label class="legend_item">
+            <div class="switch">
+                <input type="checkbox" checked id=county-visible>
+                <span class="slider round"></span>
+            </div>
+            <input type="checkbox" checked id="county-visible" style="display: none">
+            <img id="blue-border-icon" src="src/images/dashed-icon-blue.svg" width=`+ iconSize +`">
+            <span> County Border </span>
         </label><br>
 
         <label class="legend_item">
@@ -257,6 +270,15 @@ document.getElementById('city-visible').addEventListener('change', e => {
     }
 	else {
         map.removeLayer(cityLayer);
+    }
+});
+
+document.getElementById('county-visible').addEventListener('change', e => {
+    if(e.target.checked) {
+        map.addLayer(countyLayer);
+    }
+	else {
+        map.removeLayer(countyLayer);
     }
 });
 
