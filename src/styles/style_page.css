@@ -1,13 +1,183 @@
-body {
-    background-color: rgb(0, 0, 0);
+@font-face {
+    font-family: Main_Title;
+    src: url("../fonts/Akira\ Expanded\ Demo.otf");
 }
 
-#page_content {
-    top: 0;
-    margin: auto;
-    display: flex;
-    margin-top: 96px;
+/* Hide header text on mobile */
+@media screen and (max-width: 800px) {
+    header {
+        content-visibility: hidden;
+    }
+}
 
-    width: 50vw;
-    min-width: 20em;
+/* Header */
+header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+
+    justify-content: center;
+    align-items: center;
+
+    background: #030021;
+    color: #fff;
+
+    font-family: Main_Title;
+    font-size: 36px;
+}
+
+
+/* Main content */
+main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 70px 20px 0;
+
+    background-color: #000000;
+}
+
+main > div {
+  margin-inline: auto;
+  margin-top: 50px;
+  max-width: 600px;
+
+  z-index: 0;
+}
+
+
+/* Nav bar */
+#nav-container {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  
+  pointer-events: none;
+  z-index: 1;
+}
+
+#nav-container .bg {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 70px);
+  visibility: hidden;
+  opacity: 0;
+  transition: .3s;
+  background: #000;
+} 
+
+#nav-container:focus-within .bg {
+  visibility: visible;
+  opacity: .6;
+}
+
+#nav-container * {
+  visibility: visible;
+}
+
+/* Eye button */
+.button {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+  -webkit-appearance: none;
+  border: 0;
+  background: transparent;
+  border-radius: 0;
+  height: 70px;
+  cursor: pointer;
+  pointer-events: auto;
+  margin-left: 25px;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+#nav-container:focus-within .button {
+  pointer-events: none;
+}
+
+/* Nav links */
+#nav-content {
+  margin-top: 70px;
+  padding: 20px;
+  width: 90%;
+  max-width: 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: calc(100% - 70px);
+  background: #04002d;
+  pointer-events: auto;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  transform: translateX(-100%);
+  transition: transform .3s;
+  will-change: transform;
+  contain: paint;
+}
+
+#nav-content ul {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-right: 15%;
+}
+
+#nav-content li a {
+  padding: 10px 5px;
+  display: block;
+  color: #ffffff;
+  text-transform: uppercase;
+  transition: color .1s;
+
+  font-family: Main_Title;
+  font-size: 20px;
+  border-bottom: #ffffff 1px solid;
+}
+
+#nav-content li a:hover {
+  color: #BF7497;
+}
+
+#nav-content li:not(.small) + .small {
+  margin-top: auto;
+}
+
+#nav-container:focus-within #nav-content {
+  transform: none;
+}
+
+
+/* Misc */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+a,
+a:visited,
+a:focus,
+a:active,
+a:link {
+  text-decoration: none;
+  outline: 0;
+}
+
+a {
+  color: currentColor;
+  transition: .2s ease-in-out;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
 }
