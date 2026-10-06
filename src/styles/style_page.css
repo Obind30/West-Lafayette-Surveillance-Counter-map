@@ -3,10 +3,11 @@ body {
 }
 
 #page_content {
-    position: absolute;
     top: 0;
-    left: 25vw;
+    margin: auto;
+    display: flex;
     margin-top: 96px;
 
-    max-width: 50vw;
+    width: 50vw;
+    min-width: 20em;
 }
