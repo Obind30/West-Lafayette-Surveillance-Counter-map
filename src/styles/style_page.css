@@ -25,6 +25,8 @@ header {
 
     font-family: Main_Title;
     font-size: 36px;
+
+    z-index: 1;
 }
 
 
