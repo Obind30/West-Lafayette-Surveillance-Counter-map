@@ -21,9 +21,36 @@
         crossorigin=""></script>
     </head>
     <body">
-        <header tabindex="0">Surveillance at Purdue</header>
+        <header tabindex="0">
+            <div id="link-container">
+                <a href="src/pages/about_us.html" class="blank_link">
+                <div class="header_item">
+                    About Us
+                </div>
+                </a>
+
+                <a href="src/pages/map.html" class="blank_link">
+                <div class="header_item">
+                    Map
+                </div>
+                </a>
+
+                <div class="header_item inactive">
+                    Articles
+                </div>
+
+                <div class="header_item inactive">
+                    News
+                </div>
+
+                <div class="header_item inactive">
+                    Contacts
+                </div>
+            </div>
+        </header>
         <div id="nav-container">
             <div class="bg"></div>
+            <a href="index.html" style="z-index: 5;">
             <div class="button" tabindex="0">
                 <svg id="eye_icon" viewBox="600, 600, 800, 800" preserveAspectRatio="xMinYMin" height="100%" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff" fill="#ffffff">
                     <g id="SVGRepo_iconCarrier" stroke="null">
@@ -35,11 +62,12 @@
                     </g>
                 </svg>
             </div>
+            </a>
             <div id="nav-content" tabindex="0">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="src/pages/about_us.html">About Us</a></li>
-                <li><a href="index.html">Map</a></li>
+                <li><a href="src/pages/map.html">Map</a></li>
                 <li><a href="#0" style="color: grey">Articles</a></li>
                 <li><a href="#0" style="color: grey">News</a></li>
                 <li><a href="#0" style="color: grey">Contacts</a></li>
