@@ -238,6 +238,26 @@ function toggleLegend() {
   }
 }
 
+var about = L.control({ position: "bottomright" });
+
+about.onAdd = function(map) {
+    var div = L.DomUtil.create("div", "about-popup");
+    div.innerHTML += `
+        <h1>About this map</h1>
+    `;
+    return div;
+}
+
+about.addTo(map);
+
+document.getElementsByClassName('about-popup')[0].addEventListener('click', e => {
+    document.getElementById('info-popup').style.visibility = 'visible';
+});
+
+document.getElementById('popup-exit').addEventListener('click', e => {
+    document.getElementById('info-popup').style.visibility = 'hidden';
+})
+
 // Toggle the visibility of marker types
 document.getElementById('flock-visible').addEventListener('change', e => {
     let icon = document.getElementById('legend-flock-icon');
