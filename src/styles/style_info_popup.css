@@ -67,3 +67,11 @@
 .about-popup:hover {
   transform: translate(0px, -3px);
 }
+
+.normal-link {
+    color: #223e8a;
+}
+
+.normal-link:visited {
+    color: #46228a;
+}
