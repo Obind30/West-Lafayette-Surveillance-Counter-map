@@ -159,10 +159,10 @@ main {
   flex-direction: column;
   height: 100%;
   width: 100%;
-  padding: 70px 20px 0;
+  padding-top: 70px;
 }
 
-main > div {
+main > #page_content {
   margin-inline: auto;
   margin-top: 50px;
   max-width: 600px;
