@@ -138,6 +138,7 @@ header > #link-container {
   text-decoration: none;
 
   border-right: #ffffff 2px solid;
+  z-index: 2;
 }
 
 .header_item:hover {
@@ -181,7 +182,7 @@ main > #page_content {
   background: transparent;
 
   height: 70px;
-  width: 10%;
+  width: 70px;
   min-width: 70px;
   margin-left: 25px;
 
