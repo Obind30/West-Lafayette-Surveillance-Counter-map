@@ -1,6 +1,15 @@
-const iconSize = 36
+const iconSize = 36;
+const cameraFilepath = '../location_data/GreaterLAF-Cameras.geojson';
+
+const flockIconSrc = '../images/flock-camera-icon.png';
+const flockIconOffSrc = '../images/flock-camera-icon-off.png';
+const frostIconSrc = '../images/frost-camera-icon.png';
+const frostIconOffSrc = '../images/frost-camera-icon-off.png';
+const purdueIconSrc = '../images/purdue-camera-icon.png';
+const purdueIconOffSrc = '../images/purdue-camera-icon-off.png';
+
 // Initiate map and set view
-var map = L.map('map').setView([40.418, -86.897], 12);
+var map = L.map('map', {doubleClickZoom: false, zoomDelta: 0.5}).setView([40.418, -86.897], 12);
 // Create a tile layer and add map to it
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -8,55 +17,92 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 // Create layers, for each marker type
 let flockLayer = L.layerGroup();
+let frostLayer = L.layerGroup();
 let purdueLayer = L.layerGroup();
 let cityLayer = L.layerGroup();
+let countyLayer = L.layerGroup();
 let progressLayer = L.layerGroup();
 
 // Initiate marker icons
 var flockcam = L.icon({
-    iconUrl: '../images/flock-camera-icon.png',
+    iconUrl: flockIconSrc,
+    iconSize: [iconSize, iconSize],
+    iconAnchor: [iconSize/2, iconSize]
+})
+
+var frostcam = L.icon({
+    iconUrl: frostIconSrc,
     iconSize: [iconSize, iconSize],
     iconAnchor: [iconSize/2, iconSize]
 })
 
 var purduecam = L.icon({
-    iconUrl: '../images/purdue-camera-icon.png',
+    iconUrl: purdueIconSrc,
     iconSize: [iconSize, iconSize],
     iconAnchor: [iconSize/2, iconSize]
 })
 
 // Add the markers to the map from corresponding json files
-async function addFlockMarkers() {
+async function addMarkers() {
     try {
-        const response = await fetch('../location_data/GreaterLAF-Flock-Cameras.geojson');
+        const response = await fetch(cameraFilepath);
         if (!response.ok) throw new Error('File not found');
         const data = await response.json(); // Parse JSON directly
 
-        let i=0;
+        L.geoJSON(data, {
+            pointToLayer: function(geoJsonPoint, latlng) {
+                if (geoJsonPoint.properties.brand == "Flock Safety") {
+                    return L.marker(latlng, {icon: flockcam});
+                } else if (geoJsonPoint.properties.brand == "Frost Solutions") {
+                    return L.marker(latlng, {icon: frostcam});
+                } else {
+                    return L.marker(latlng, {icon: purduecam});
+                }
+                
+            },
+            onEachFeature: function (feature, layer) {
+                if (feature.properties.brand == "Flock Safety") {
+                    flockLayer.addLayer(layer);
+                } else if (feature.properties.brand == "Frost Solutions") {
+                    frostLayer.addLayer(layer);
+                } else {
+                    purdueLayer.addLayer(layer);
+                }
+            }
+        }).bindPopup(function (layer) {
+            popupContent = `
+                <div class="popup">
+                <h3 class="popup-header">
+                    Camera Properties:
+                </h3>
 
-        while (data.features[i]) {
-            let coords = data.features[i].geometry.coordinates;
-            flockLayer.addLayer(L.marker([coords[1], coords[0]], {icon: flockcam}));
-            i++;
-        }
-    } catch (error) {
-        console.error('Error reading JSON:', error.message);
-    }
-}
+                <ul class="property-list">
+                    <li class="property-list-item">
+                        <span class="property-label">Vendor:</span>
+                        <span id="brand-entry" class="json-prop-field">` + layer.feature.properties.brand + `</span>
+                    </li>
 
-async function addPurdueMarkers() {
-    try {
-        const response = await fetch('../location_data/Purdue_Security_Purdue_Cameras.geojson');
-        if (!response.ok) throw new Error('File not found');
-        const data = await response.json(); // Parse JSON directly
+                    <li class="property-list-item">
+                        <span class="property-label">Owner:</span>
+                        <span id="owner-entry" class="json-prop-field">` + layer.feature.properties.owner + `</span>
+                    </li>
 
-        let i=0;
+                    <li class="property-list-item">
+                        <span class="property-label">Surveillance Type:</span>
+                        <span id="sur-zone-entry" class="json-prop-field">` + layer.feature.properties.surveillanceZone + `</span>
+                    </li>
 
-        while (data.features[i]) {
-            let coords = data.features[i].geometry.coordinates;
-            purdueLayer.addLayer(L.marker([coords[1], coords[0]], {icon: purduecam}));
-            i++;
-        }
+                    <li class="property-list-item">
+                        <span class="property-label">Location:</span>
+                        <span id="coords-entry" class="json-prop-field">` + layer.feature.geometry.coordinates + `</span>
+                    </li>
+                </ul>
+                <button id="JSON-show" onclick="showJSON()">Copy JSON</button>
+                </div>
+            `;
+            return popupContent;
+        },
+        {offset: [0, -0.85*iconSize], closeButton: false, maxWidth: 310}).addTo(map);
     } catch (error) {
         console.error('Error reading JSON:', error.message);
     }
@@ -75,20 +121,20 @@ function draw_border(layer, filepath, color) {
     })
 }
 
-addFlockMarkers();
-addPurdueMarkers();
+addMarkers();
 
 draw_border(cityLayer, '../location_data/WL_Border.csv', 'green');
 draw_border(cityLayer, '../location_data/Laf_Border.csv', 'green');
+draw_border(countyLayer, '../location_data/Tippecanoe_Border.csv', 'blue');
 
 draw_border(progressLayer, '../location_data/Completed_Border.csv', 'red');
-draw_border(progressLayer, '../location_data/Todo_Border_0.csv', 'red');
-draw_border(progressLayer, '../location_data/Todo_Border_1.csv', 'red');
 
 // Add layers to map
 flockLayer.addTo(map);
+frostLayer.addTo(map);
 purdueLayer.addTo(map);
 cityLayer.addTo(map);
+countyLayer.addTo(map);
 progressLayer.addTo(map);
 
 // Create a legend div
@@ -113,7 +159,7 @@ legend.onAdd = function(map) {
                 <input type="checkbox" checked id=flock-visible>
                 <span class="slider round"></span>
             </div>
-            <img id="legend-flock-icon" src="../images/flock-camera-icon.png" width=`+ iconSize +`">
+            <img id="legend-flock-icon" src="`+ flockIconSrc + `" width=`+ iconSize +`">
             <span> Flock Cameras </span>
         </label><br>
 
@@ -123,8 +169,17 @@ legend.onAdd = function(map) {
                 <span class="slider round"></span>
             </div>
             <input type="checkbox" checked id="purdue-visible" style="display: none">
-            <img id="legend-purdue-icon" src="../images/purdue-camera-icon.png" width=`+ iconSize +`">
+            <img id="legend-purdue-icon" src="` + purdueIconSrc + `" width=`+ iconSize +`">
             <span> Purdue Cameras </span>
+        </label><br>
+
+        <label class="legend_item">
+            <div class="switch">
+                <input type="checkbox" checked id=frost-visible>
+                <span class="slider round"></span>
+            </div>
+            <img id="legend-frost-icon" src="`+ frostIconSrc + `" width=`+ iconSize +`">
+            <span> Frost Cameras </span>
         </label><br>
 
         <label class="legend_item">
@@ -135,6 +190,16 @@ legend.onAdd = function(map) {
             <input type="checkbox" checked id="city-visible" style="display: none">
             <img id="green-border-icon" src="../images/dashed-icon-green.svg" width=`+ iconSize +`">
             <span> City Borders </span>
+        </label><br>
+
+        <label class="legend_item">
+            <div class="switch">
+                <input type="checkbox" checked id=county-visible>
+                <span class="slider round"></span>
+            </div>
+            <input type="checkbox" checked id="county-visible" style="display: none">
+            <img id="blue-border-icon" src="../images/dashed-icon-blue.svg" width=`+ iconSize +`">
+            <span> County Border </span>
         </label><br>
 
         <label class="legend_item">
@@ -162,16 +227,48 @@ function toggleLegend() {
   }
 }
 
+var about = L.control({ position: "bottomright" });
+
+about.onAdd = function(map) {
+    var div = L.DomUtil.create("div", "about-popup");
+    div.innerHTML += `
+        <h1>About this map</h1>
+    `;
+    return div;
+}
+
+about.addTo(map);
+
+document.getElementsByClassName('about-popup')[0].addEventListener('click', e => {
+    document.getElementById('info-popup').style.visibility = 'visible';
+});
+
+document.getElementById('popup-exit').addEventListener('click', e => {
+    document.getElementById('info-popup').style.visibility = 'hidden';
+})
+
 // Toggle the visibility of marker types
 document.getElementById('flock-visible').addEventListener('change', e => {
     let icon = document.getElementById('legend-flock-icon');
 	if(e.target.checked) {
         map.addLayer(flockLayer);
-        icon.src = "../images/flock-camera-icon.png"
+        icon.src = flockIconSrc;
     }
 	else {
         map.removeLayer(flockLayer);
-        icon.src = "../images/flock-camera-icon-off.png"
+        icon.src = flockIconOffSrc;
+    }
+});
+
+document.getElementById('frost-visible').addEventListener('change', e => {
+    let icon = document.getElementById('legend-frost-icon');
+	if(e.target.checked) {
+        map.addLayer(frostLayer);
+        icon.src = frostIconSrc;
+    }
+	else {
+        map.removeLayer(frostLayer);
+        icon.src = frostIconOffSrc;
     }
 });
 
@@ -179,11 +276,11 @@ document.getElementById('purdue-visible').addEventListener('change', e => {
     let icon = document.getElementById('legend-purdue-icon')
     if(e.target.checked) {
         map.addLayer(purdueLayer);
-        icon.src = "../images/purdue-camera-icon.png"
+        icon.src = purdueIconSrc
     }
 	else {
         map.removeLayer(purdueLayer);
-        icon.src = "../images/purdue-camera-icon-off.png"
+        icon.src = purdueIconOffSrc;
     }
 });
 
@@ -196,6 +293,15 @@ document.getElementById('city-visible').addEventListener('change', e => {
     }
 });
 
+document.getElementById('county-visible').addEventListener('change', e => {
+    if(e.target.checked) {
+        map.addLayer(countyLayer);
+    }
+	else {
+        map.removeLayer(countyLayer);
+    }
+});
+
 document.getElementById('prog-visible').addEventListener('change', e => {
     if(e.target.checked) {
         map.addLayer(progressLayer);
@@ -204,3 +310,31 @@ document.getElementById('prog-visible').addEventListener('change', e => {
         map.removeLayer(progressLayer);
     }
 });
+
+async function showJSON() {
+    try {
+        const response = await fetch(cameraFilepath);
+        if (!response.ok) throw new Error('File not found');
+        const data = await response.json(); // Parse JSON directly
+
+        jsonData = data.features.filter(function (feature) {
+            return feature.properties.osmId == document.getElementById('id-entry').value
+        })[0];
+        console.log(jsonData);
+        jsonData.properties.brand = document.getElementById('brand-entry').value;
+        jsonData.properties.owner = document.getElementById('owner-entry').value;
+        jsonData.properties.surveillanceZone = document.getElementById('sur-zone-entry').value;
+        jsonData.geometry.coordinates = document.getElementById('coords-entry').value.split(',').map(
+            function(item){return Number(item);}
+        );
+
+        copyText = JSON.stringify(jsonData);
+
+        console.log(copyText);
+
+        // Copy the JSON to clipboard
+        navigator.clipboard.writeText(copyText);
+    } catch (error) {
+        console.error('Error reading JSON');
+    }
+}

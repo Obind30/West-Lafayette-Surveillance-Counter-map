@@ -8,6 +8,5 @@ This is a living project that will continue to grow for years to come. Eventuall
 
 - Include contacts and descriptions of influential people (local politicians, executives, activists)
 - Create letter campaign templates
-- Create a map of donors/funding for Flock & Purdue
 - Terms of Service summaries and analysis for relevant technologies
 - Organize action to remove Flock systems from the Greater Lafayette area
