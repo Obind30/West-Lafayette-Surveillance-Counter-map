@@ -37,7 +37,7 @@ body {
     }
 
     #homepage_content::-webkit-scrollbar {
-    display: none;
+        display: none;
     }
 }
 
@@ -204,5 +204,31 @@ body {
     }
     .entry-container{
         margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #main-text-container > h1 {
+        font-size: 20px;
+    }
+    #page-intro > h1 {
+        font-size: 24px;
+    }
+    #page-intro > p {
+        font-size: 18px;
+    }
+    .entry-container {
+        margin-bottom: 40px;
+    }
+    .entry-text {
+        width: 100%;
+    }
+    .entry-text > h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .entry-text > h2 {
+        font-size: 12px;
+        text-align: center;
     }
 }
