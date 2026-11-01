@@ -8,8 +8,21 @@ h1,h2,h3,h4,h5 {
     font-family: Main_Title;
 }
 
+.markdown-body h1 {
+    font-size: calc(32px + 0.8vw);
+    margin-block: 80px;
+}
+
+.markdown-body h2 {
+    font-size: calc(25px + 0.8vw);
+    margin-top: 60px;
+}
+
 p {
+    font-size: calc(12px + 0.6vw);
     color: rgb(218, 218, 218);
+    text-align: justify;
+    justify-content: center;
 }
 
 .markdown-body {
