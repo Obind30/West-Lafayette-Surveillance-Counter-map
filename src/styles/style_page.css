@@ -160,13 +160,13 @@ main {
   flex-direction: column;
   height: 100%;
   width: 100%;
-  padding-top: 70px;
+  padding-top: 150px;
 }
 
 main > #page_content {
   margin-inline: auto;
   margin-top: 50px;
-  max-width: 600px;
+  max-width: 80%;
 
   z-index: 0;
 }
@@ -194,12 +194,6 @@ main > #page_content {
 
 
 /* Misc */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 html, body {
   height: 100%;
 }
