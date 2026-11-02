@@ -9,8 +9,11 @@ h1,h2,h3,h4,h5 {
 }
 
 .markdown-body h1 {
-    font-size: calc(32px + 0.8vw);
-    margin-block: 80px;
+    font-size: calc(32px + 1.4vw);
+    padding-top: 7vh;
+    margin-bottom: 80px;
+
+    border-bottom: 3px rgb(88, 88, 88) solid;
 }
 
 .markdown-body h2 {
