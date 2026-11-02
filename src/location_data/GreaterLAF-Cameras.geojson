@@ -975,7 +975,7 @@
                 "osmTimestamp": "2026-06-22T00:07:45Z",
                 "osmType": "node",
                 "osmVersion": 1,
-                "owner": "unknown",
+                "owner": "Launch Apartments",
                 "surveillanceZone": "traffic"
             },
             "type": "Feature"
@@ -999,7 +999,7 @@
                 "osmTimestamp": "2026-06-22T00:06:36Z",
                 "osmType": "node",
                 "osmVersion": 1,
-                "owner": "unknown",
+                "owner": "Launch Apartments",
                 "surveillanceZone": "traffic"
             },
             "type": "Feature"
@@ -1023,7 +1023,7 @@
                 "osmTimestamp": "2026-08-29T18:31:45Z",
                 "osmType": "node",
                 "osmVersion": 2,
-                "owner": "unknown",
+                "owner": "Launch Apartments",
                 "surveillanceZone": "traffic"
             },
             "type": "Feature"
@@ -1123,7 +1123,7 @@
                 "osmTimestamp": "2026-08-29T18:32:15Z",
                 "osmType": "node",
                 "osmVersion": 3,
-                "owner": "unknown",
+                "owner": "Launch Apartments",
                 "surveillanceZone": "traffic"
             },
             "type": "Feature"

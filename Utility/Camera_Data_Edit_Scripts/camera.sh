@@ -9,9 +9,13 @@ case $1 in
         echo "cam update    # Update the map source files with new .geojson data"
         ;;
     'edit')
-        py Utility/Camera_Data_Edit_Scripts/updateCameraData.py
+        source utilsVenv/bin/activate
+        python3 Utility/Camera_Data_Edit_Scripts/updateCameraData.py
+        deactivate
         ;;
     'update')
-        py Utility/Camera_Data_Edit_Scripts/pullMergeWriteCameraData.py
+        source utilsVenv/bin/activate
+        python3 Utility/Camera_Data_Edit_Scripts/pullMergeWriteCameraData.py
+        deactivate
         ;;
 esac
