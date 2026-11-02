@@ -260,6 +260,30 @@
                 "osmId": 13,
                 "surveillanceZone": "Parking"
             }
+        },
+        {
+            "properties": {
+                "osmId": 13956513102,
+                "owner": "Launch Apartments"
+            }
+        },
+        {
+            "properties": {
+                "osmId": 13956535001,
+                "owner": "Launch Apartments"
+            }
+        },
+        {
+            "properties": {
+                "osmId": 13956538601,
+                "owner": "Launch Apartments"
+            }
+        },
+        {
+            "properties": {
+                "osmId": 14097149301,
+                "owner": "Launch Apartments"
+            }
         }
     ],
     "identifiers": {
@@ -271,7 +295,11 @@
         "106": 31,
         "12": 40,
         "13": 41,
+        "13956513102": 42,
+        "13956535001": 43,
+        "13956538601": 44,
         "14057263901": 3,
+        "14097149301": 45,
         "14108917802": 1,
         "14155959601": 0,
         "143": 36,
