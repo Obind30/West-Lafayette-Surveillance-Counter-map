@@ -160,7 +160,7 @@ main {
   flex-direction: column;
   height: 100%;
   width: 100%;
-  padding-top: 150px;
+  padding-top: 70px;
 }
 
 main > #page_content {
@@ -194,6 +194,12 @@ main > #page_content {
 
 
 /* Misc */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 html, body {
   height: 100%;
 }
