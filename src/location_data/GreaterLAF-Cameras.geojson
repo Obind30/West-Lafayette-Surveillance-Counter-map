@@ -1203,7 +1203,7 @@
                 "osmTimestamp": "2026-08-29T18:35:22Z",
                 "osmType": "node",
                 "osmVersion": 1,
-                "owner": "unknown",
+                "owner": "Launch Apartments",
                 "surveillanceZone": "traffic"
             },
             "type": "Feature"
@@ -1939,7 +1939,7 @@
                 "coordinates": [
                     -86.911491,
                     40.427329,
-                    0
+                    0.0
                 ],
                 "type": "Point"
             },
@@ -4621,7 +4621,7 @@
                 "coordinates": [
                     -86.922992952,
                     40.428988147,
-                    154
+                    154.0
                 ],
                 "type": "Point"
             },
@@ -6367,7 +6367,7 @@
                 "coordinates": [
                     -86.910823435,
                     40.417861867,
-                    0
+                    0.0
                 ],
                 "type": "Point"
             },
@@ -6763,7 +6763,7 @@
                 "coordinates": [
                     -86.918915659,
                     40.420888901,
-                    0
+                    0.0
                 ],
                 "type": "Point"
             },
@@ -6781,7 +6781,7 @@
                 "coordinates": [
                     -86.917720065,
                     40.421521654,
-                    0
+                    0.0
                 ],
                 "type": "Point"
             },
@@ -6799,7 +6799,7 @@
                 "coordinates": [
                     -86.917689219,
                     40.421518336,
-                    0
+                    0.0
                 ],
                 "type": "Point"
             },
@@ -6853,7 +6853,7 @@
                 "coordinates": [
                     -86.921267956,
                     40.42095986,
-                    0
+                    0.0
                 ],
                 "type": "Point"
             },
@@ -6997,7 +6997,7 @@
                 "coordinates": [
                     -86.923820414,
                     40.421719723,
-                    0
+                    0.0
                 ],
                 "type": "Point"
             },
