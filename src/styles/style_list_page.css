@@ -1,0 +1,135 @@
+.title_text {
+    color: white;
+    font-family: Main_Title;
+    font-weight: lighter;
+}
+
+.title_text.inactive {
+    color: grey;
+}
+
+#homepage_content {
+    overflow-y: scroll;
+    height: 100%;
+    
+    scrollbar-color:  #575757 #444444;
+    scrollbar-width: thin;
+}
+
+/* Hide scrollbar on mobile */
+@media screen and (max-width: 1175px) {
+    #homepage_content {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+
+    #homepage_content::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+#title-container {
+    padding-top: 8vh;
+    padding-bottom: 10vh;
+
+    position: sticky;
+    top: 0px;
+
+    max-width: min(80%,1700px);
+    margin-inline: auto;
+
+    background-image: radial-gradient(rgba(0,0,0,1) 50%, rgba(0,0,0,0) 75%);
+    z-index: 2;
+}
+
+#title-container > h1 {
+    font-size: 82px;
+    text-align: center;
+
+    border-bottom: white 2px solid;
+    padding-bottom: 10px;
+}
+
+#list-content {
+    width: 100%;
+    min-height: 50%;
+    background:rgba(0, 0, 0, 1);
+}
+
+.entry-container {
+    display: flex;
+    margin-bottom: 50px;
+
+    width: 80%;
+    margin-inline: auto;
+    justify-content: space-between;
+}
+
+.entry-text {
+    padding-bottom: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.entry-text.right {
+    text-align: right;
+}
+
+.entry-text > h1 {
+    color: white;
+    font-size: 64px;
+    border-bottom: black 2px solid;
+}
+
+.entry-text > h1:hover {
+    border-bottom: white 2px solid;
+}
+
+.entry-text > h2 {
+    color: white;
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+.entry-text > h3 {
+    color: white;
+}
+
+.entry-spacer {
+    width: 300px;
+    aspect-ratio: 1;
+    background-size: 100%;
+    box-shadow: inset 0px 0px 12px 12px black;
+}
+
+@media screen and (max-width: 1175px) {
+    .entry-spacer {
+        display: none;
+    }
+    .entry-container{
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    #title-container > h1 {
+        font-size: 52px;
+    }
+    .entry-container {
+        margin-bottom: 40px;
+    }
+    .entry-text {
+        width: 100%;
+    }
+    .entry-text > h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .entry-text > h2 {
+        font-size: 12px;
+        text-align: center;
+    }
+}
