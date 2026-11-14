@@ -23,10 +23,11 @@ body {
 
 #homepage_content {
     overflow-y: scroll;
-    height: 100%;
     
     scrollbar-color:  #575757 #444444;
     scrollbar-width: thin;
+
+    overscroll-behavior: none;
 }
 
 /* Hide scrollbar on mobile */
@@ -50,7 +51,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
     background-repeat:no-repeat;
-    z-index: -1;
+    z-index: 0;
 }
 
 #head-image-gradient {
@@ -62,6 +63,7 @@ body {
     top: 0;
 
     background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 1) 100%);
+    z-index: 1;
 }
 
 #main-text-container {
@@ -97,6 +99,9 @@ body {
 #screen-spacer {
     min-height: 35%;
     background-color: black;
+
+    position: relative;
+    z-index: 1;
 }
 
 #screen-spacer > div > h2 {
@@ -145,8 +150,10 @@ body {
 
 #text-content {
     width: 100%;
-    min-height: 50%;
     background:rgba(0, 0, 0, 1);
+
+    position: relative;
+    z-index: 1;
 }
 
 .entry-container {
