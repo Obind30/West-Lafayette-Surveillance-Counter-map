@@ -8,6 +8,8 @@ topOffset += parseInt(window.getComputedStyle(topOffsetElement).getPropertyValue
 topOffset += parseInt(window.getComputedStyle(topOffsetElement).getPropertyValue('margin-bottom'));
 topOffset /= 2;
 
+const bottomOffset = 150;
+
 console.log(topOffset);
 
 function asPercentage(value) {return value / 100;}
@@ -20,7 +22,7 @@ function scrollOpacity() {
                                 0,
                                 asPercentage(rect.top - topOffset)
                             ),
-                            asPercentage(window.innerHeight + 100 - rect.bottom)
+                            asPercentage(window.innerHeight + bottomOffset - rect.bottom)
                         );
 
         // Clamp opacity
@@ -30,7 +32,7 @@ function scrollOpacity() {
 
         if (
             Math.max(0, asPercentage(rect.top - topOffset))
-          < asPercentage(window.innerHeight - rect.bottom + 100 )
+          < asPercentage(window.innerHeight + bottomOffset - rect.bottom)
         )
         {
             // Exiting to top (scroll down)
@@ -43,6 +45,8 @@ function scrollOpacity() {
         }
     }
 }
+
+scrollOpacity();
 
 scrollElement.addEventListener("scroll", scrollOpacity);
 scrollElement.addEventListener("scrollEnd", scrollOpacity);
