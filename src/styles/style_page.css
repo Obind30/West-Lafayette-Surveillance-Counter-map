@@ -23,7 +23,7 @@
     width: 100%;
     
     pointer-events: none;
-    z-index: 1;
+    z-index: 100;
   }
   #nav-container .bg {
     position: absolute;
@@ -187,6 +187,8 @@ main > #page_content {
   margin-left: 25px;
 
   -webkit-appearance: none;
+  appearance: none;
+
   z-index: 1;
   cursor: pointer;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
