@@ -23,7 +23,6 @@ scrollElement.addEventListener("scroll", function () {
         if (opacity < 0) {opacity = 0;} else if (opacity > 1) {opacity = 1;}
 
         element.style.opacity = opacity;
-        console.log(opacity);
         if (Math.max(0, rect.top / 100) < ((window.innerHeight + 100 - rect.bottom) / 100)) {
             element.style.transform = "translate(0, " + (-50 + ((opacity * 50))) +"px)";
         } else {
