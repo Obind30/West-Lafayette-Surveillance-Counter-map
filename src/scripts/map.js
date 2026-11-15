@@ -1,12 +1,12 @@
 const iconSize = 36;
 const cameraFilepath = '../location_data/GreaterLAF-Cameras.geojson';
 
-const flockIconSrc = '../images/flock-camera-icon.png';
-const flockIconOffSrc = '../images/flock-camera-icon-off.png';
-const frostIconSrc = '../images/frost-camera-icon.png';
-const frostIconOffSrc = '../images/frost-camera-icon-off.png';
-const purdueIconSrc = '../images/purdue-camera-icon.png';
-const purdueIconOffSrc = '../images/purdue-camera-icon-off.png';
+const flockIconSrc = '../images/map/flock-camera-icon.png';
+const flockIconOffSrc = '../images/map/flock-camera-icon-off.png';
+const frostIconSrc = '../images/map/frost-camera-icon.png';
+const frostIconOffSrc = '../images/map/frost-camera-icon-off.png';
+const purdueIconSrc = '../images/map/purdue-camera-icon.png';
+const purdueIconOffSrc = '../images/map/purdue-camera-icon-off.png';
 
 // Initiate map and set view
 var map = L.map('map', {doubleClickZoom: false, zoomDelta: 0.5}).setView([40.418, -86.897], 12);
@@ -188,7 +188,7 @@ legend.onAdd = function(map) {
                 <span class="slider round"></span>
             </div>
             <input type="checkbox" checked id="city-visible" style="display: none">
-            <img id="green-border-icon" src="../images/dashed-icon-green.svg" width=`+ iconSize +`">
+            <img id="green-border-icon" src="../images/map/dashed-icon-green.svg" width=`+ iconSize +`">
             <span> City Borders </span>
         </label><br>
 
@@ -198,7 +198,7 @@ legend.onAdd = function(map) {
                 <span class="slider round"></span>
             </div>
             <input type="checkbox" checked id="county-visible" style="display: none">
-            <img id="blue-border-icon" src="../images/dashed-icon-blue.svg" width=`+ iconSize +`">
+            <img id="blue-border-icon" src="../images/map/dashed-icon-blue.svg" width=`+ iconSize +`">
             <span> County Border </span>
         </label><br>
 
@@ -208,7 +208,7 @@ legend.onAdd = function(map) {
                 <span class="slider round"></span>
             </div>
             <input type="checkbox" checked id="prog-visible" style="display: none">
-            <img id="red-border-icon" src="../images/dashed-icon-red.svg" width=`+ iconSize +`">
+            <img id="red-border-icon" src="../images/map/dashed-icon-red.svg" width=`+ iconSize +`">
             <span> Progress Borders </span>
         </label><br>
         </div>
