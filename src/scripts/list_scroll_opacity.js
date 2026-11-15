@@ -30,7 +30,11 @@ function scrollOpacity() {
 
         if ((element.parentElement.children.length == 2)) {
             // Fade out the dropdown
-            element.parentElement.children[1].style.opacity = opacity;
+            if (opacity == 0) {
+                element.parentElement.children[1].style.display = "none";
+            } else {
+                element.parentElement.children[1].style.opacity = opacity;
+            }
         }
 
         if (
