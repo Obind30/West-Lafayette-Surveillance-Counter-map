@@ -123,17 +123,20 @@
     border-top: white 2px solid;
 
     display: none;
-
-    list-style: disc inside url('../images/left-arrow.svg');
 }
 
 .entry-dropdown > ul {
-    color: inherit;
+    font-size: 24px;
+}
+
+.entry-dropdown.right > ul {
     direction: rtl;
     text-align: right;
-    list-style: inherit;
+    list-style: disc inside url('../images/left-arrow.svg');
+}
 
-    font-size: 24px;
+.entry-dropdown.left > ul {
+    list-style: disc inside url('../images/right-arrow.svg');
 }
 
 .entry-dropdown > ul > a {
@@ -186,6 +189,11 @@
         font-size: 14px;
         list-style: disc inside none;
     }
+    .entry-dropdown.right > ul {
+        direction: ltr;
+        text-align: left;
+        list-style: disc inside url('../images/right-arrow.svg');
+    }
 }
 
 @media screen and (max-width: 760px) {
@@ -194,9 +202,5 @@
     }
     .entry-spacer.left{
         display: none;
-    }
-    .entry-dropdown > ul {
-        direction: ltr;
-        text-align: left;
     }
 }
