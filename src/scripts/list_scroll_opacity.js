@@ -2,15 +2,13 @@ const scrollElement = document.getElementById("homepage_content");
 const listElements = document.getElementsByClassName("entry-container");
 
 const topOffsetElement = document.getElementById("title-container");
-console.log(topOffsetElement);
+
 var topOffset = topOffsetElement.offsetHeight;
 topOffset += parseInt(window.getComputedStyle(topOffsetElement).getPropertyValue('margin-top'));
 topOffset += parseInt(window.getComputedStyle(topOffsetElement).getPropertyValue('margin-bottom'));
 topOffset /= 2;
 
 const bottomOffset = 150;
-
-console.log(topOffset);
 
 function asPercentage(value) {return value / 100;}
 
@@ -29,6 +27,11 @@ function scrollOpacity() {
         if (opacity < 0) {opacity = 0;} else if (opacity > 1) {opacity = 1;}
 
         element.style.opacity = opacity;
+
+        if ((element.parentElement.children.length == 2)) {
+            // Fade out the dropdown
+            element.parentElement.children[1].style.opacity = opacity;
+        }
 
         if (
             Math.max(0, asPercentage(rect.top - topOffset))
